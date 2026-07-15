@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="LEd">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+        <title><title xml:lang="sa">Kavikāmadhenu</title> ad <title xml:lang="sa">Amarakoṣa</title> 1.0.1</title>
+            <title type="sub">Edited by Charles Li.</title>
+        </titleStmt>
+         <sourceDesc>
+            <msDesc>
+               <msContents>
+            <summary><p>This digital edition accompanies the article, <q>On the trail of the <title xml:lang="sa">Kavikāmadhenu</title></q>, published in <cite>The Journal of Sanskrit Studies</cite> 1.</p></summary>
+               </msContents>
+            </msDesc>
+         <listWit>
+<witness xml:id="LEd" source="Kk-Li.xml">
+<abbr>LEd</abbr>
+<expan><title xml:lang="sa">Kavikāmadhenu</title> ad <title xml:lang="sa">Amarakoṣa</title> 1.0.1</expan>
+</witness>
+<witness xml:id="B" source="ORI-1213.xml">
+<abbr>B</abbr>
+<expan>Oriental Institute, Baroda, MS 1213 <title xml:lang="sa">Kavikāmadhenu</title></expan>
+<listWit>
+<witness xml:id="Bac" n="ac">
+                <abbr>B<hi rend="subscript">ac</hi></abbr>
+<expan><title xml:lang="sa">Kavikāmadhenu</title> [ante correctionem]</expan>
+</witness>
+<witness xml:id="Bpc" n="pc">
+                <abbr type="siglum">B<hi rend="subscript">pc</hi></abbr>
+<expan><title xml:lang="sa">Kavikāmadhenu</title> [post correctionem]</expan>
+</witness>
+            </listWit>
+          </witness>
+          <witness xml:id="Tib" n="collective">
+            <abbr>Tib</abbr>
+            <expan>Tibetan translations</expan>
+            <listWit>
+              <witness xml:id="S" source="Kk-ST.xml">
+                <abbr>S</abbr>
+                <expan>Translation of Si tu pan chen</expan>
+              </witness>
+              <witness xml:id="Y" source="Kk-N.xml">
+                <abbr>Y</abbr>
+                <expan>Translation of Yar klung lo tsā ba rgyal mtshan</expan>
+              </witness>
+              <witness xml:id="Z" source="Kk-D.xml">
+               <abbr>Z</abbr>
+               <expan>Translation of Zhwa lu lot tsā ba chos skyong bzang po</expan>
+              </witness>
+            </listWit>
+          </witness>
+
+          <witness xml:id="Sin" n="collective">
+            <abbr>Sin</abbr>
+            <expan>Sinhalese commentary</expan>
+            <listWit>
+              <witness xml:id="SinB">
+               <abbr>Sin<hi rend="superscript">B</hi></abbr>
+               <expan>Sinhalese commentary, ed. Batuvantudave 1880</expan>
+              </witness>
+              <witness xml:id="SinG">
+               <abbr>Sin<hi rend="superscript">G</hi></abbr>
+               <expan>Sinhalese commentary, ed. Gunasekera (no date)</expan>
+              </witness>
+              <witness xml:id="SinW" source="WEd.xml">
+               <abbr>Sin<hi rend="superscript">W</hi></abbr>
+               <expan>Sinhalese commentary, ed. Wimalajoti 1934</expan>
+              </witness>
+            </listWit>
+          </witness>
+          <witness xml:id="SBB3085">
+            <abbr>SBB 3085</abbr>
+            <expan>Ms. or. fol. 3085, Staatsbibliothek zu Berlin</expan>
+          </witness>
+          <witness xml:id="BnF612" source="https://tst-project.github.io/mss/Sanscrit_0612_1.xml">
+            <abbr>BnF 612</abbr>
+            <expan>MS BnF Sanscrit 612, Annotated manuscript of the <title xml:lang="sa">Amarakoṣa</title>, Bengali script, Bibliothèque nationale de France</expan>
+          </witness>
+          <witness xml:id="BnF619">
+            <abbr>BnF 619</abbr>
+            <expan>MS BnF Sanscrit 619, Bengali paper manuscript of the <title xml:lang="sa">Padārthakaumudī</title>, Bibliothèque nationale de France</expan>
+          </witness>
+          <witness xml:id="IO13">
+            <abbr>IO 13</abbr>
+            <expan>MS IO SAN 13, Bengali paper manuscript of the <title xml:lang="sa">Padārthakaumudī</title>, British Library</expan>
+          </witness>
+          <witness xml:id="IO713">
+            <abbr>IO 713</abbr>
+            <expan>MS IO SAN 713, Bengali paper manuscript of the <title xml:lang="sa">Śabdārthasandīpikā</title> of Vidyāvinoda, British Library</expan>
+          </witness>
+          <witness xml:id="IO1161">
+            <abbr>IO 1161</abbr>
+            <expan>MS IO SAN 1161, Bengali paper manuscript of the <title xml:lang="sa">Kaumudī</title> of Nayanānanda Śarman, British Library</expan>
+          </witness>
+          <witness xml:id="GOMLR3645">
+            <abbr>GOML R3645</abbr>
+            <expan>MS R3645, Devanāgarī paper manuscript of the <title xml:lang="sa">Śabdārthasandīpikā</title> of Vidyāvinoda, Government Oriental Manuscripts Library, Chennai</expan>
+          </witness>
+          <witness xml:id="RAST144">
+            <abbr>RAS T144</abbr>
+            <expan>MS Tod 144, Devanāgarī paper manuscript of the <title xml:lang="sa">Trikāṇḍacintāmaṇi</title> of Raghunātha Cakravartin, Royal Asiatic Society</expan>
+          </witness>
+          <witness xml:id="EAP1031/1/228">
+            <abbr>EAP 1031/1/228</abbr>
+            <expan>Anonymous marginal commentary, annotated manuscript of the <title xml:lang="sa">Amarakoṣa</title>, Bengali script, Akshay Granthagar, Shantipur Nadia, West Bengal, Endangered Archives Project</expan>
+          </witness>
+          <witness xml:id="DEd" source="Kk-Deokar.xml">
+            <abbr>D<hi rend="superscript">Ed</hi></abbr>
+            <expan><title xml:lang="sa">Kavikāmadhenu</title>, ed. Deokar 2014</expan>
+            <listWit>
+              <witness xml:id="DEd-R" select="#R">
+                <abbr type="siglum">D<hi rend="superscript">Ed</hi>-R</abbr>
+                <expan><title xml:lang="sa">Kavikāmadhenu</title>, ed. Deokar 2014 [witness R]</expan>
+              </witness>
+          </listWit>
+          </witness>
+        </listWit>
+        
+      </sourceDesc>
+      </fileDesc>
+      
+    <revisionDesc/>
+  </teiHeader>
+  <text type="edition" xml:lang="sa-Latn-t-sa-Deva">
+    <body>
+      <lg>
+        <l>[yasya jñānadayāsindhor agādhasyānaghā guṇāḥ |</l>
+        <l>sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca ||]</l>
+      </lg>
+      <head type="sub">[buddhapakṣe]</head>
+      <p xml:id="Kk1.0.1-1"><gap reason="ellipsis"/>jñānadayābhyāṃ<anchor xml:id="Kk1.0.1-n1"/> sindhur ity ukte hi kṛta<anchor xml:id="Kk1.0.1-n2"/> iti pratīyate | tadapekṣapadayoḥ<anchor xml:id="Kk1.0.1-n3"/> sambandhaḥ<anchor xml:id="Kk1.0.1-n4"/> ṣaṣṭhīsamāso vā | jñānadayayoḥ sindhur iva sindhur vipulādhāraḥ | <hi rend="bold">agādhasyā</hi>nyair anadhigatajñānadayāpāratvād aparicchedyagāmbhīryasya | tasya hi bhagavataḥ sakalajñeyamaṇḍalavyāpino jñānasya,<anchor xml:id="Kk1.0.1-n4b"/> karuṇāyāś ca duḥkhārṇavanimagnam anantam atrāṇaṃ jagad abhivyāpyocchalitāyāḥ,<anchor xml:id="Kk1.0.1-n5"/> kaḥ paryantaṃ gantum īśaḥ | evaṃbhūtasya <hi rend="bold">yasya anaghā</hi> rāgādidoṣai rahitāḥ | <hi rend="bold">guṇā</hi> maitrīkṣamopaśamādayaḥ<anchor xml:id="Kk1.0.1-n6"/> | guṇa āmantraṇa ity adanto dhātuś curādiśeṣaḥ | sa hi gaṇo 'parisamāpto vṛdakaraṇāt<anchor xml:id="Kk1.0.1-n7"/> | guṇyante 'bhyasyante śreyārthibhir<anchor xml:id="Kk1.0.1-n8"/> ity er ac<anchor xml:id="Kk1.0.1-n8b"/> | he <hi rend="bold">dhīrāḥ sevyatāṃ</hi> bhavadbhir iti gamyate |</p>    
+      <lg xml:id="Kk1.0.1-2">
+        <l>hitaś ca yaḥ syān na hitāhite paṭuḥ</l>
+        <l>paṭuś ca yaḥ syān na hite na sa kṣamaḥ |<anchor xml:id="Kk1.0.1-n9"/></l>
+        <l>viśeṣato 'taḥ paramārthasiddhaye</l>
+        <l>dayādhiyoḥ pāraga eva mṛgyate ||<anchor xml:id="Kk1.0.1-n10"/></l>
+      </lg>
+      <p xml:id="Kk1.0.1-3">paramakaruṇādiguṇaśālitvād<anchor xml:id="Kk1.0.1-n11"/> eva parahitasukhasaṃpādaneṣu nāsti kṣayo virāmo 'syety <hi rend="bold">akṣayaḥ</hi> | saṃsārād vā suṣṭhugatatvenājarāmaratvād<anchor xml:id="Kk1.0.1-n11b"/> <hi rend="bold">akṣayo</hi> 'napāyaḥ |</p>
+      <head type="sub">[samudrapakṣe]</head>
+      <p xml:id="Kk1.0.1-4">samudrasyā<hi rend="bold">gādha</hi>tvam atalasparśatā | <hi rend="bold">anaghaguṇa</hi>tvaṃ ratnākaratvādi hi | <hi rend="bold">akṣaya</hi>tvaṃ paripūrṇatā | phalapravaṇāc ca sakalajanapravṛttiphalam upadarśayati |<anchor xml:id="Kk1.0.1-n12"/> <hi rend="bold">śriye cāmṛtāya ce</hi>ti pākāya vrajativat tādarthye caturthī<anchor xml:id="Kk1.0.1-n12b"/> | cakārāv anyonyasamuccaye | prasiddhaḥ kila sindhur dhairyaśālibhiḥ suraiḥ <hi rend="bold">śriye</hi> lakṣmyai <hi rend="bold">amṛtāya</hi> pīyūṣāya ca sevitaḥ | <hi rend="bold">jñānadayāsindhu</hi>ś ca bhavasukhaiṣibhir vicakṣaṇaiḥ <hi rend="bold">śriye</hi> trivargasampatyai mumukṣubhiś cā<hi rend="bold">mṛtāya</hi> mokṣāya<anchor xml:id="Kk1.0.1-n12c"/> <hi rend="bold">sevyatām</hi> iti |</p>
+      <head type="sub">[buddhapakṣe]</head>
+      <p xml:id="Kk1.0.1-5">atra ca jñānadayārṇavatvādibhiḥ <hi rend="bold">sa</hi> eva sarvajñaḥ sarvasattveṣv akāraṇaparamavatsalasvabhāvo bhagavān<anchor xml:id="Kk1.0.1-n14"/> sugato vyaktam upalakṣyata iti | prasādo nāmāyaṃ kāvyaguṇaḥ | tad uktaṃ sarasvatīkaṇṭhābharaṇakāvyālaṅkāre | yat tu prākaṭyam arthasya prasādaḥ so 'bhidhīyate | yathā</p>
+      <lg xml:id="Kk1.0.1-6">
+        <l>ayam udayati mudrābhañjanaḥ padminīnām</l>
+        <l>udayagirivanālībālamandārapuṣpam |</l>
+        <l>virahavidhurakokadvandvabandhur vibhindan</l>
+        <l>kupitakapikapolakroḍatāmras tamāṃsi ||</l>
+      </lg>
+      <p xml:id="Kk1.0.1-7">atra tamovidhamane kokaśokaharaṇādau cānukto 'pi sūryalakṣaṇo 'rthaḥ prakaṭam upalakṣyata iti |<anchor xml:id="Kk1.0.1-n15"/></p>
+      <head type="sub">[granthapakṣe]</head>
+      <p xml:id="Kk1.0.1-8">śleṣeṇa<anchor xml:id="Kk1.0.1-n16"/> śāstre 'pi śloko 'yaṃ | tatra kavitvavaktṛtvādau samastavidyāsthāneṣu ca |<anchor xml:id="Kk1.0.1-n16b"/> <hi rend="bold">jñāna</hi>sya <hi rend="bold">dā</hi>naṃ dāḥ tasyā <hi rend="bold">ī</hi>r lakṣmīs<anchor xml:id="Kk1.0.1-n17"/> tayā jñānadānasampadāhetubhūtayā sindhur iva <hi rend="bold">sindhuḥ</hi> śāstram | heturūpakam alaṅkāro 'yam | yathā gāṃbhīryeṇa samudro 'sīti |<anchor xml:id="Kk1.0.1-n17b"/> tasyā<hi rend="bold">gādha</hi>tvaṃ yathoktaguṇavattayātulatvam | duḥkhainovyasaneṣv agham ity abhidhānād <hi rend="bold">anaghaguṇa</hi>tvaṃ sukhahetulaghutvavispaṣṭatvādi |<anchor xml:id="Kk1.0.1-n18"/> <hi rend="bold">sevā</hi> śrutacintāvyākhyānādiḥ | <hi rend="bold">akṣaya</hi>tvaṃ saṃpūrṇatā | sarvanāmaśabdaiḥ prakrāntasya liṅgam ādīyate prakāśyamānasya vā | tad yathā | karmaṇā yam abhipraiti sa saṃpradānam | aṇau yat karma ṇau cet sa kartā |<anchor xml:id="Kk1.0.1-n18b"/> tad atra kāmacārāc chrutatvāc ca prakrāntasyaiva sindhuśabdasya liṅgena <hi rend="bold">sa</hi> iti nirdeśo na nāmaliṅgānuśāsanaśabdasya | <hi rend="bold">śrī</hi>s trivargasaṃpattiḥ | tad uktaṃ vyāḍinā ―</p>
+      <lg xml:id="Kk1.0.1-9">
+        <l>lakṣmīsarasvatīdhītrivargasampadvibhūtiśobhāsu |</l>
+        <l>upakaraṇaveśaracanāvidhāsu ca śrīr iti prathitā ||<anchor xml:id="Kk1.0.1-n18c"/></l>
+        <trailer>iti |</trailer>
+      </lg>
+      <p xml:id="Kk1.0.1-10">athavā yā vāṅmayasarvajñatvalakṣaṇā svārthasaṃpat, yā ca taddhetukā trivargahetuḥ parārthasampat, tadubhayī <hi rend="bold">śrīḥ</hi><anchor xml:id="Kk1.0.1-n19"/> | svaparārthasampadā ca puṇyajñānasaṃbhārād ayatnāyāto<anchor xml:id="Kk1.0.1-n20"/> mokṣo <hi rend="bold">'mṛtam</hi> iti ||</p>
+    </body>
+  </text>
+  <standOff corresp="#Kk1.0.1-1" type="notes1">
+    <note target="#Kk1.0.1-n1" xml:lang="en"><foreign xml:lang="bo">mkhyen pa dang brtse ba dag ni</foreign> <abbr corresp="#Y"/> <abbr corresp="#Z"/>;  <foreign xml:lang="bo">mkhyen pa dang brtse ba dag gis</foreign> <abbr corresp="#S"/>. Cf. <foreign xml:lang="sa">atra jñānadayābhyāṃ sindhur iti vigṛhya tṛtīyā iti yogavibhāgāt samāsaḥ</foreign> (<persName xml:lang="sa">Jātarūpa</persName>, ed. Pant 2000, II, 3); the same gloss is given in a number of other commentaries.</note>
+    <note target="#Kk1.0.1-n2" xml:lang="en"><foreign xml:lang="bo">zhes bshad de/ byed pa po</foreign> <abbr corresp="#Y"/>; <foreign xml:lang="bo">zhes bshad pa ni byed pa po</foreign> <abbr corresp="#Z"/>; <foreign xml:lang="bo">zhes brjod pas na des byas so</foreign> <abbr corresp="#S"/>. It is possible that <foreign xml:lang="bo">zhes bshad pa ni</foreign> reflects <foreign xml:lang="sa">ity ukte hi</foreign>; on the other hand, the reading in <abbr corresp="#S"/>, <foreign xml:lang="bo">des byas so</foreign> (<foreign xml:lang="sa">tatkṛtam</foreign>), would make sense in the context of <title xml:lang="sa">Aṣṭādhāyī</title> 2.1.30 (see Deokar 2014, 94n4). <foreign xml:lang="sa">hi kṛta</foreign> could also be a corruption of <foreign xml:lang="sa">vigṛhya</foreign> or <foreign xml:lang="sa">tṛtīyā</foreign>. Cf. <foreign xml:lang="sa">tābhyāṃ sindhur iva sindhuḥ karyyakaraṇe kṛtā bahulam iti bahulavacanād samāsaḥ</foreign> <abbr corresp="#BnF612"/>, or <foreign xml:lang="sa">prakṛtyāditvāt vā tṛtīyā kṛtā bahulam iti bāhulyāt samāsaḥ</foreign> (<title xml:lang="sa">Padārthakaumudī</title>, <abbr corresp="#IO13"/>; <abbr corresp="#BnF619"/> reads <foreign xml:lang="sa">prakṛtyāditvāt tṛtīyā... samāsaś ca</foreign>).</note>
+    <note target="#Kk1.0.1-n3" xml:lang="en"><foreign xml:lang="bo">de'i tshig mi mngon pa'am</foreign> <abbr corresp="#Y"/> <abbr corresp="#Z"/>; <foreign xml:lang="bo">de la ltos pa'i tshig dang</foreign> <abbr corresp="#S"/>. <abbr corresp="#Y"/> &amp; <abbr corresp="#Z"/> seem to be reading <foreign xml:lang="sa">aprekṣā</foreign> here.</note>
+    <note target="#Kk1.0.1-n4" xml:lang="en">Cf. <foreign xml:lang="sa">jñānadayayoḥ sindhuḥ jñānadayāsindhur iti ādhārādheyabhāvasaṃbandhena</foreign> (<title xml:lang="sa">Amarapadapārijāta</title>, ed. Ramanathan 1971, 2).</note>
+    <note target="#Kk1.0.1-n4b" xml:lang="en">Cf. <foreign xml:lang="sa">ākāśam iva samatayā śūnyatayā sakalajñeyamaṇḍalavyāpinirmalajñānatvān mahat tad yānaṃ</foreign> (<title xml:lang="sa">Abhisamayālaṅkārālokā</title>, ed. Wogihara 1932–35, <ref target="https://archive.org/details/haribhadra_aloka_vol_1_1932/page/n60/mode/1up">107</ref>).</note>
+    <note target="#Kk1.0.1-n5" xml:lang="en"><foreign xml:lang="bo">mngon par khyab cing gang ba</foreign> <abbr corresp="#Y"/> <abbr corresp="#Z"/>; <foreign xml:lang="bo">mngon par khyab cing rgyas pa'i phyir</foreign> <abbr corresp="#S"/>. See <foreign xml:lang="sa">-śālitvāt</foreign> below, similarly translated by <abbr corresp="#S"/> as <foreign xml:lang="bo">rgya che ba nyid gyi phyir</foreign>. The term <foreign xml:lang="sa">ucchalita</foreign> may be corrupt here; some possibilities are <foreign xml:lang="sa">uccalita</foreign> in the sense of <q>exalted</q> (<title xml:lang="sa">Mahāvyutpatti</title>, ed. Sakaki 1916, <ref target="https://archive.org/details/kanwashiyakutaik01mahauoft/page/466/mode/1up">466</ref>), or <foreign xml:lang="sa">uddhārita</foreign> — Cf. <foreign xml:lang="sa">duḥkhārṇavanimagnam jagad atrāṇam abhisamīkṣya taduddharaṇābhiprāyaḥ</foreign> (<title xml:lang="sa">Abhisamayālaṅkārālokā</title>, ed. Wogihara 1932–35, <ref target="https://archive.org/details/haribhadra_aloka_vol_1_1932/page/n18/mode/1up">24</ref>). Cf. also the first gloss of <foreign xml:lang="sa">dayā</foreign> in the present text, which would be on the missing first folio of the manuscript: <foreign xml:lang="bo">sdug bsngal las yang dag par bsgral bar 'dod pa</foreign> <abbr corresp="#Y"/>; <foreign xml:lang="bo">sdug bsngal las yang dag par 'don par bzhed pa</foreign> <abbr corresp="#Z"/> <abbr corresp="#S"/>; <foreign xml:lang="si">duḥkhayen samuddharaṇavāñjā</foreign> <abbr corresp="#SinW"/>; <foreign xml:lang="sa">duḥkhāt samuddharaṇakāmatā</foreign> (<title xml:lang="sa">Trikāṇḍacintāmaṇi</title>, ed. Tarkaratna 1886, 3).</note>
+    <note target="#Kk1.0.1-n6" xml:lang="en"><foreign xml:lang="bo">byams pa dang bzod pa dang nye bar zhi ba la sogs pa'i yon tan no</foreign> <abbr corresp="#Y"/>; <foreign xml:lang="bo">yon tan ni byams pa dag bzod pa dang nye bar zhi ba la sogs pa ste</foreign> <abbr corresp="#Z"/> <abbr corresp="#S"/>. Along with many other commentaries, <persName xml:lang="sa">Jātarūpa</persName> has the same gloss (ed. Pant 2000, II, 3).</note>
+    <note target="#Kk1.0.1-n7" xml:lang="en"><foreign xml:lang="bo">bṛta byas pas so</foreign> <abbr corresp="#Z"/>; <foreign xml:lang="bo">bṛta byed pa'i phyir ro</foreign> <abbr corresp="#S"/>. The Tibetan translators seem to have mistakenly split the compound as <foreign xml:lang="sa">vṛda-karaṇāt</foreign>. In the <title xml:lang="sa">Dhātupāṭḥa</title>, <foreign xml:lang="sa">vṛt</foreign> is used to <q>mark the conclusion of a group</q> (Palsule 1961, 61). See also Deokar 2014, 95n6.</note>
+    <note target="#Kk1.0.1-n8" xml:lang="en"><foreign xml:lang="bo">bod pa dang goms pa dang bsngags pa'i don rnams la</foreign> <abbr corresp="#Z"/>; <foreign xml:lang="bo">legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir</foreign> <abbr corresp="#S"/>. Two different glosses for the verb <foreign xml:lang="sa">guṇ</foreign> are presented here: <foreign xml:lang="sa">guṇa āmantraṇe</foreign> (Cf. <foreign xml:lang="sa">kuṇa guṇa cāmantraṇe</foreign>, <title xml:lang="sa">Pāṇinīya Dhātupāṭha</title> 1793–1794, ed. Kanakalālaśarmā 1969, <ref target="https://archive.org/details/TheDhatupathaOfPanini/page/n53/mode/1up">50</ref>), and <foreign xml:lang="sa">guṇyante 'bhyasyante śreyārthibhiḥ</foreign> (Cf. <foreign xml:lang="pa">guṇ' abhyāse</foreign>, <title xml:lang="pa">Dhātumañjūsā</title> 164, ed. Andersen &amp; Smith 1921, <ref target="https://archive.org/details/palidhatupathadh00andeuoft/page/31/mode/1up">31</ref>.). The gloss <foreign xml:lang="sa">guṇyate 'bhyasyate</foreign> appears frequently in commentaries on <title xml:lang="sa">Amarakoṣa</title> 2.10.27 (e.g., <title xml:lang="sa">Amarakoṣodghāṭana</title>, ed. Oka 1913, <ref target="https://archive.org/details/amarakoshawiththecommentaryofkshiraswaminkrishnagovindaoka_367_l/page/162/mode/1up">162</ref>). As Ryan Conlon notes, it also appears in works by <persName xml:lang="sa">Vāgīśvarakīrti</persName> and <persName xml:lang="sa">Jñānaśrīmitra</persName> (2026 forthcoming).</note>
+    <note target="#Kk1.0.1-n8b" xml:lang="en">The rule <foreign xml:lang="sa">er ac</foreign> (<title xml:lang="sa">Aṣṭādhyāyī</title> 3.3.56; <title xml:lang="sa">Cāndrasūtra</title> 1.3.45) seems to be out of place here, although it appears in both <abbr corresp="#Z"/> &amp; <abbr corresp="#S"/>. It is a rule for transforming a verbal root ending in <foreign xml:lang="sa">i</foreign> into a noun, which would not apply to the verbal root <foreign xml:lang="sa">guṇ</foreign>. In other commentaries, this rule is used to derive <foreign xml:lang="sa">kṣaya</foreign>, e.g., <foreign xml:lang="sa">kṣīṣ hiṃsāyām er ac</foreign> (<title xml:lang="sa">Vyākhyāsudhā</title>, ed. Śivadattakovida 1889, <ref target="https://archive.org/details/in.ernet.dli.2015.49782/page/n6/mode/1up">2</ref>), where <foreign xml:lang="sa">a</foreign> is appended to the verbal root <foreign xml:lang="sa">kṣī</foreign> to form <foreign xml:lang="sa">kṣaya</foreign>. For transforming <foreign xml:lang="sa">guṇ</foreign> into the noun <foreign xml:lang="sa">guṇa</foreign>, other commentaries cite <foreign xml:lang="sa">karmaṇi ghañ</foreign> (<title xml:lang="sa">Padacandrikā</title>, ed. Dutta 1966, 2), in reference to <title xml:lang="sa">Aṣṭādhyāyī</title> 3.3.19, <foreign xml:lang="sa">akartari ca kārake saṃjñāyām</foreign>; yet other commentaries have <foreign xml:lang="sa">karmmaṇi at</foreign> (<abbr corresp="#EAP1031/1/228"/>) or <foreign xml:lang="sa">svarāntatvāt karmmaṇi <sic>ana</sic></foreign> (<abbr corresp="#IO1161"/>). For a discussion on <foreign xml:lang="sa">er ac</foreign>, see the <title xml:lang="sa">Padamañjarī</title> &amp; <title xml:lang="sa">Nyāsa</title> (ed. Shastri &amp; Shukla 1966, 49–50) and the <title xml:lang="sa">Cāndrapañjikā</title> (ed. Deokar et al. 2024, 38).</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-2" type="notes1">
+    <note target="#Kk1.0.1-n9" xml:lang="en"><foreign xml:lang="bo">mi phan par yang phan gyur gang de mkhas pa ste/ mkhas pa gang zhig mi phan pa la bzod bcas min</foreign> <abbr corresp="#S"/>. This line is omitted in both <abbr corresp="#Y"/> &amp; <abbr corresp="#Z"/>.</note>
+    <note target="#Kk1.0.1-n10" xml:lang="en"><foreign xml:lang="bo">khyad par du byung pa don dam pa sgrub pa ni blo dang ldan pa'o/ /bsten par bya ba ni dpal dang bdud rtsi'i phyir ro/</foreign> <abbr corresp="#Y"/>; <foreign xml:lang="bo">khyad par du 'phags pa don dam pa grub pa'i phyir du brtse ba dang blos pha rol tu son pa tshol bar byed pa dang</foreign> <abbr corresp="#Z"/>; <foreign xml:lang="bo">khyad par de slad don gyi mchog ni bsgrub pa'i phyir/ /brtse dang blo gros pha rol phyin nyid 'tshol bar byed</foreign> <abbr corresp="#S"/>.</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-3" type="notes1">
+    <note target="#Kk1.0.1-n11" xml:lang="en"><foreign xml:lang="bo">yon tan phun sum tshogs pa</foreign> <abbr corresp="#Y"/>; <foreign xml:lang="bo">yon tan chen po</foreign> <abbr corresp="#Z"/>; <foreign xml:lang="bo">yon tan rgya che ba nyid gyi phyir</foreign> <abbr corresp="#S"/>. Cf. <foreign xml:lang="si">paramakaruṇādīguṇaśālitvayen</foreign> <abbr corresp="#Sin"/>; <foreign xml:lang="sa">paramakaruṇādigunasālitvayen</foreign> <abbr corresp="#SBB3085"/>.</note>
+    <note target="#Kk1.0.1-n11b" xml:lang="en">Cf. <foreign>apunarāvṛttyā vā suṣṭhugataḥ sugataḥ sunaṣṭajvaravat.... śaikṣās tu saṃsāre punarjanmagrahaṇān na suṣṭhugatāḥ</foreign> (<title xml:lang="sa">Abhisamayālaṅkārālokā</title>, ed. Wogihara 1932–35, <ref target="https://archive.org/details/haribhadra_aloka_vol_1_1932/page/n99/mode/1up">184</ref>.)</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-4" type="notes1">
+   <note target="#Kk1.0.1-n12" xml:lang="en">Cf. <foreign xml:lang="sa">phalaśravaṇatvāt sakalajanapravṛttir iti phalam upadarśayati</foreign> (<title xml:lang="sa">Trikāṇḍacintāmaṇi</title>, ed. Tarkaratna 1886, 3).</note>
+    <note target="#Kk1.0.1-n12b" xml:lang="en"><foreign xml:lang="sa">tādarthye caturthī</foreign> (<title xml:lang="sa">Cāndrasūtra 2.1.79</title>). This gloss also appears in the <title xml:lang="sa">Vyākhyāsudhā</title> (ed. Śivadattakovida 1889, 1) as simply <foreign xml:lang="en">tādarthye</foreign>, which the editor has identified as a <title xml:lang="sa">Vārttika</title> on <title xml:lang="sa">Aṣṭādhyāyī</title> 2.3.13 ― see <foreign xml:lang="sa">caturthīvidhāne tādarthye upasaṅkhyānam</foreign> (ed. Kielhorn 1892, <ref target="https://archive.org/details/mahabhasya-2nd-ed-kielhorn/Mah%C4%81bh%C4%81%E1%B9%A3ya%202nd%20ed.%20Vol-1%20%281892%29%20Kielhorn/page/447/mode/1up">449</ref>).</note>
+    <note target="#Kk1.0.1-n12c" xml:lang="en">Cf. <foreign xml:lang="sa">sukhaiṣiṇāṃ sukhaṃ mumukṣūṇāṃ mokṣaḥ ity ubhayor upādānaṃ</foreign> (<title xml:lang="sa">Padārthakaumudī</title>, <abbr corresp="#IO13"/> &amp; <abbr corresp="#BnF619"/>).</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-5" type="notes1">
+    <note target="#Kk1.0.1-n14" xml:lang="en"><foreign xml:lang="sa">sarvasattveṣv akāraṇaparamavatsalasvabhāvaḥ sarvabhūtātmabhūtaḥ pūrvajanmasv api sa bhagavān</foreign> (<title xml:lang="sa">Jātakamālā</title>, ed. Hanisch 2005, 3). Cf. also <foreign xml:lang="ta"><term xml:lang="sa">vātsalyādyasaṃkhyeyakalyāṇaguṇa</term>ṅkaḷ</foreign> (<title xml:lang="sa">Amarapadakalpataru</title>, ed. Rāmānujācārya 1880, <ref target="https://eap.bl.uk/archive-file/EAP918-8-16#?c=0&amp;m=0&amp;s=0&amp;cv=6&amp;xywh=585%2C2037%2C1903%2C1553&amp;open=true">1</ref>), although in that case, <foreign xml:lang="sa">vātsalya</foreign> is an attribute of Viṣṇu.</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-7" type="notes1">
+    <note target="#Kk1.0.1-n15" xml:lang="en">Cf. <foreign xml:lang="sa">atra padminīvikāsakaraṇe udayaśailāvataraṇe kokaśokaharaṇe tamovidāraṇe cānukto 'pi sūryalakṣaṇo 'rthaḥ prakaṭam upalakṣyate</foreign> (<title xml:lang="sa">Sarasvatīkaṇṭhābharaṇālaṅkāra</title>, ed. Bhaṭṭācārya 1959, <ref target="https://archive.org/details/sarasvati-kanthabharan-alannkar-of-bhoj-deva-bhu/page/n103/mode/1up">54</ref>); <foreign xml:lang="sa">atra tamovidhvaṃsanakokaśokaharaṇādibhir anukto 'pi sūryyaḥ prakaṭam upalakṣyate</foreign> (<title xml:lang="sa">Trikāṇḍacintāmaṇi</title>, ed. Tarkaratna 1886, 3).</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-8" type="notes1">
+    <note target="#Kk1.0.1-n16" xml:lang="en"><foreign xml:lang="sa">śleṣeṇa</foreign> has been omitted in the Tibetan translations, but it appears in <abbr corresp="#BnF612"/> and in <abbr corresp="#Sin"/>. <abbr corresp="#Y"/> omits the <foreign xml:lang="sa">granthapakṣa</foreign> almost entirely, save for the last sentence. Cf. <foreign xml:lang="sa">tadvad atrāpi bauddhavidveṣiṇāṃ pravṛttaye kavinā buddhapadopādānam akṛtvaiva śleṣeṇāyaṃ ślokaḥ uktaḥ</foreign> (<title xml:lang="sa">Trikāṇḍacintāmaṇi</title>, ed. Tarkaratna 1886, 3).</note>
+    <note target="#Kk1.0.1-n16b" xml:lang="en">Cf. <foreign xml:lang="si">jñānadayā, kavitvavaktṛtvādiyehi hō aṣṭādaśa vidyāsthānayehi jñānadāna sampattiya hetukoṭa geṇa</foreign> <abbr corresp="#Sin"/>.</note>
+    <note target="#Kk1.0.1-n17" xml:lang="en"><foreign xml:lang="sa">lakṣmīr īkāra ucyate</foreign> (<persName xml:lang="sa">Puruṣottamadeva</persName>, <title xml:lang="sa">Ekākṣarakoṣa</title>, ed. <persName xml:lang="sa">Ramaṇīkavijaya</persName> 1964, <ref target="https://archive.org/details/ekakshara-nama-kosh-sangrah-series-no.-64-rajasthan-puratan-granthmala/page/76/mode/1up">76</ref>). <foreign xml:lang="bo">shes pa'i sbyin pa sbyin te de'i i zhes pa ni dpal te</foreign> <abbr corresp="#S"/>; <foreign xml:lang="sa">jñānasya dā jñānadā tasyā īḥ lakṣmīḥ</foreign> <abbr corresp="#SinG"/>; <foreign xml:lang="sa">jñānasya dāḥ tasyā ī lakṣmī</foreign> <abbr corresp="#SinB"/> <abbr corresp="#SinW"/>. Apart from <abbr corresp="#Sin"/>, <foreign xml:lang="sa">tasyā īḥ</foreign> appears in manuscripts of the <title xml:lang="sa">Trikāṇḍacintāmaṇi</title> (<abbr corresp="#RAST144"/>) and other unpublished Sanskrit commentaries, while <foreign xml:lang="sa">tasya īḥ</foreign> appears in the editions of the <title xml:lang="sa">Trikāṇḍacintāmaṇi</title> (1886 &amp; 1892), <abbr corresp="#BnF612"/>, etc. ― cf. <foreign xml:lang="sa">jñānasya dātrī jñānadā tasya īr lakṣmī jñānade tayā jñānadayā...</foreign> (<title xml:lang="sa">Śabdārthasandīpikā</title>, <abbr corresp="#IO713"/> &amp; <abbr corresp="#GOMLR3645"/>). In the current corpus of <title xml:lang="sa">Amarakoṣa</title> prints and manuscripts, the two readings are roughly equally distributed. The feminine <foreign xml:lang="sa">tasyā īḥ</foreign> perhaps reflects the interpretation of <foreign xml:lang="sa">jñānadā</foreign> as <term xml:lang="sa">Sarasvatī</term>, e.g., <foreign xml:lang="sa">jñānam dadātīti jñānadā sarasvatī, tayā sahitā īr lakṣmīr jñānade, (madhyapadalopī samāsaḥ) tayā viśiṣṭasya lakṣmīsarasvatīyuktasyety arthaḥ</foreign> (<title xml:lang="sa">Trikāṇḍacintāmaṇi</title>, ed. Tarkaratna 1886, 2).</note>
+    <note target="#Kk1.0.1-n17b" xml:lang="en"><foreign xml:lang="sa">gāmbhīryeṇa samudro 'si gauraveṇāsi parvataḥ | kāmadatvāc ca lokānām asi tvaṃ kalpapādapaḥ || gāmbhīryapramukhair atra hetubhiḥ sāgaro giriḥ | kalpadrumaś ca kriyate tad idaṃ heturūpakam</foreign> (<title xml:lang="sa">Kāvyadarśa</title> 2.85–86, ed. Böhtlingk 1890, <ref target="https://archive.org/details/kavyadarsadandindandinspoetikkavyadarsaottovonbohtlingk1890/page/34/mode/1up">34</ref>). <foreign xml:lang="sa">heturūpakam</foreign> is translated by <abbr corresp="#Z"/> &amp; <abbr corresp="#S"/> as <foreign xml:lang="bo">'di ni rgyu'i gzugs can</foreign>, matching the Tibetan translation of the <title xml:lang="sa">Kāvyadarśa</title> (ed. Banerjee 1939, <ref target="https://archive.org/details/dli.calcutta.10568/page/n106/mode/1up">86</ref>).</note>
+    <note target="#Kk1.0.1-n18" xml:lang="en">Cf. <foreign xml:lang="sa">heturūpako nāmāyam alaṅkāraḥ yathā gāmbhīryyeṇa samudro 'si iti tasyāgādhatvaṃ yathoktaguṇavattayā atulyatvaṃ duṣkhainovyasaneṣv agham iti alaghutvaṃ</foreign> <abbr corresp="#BnF612"/>.</note>
+    <note target="#Kk1.0.1-n18b" xml:lang="en"><foreign xml:lang="sa">karmaṇā yam abhipraiti sa saṃpradānam</foreign> (<title xml:lang="sa">Aṣṭādhyāyī</title> 1.4.32); <foreign xml:lang="sa">ṇer aṇau yat karma ṇau sa kartānādhyāne</foreign> (<title xml:lang="sa">Aṣṭādhyāyī</title> 1.3.67). These two sentences seem to be employed here as examples for the usage of correlative pronouns.</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-9" type="notes1">
+    <note target="#Kk1.0.1-n18c" xml:lang="en">For more information on this verse, see Birwé 1967, 51.</note>
+  </standOff>
+  <standOff corresp="#Kk1.0.1-10" type="notes1">
+    <note target="#Kk1.0.1-n19" xml:lang="en">Cf. <foreign xml:lang="si">trivargasampattiya piṇisada nohot vāṅmaya śilpa dænīma lakṣaṇakoṭa æti svārtthasapettiya taddhetukatrivargahetuvū parārtthasampattīya yana mē svārttha sampat parārttha sampat deka piṇisada</foreign> <abbr corresp="#SinW"/>.</note>
+    <note target="#Kk1.0.1-n20" xml:lang="en"><abbr corresp="#SinB"/> &amp; <abbr corresp="#SinG"/> preserve the reading <foreign xml:lang="sa">ayatnayen</foreign>, while <abbr corresp="#SinW"/> reads <foreign xml:lang="sa">yatnayen</foreign>. Similarly, <abbr corresp="#Z"/> &amp; <abbr corresp="#S"/> read <foreign xml:lang="sa">yatnena</foreign> or <foreign xml:lang="sa">yatnāt</foreign> (<foreign xml:lang="bo">'bad pas las</foreign>, <foreign xml:lang="bo">'bad pas</foreign>).</note>
+  </standOff>
+
+<standOff type="apparatus" corresp="#Kk1.0.1-1" source="alignments/Kk1.0.1-1.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<!--Warnings
+Kk1.0.1-1: LEd doesn't match alignment.
+-->
+<listApp>
+  <app loc="0,21">
+    <lem>jñānadayābhyāṃ sindhur</lem>
+    <rdg wit="#B">dhur</rdg>
+  </app>
+  <app loc="47,56">
+    <lem>tadapekṣa</lem>
+    <rdg wit="#B">tadapekṣaḥ</rdg>
+  </app>
+  <app loc="400,409">
+    <lem>śamādayaḥ</lem>
+    <rdg wit="#B">gamādayaḥ</rdg>
+  </app>
+  <app loc="501,514">
+    <lem wit="#Bpc">śreyārthibhir</lem>
+    <rdg wit="#Bac">śreyārvvibhir</rdg>
+  </app>
+  <app loc="517,519">
+    <lem wit="#Bpc">er</lem>
+    <rdg wit="#Bac">evar</rdg>
+  </app>
+  <app loc="530,538">
+    <lem wit="#Bpc">sevyatāṃ</lem>
+    <rdg wit="#Bac"><gap reason="illegible" quantity="1" unit="akṣara"/> sevyatāṃ</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-2" source="alignments/Kk1.0.1-2.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="45,49">
+    <lem>hite</lem>
+    <rdg wit="#B">hito</rdg>
+  </app>
+  <app loc="72,90">
+    <lem>paramārthasiddhaye</lem>
+    <rdg wit="#B">paramārthaḥ siddhaye</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-3" source="alignments/Kk1.0.1-3.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="18,26">
+    <lem>śālitvād</lem>
+    <rdg wit="#B">cālitvād</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-4" source="alignments/Kk1.0.1-4.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="86,101">
+    <lem>phalapravaṇāc ca</lem>
+    <rdg wit="#B">phalapravaṇā ca</rdg>
+  </app>
+  <app loc="255,260">
+    <lem>śriye</lem>
+    <rdg wit="#B">śriyai</rdg>
+  </app>
+  <app loc="302,311">
+    <rdgGrp type="lemma" select="#Bpc">
+      <lem>sindhuś ca</lem>
+      <rdg type="minor" wit="#Bpc">siṃdhuś ca</rdg>
+    </rdgGrp>
+    <rdg wit="#Bac">siṃdhoś ca</rdg>
+  </app>
+  <app loc="316,328">
+    <lem>sukhaiṣibhir</lem>
+    <rdg wit="#B">sukheṣubhir</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-5" source="alignments/Kk1.0.1-5.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="0,4">
+    <lem wit="#Bpc">atra</lem>
+    <rdg wit="#Bac">avatra</rdg>
+  </app>
+  <app loc="6,20">
+    <lem>jñānadayārṇava</lem>
+    <rdg wit="#B">jñānadayārṇa</rdg>
+  </app>
+  <app loc="56,63">
+    <lem>akāraṇa</lem>
+    <rdg wit="#B">karuṇā</rdg>
+  </app>
+  <app loc="63,69">
+    <lem wit="#Bpc">parama</lem>
+    <rdg wit="#Bac">paramāma</rdg>
+  </app>
+  <app loc="76,84">
+    <lem>svabhāvo</lem>
+    <rdg wit="#B">svarbhāvo</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-6" source="alignments/Kk1.0.1-6.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="35,40">
+    <lem wit="#Bpc">udaya</lem>
+    <rdg wit="#Bac">udayati</rdg>
+  </app>
+  <app loc="61,67">
+    <lem>puṣpam</lem>
+    <rdg wit="#B">puṣpaḥ</rdg>
+  </app>
+  <app loc="85,92">
+    <lem>dvandva</lem>
+    <rdg wit="#B">dvanda</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-7" source="alignments/Kk1.0.1-7.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="70,81">
+    <lem>upalakṣyata</lem>
+    <rdg wit="#B">upalakṣata</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-8" source="alignments/Kk1.0.1-8.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <listApp type="omissions">
+    <app loc="0,158">
+      <lem>śleṣeṇa… śāstram</lem>
+      <rdg wit="#DEd"/>
+    </app>
+  </listApp>
+  <app loc="0,7">
+    <lem>śleṣeṇa</lem>
+    <rdg wit="#Bac"><unclear>śve</unclear>ṣe<sic>na</sic></rdg>
+    <rdg wit="#Bpc">śleṣe<sic>na</sic></rdg>
+  </app>
+  <app loc="31,49">
+    <lem wit="#Bpc">kavitvavaktṛtvādau</lem>
+    <rdg wit="#Bac">vikavitvavaktṛtvādau</rdg>
+  </app>
+  <app loc="88,95">
+    <lem>tasyā īr</lem>
+    <rdg wit="#B">tasyā i</rdg>
+  </app>
+  <app loc="158,181">
+    <rdgGrp type="lemma" select="#B">
+      <lem>heturūpakam alaṅkāro 'yam</lem>
+      <rdg type="minor" wit="#B">heturūpakam alaṃkāro yaṃ</rdg>
+    </rdgGrp>
+    <rdg wit="#DEd">[ayaṃ heturūpako 'laṃkāraḥ</rdg>
+  </app>
+  <app loc="182,187">
+    <lem wit="#B">yathā</lem>
+    <rdg wit="#DEd">tad yathā</rdg>
+  </app>
+  <app loc="225,252">
+    <lem wit="#DEd">yathoktaguṇavattayātulatvam</lem>
+    <rdg wit="#Bac">yathoktaguṇavattadāyā | atalasparśatvaṃ</rdg>
+    <rdg wit="#Bpc">yathoktaguṇavattayā | atalasparśatvaṃ</rdg>
+  </app>
+  <app loc="361,371">
+    <lem wit="#Bpc #DEd">akṣayatvaṃ</lem>
+    <rdg wit="#Bac">akṣayatvātvaṃ</rdg>
+  </app>
+  <app loc="457,472">
+    <lem wit="#DEd">yam abhipraiti sa</lem>
+    <rdg wit="#B">yad abhipreti</rdg>
+  </app>
+  <app loc="499,502">
+    <rdgGrp type="lemma" select="#Bpc #DEd">
+      <lem>cet</lem>
+      <rdg type="minor" wit="#DEd">cet_</rdg>
+    </rdgGrp>
+    <rdg wit="#Bac">cektaṃt</rdg>
+  </app>
+  <app loc="538,553">
+    <lem wit="#DEd">prakrāntasyaiva</lem>
+    <rdg wit="#B">prakāntasyaiva</rdg>
+  </app>
+  <app loc="599,605">
+    <lem wit="#DEd">śāsana</lem>
+    <rdg wit="#B">nāsana</rdg>
+  </app>
+  <app loc="618,626">
+    <lem wit="#DEd">trivarga</lem>
+    <rdg wit="#B">trivarggasya</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-9" source="alignments/Kk1.0.1-9.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="18,21">
+    <lem wit="#DEd">tri</lem>
+    <rdg wit="#B">trī</rdg>
+  </app>
+  <app loc="39,46">
+    <lem wit="#DEd">śobhāsu</lem>
+    <rdg wit="#B">sobhāsu |</rdg>
+  </app>
+  <app loc="82,95">
+    <rdgGrp type="lemma" select="#DEd">
+      <lem>prathitā || iti</lem>
+      <rdg type="minor" wit="#DEd">prathitā || <trailer><lb n="16"/>iti |</trailer></rdg>
+    </rdgGrp>
+    <rdg wit="#B">prasthiteti |</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-10" source="alignments/Kk1.0.1-10.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="6,11">
+    <rdgGrp type="lemma" select="#DEd">
+      <lem>yā vāṅ</lem>
+      <rdg type="minor" wit="#DEd">yā vāṅ_</rdg>
+    </rdgGrp>
+    <rdg wit="#B">yāvan</rdg>
+  </app>
+  <app loc="142,152">
+    <lem wit="#DEd-R">ayatnāyāto</lem>
+    <rdg wit="#B">a<lb n="5"/>yatvāyāto</rdg>
+    <rdg wit="#DEd">yatnāt_ prāpto</rdg>
+  </app>
+</listApp></standOff></TEI>

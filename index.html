@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On the trail of the <em>Kavikāmadhenu</em></title>
+    <link rel="stylesheet" href="./lib/css/tufte.css">
+    <style>
+        table {font-size: 1.4rem;}
+        th {
+            white-space: nowrap;
+            font-weight: normal;
+            text-align: left;
+        }
+        a.image-link {
+            background: none;
+            vertical-align: sub;
+        }
+        a[href] {
+            color: #A85110;
+        }
+
+        a[href]:hover {
+            color: #2B73B7;
+            /*text-decoration: underline;*/
+        }
+
+        .msid {
+            font-variant: small-caps;
+            word-break: keep-all;
+        }
+        
+        tr.sub  td {
+            padding-left: 1rem;
+        }
+        
+        tr.subsub td {
+            padding-left: 1.5rem;
+        }
+
+        td[colspan='2'] {
+            padding-top: 1.2rem;
+        }
+        /*.msid a:link, .msid a:active {
+        }*/
+        .marginnote {
+            height: 0;
+            overflow: visible;
+        }
+        @media (max-width: 760px) {
+            .marginnote {
+                height: revert;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+      <h1>On the trail of the <em>Kavikāmadhenu</em></h1>
+      <p class="subtitle">A critical edition of Subhūticandra's commentary on <em>Amarakoṣa</em> 1.0.1</p>
+
+        <p class="subtitle">Charles Li</p>
+        <p id="lastupdate"></p>
+        <section>
+            <blockquote>
+                <p>
+            This digital edition is the supplementary material to the article <q>On the trail of the <cite>Kavikāmadhenu</cite></q> published in <cite>Journal of Sanskrit Studies</cite> 1. That article contained a critical edition of the commentary on <cite>Amarakoṣa</cite> 1.0.1, the <em>maṅgalācaraṇa</em>.
+                </p>
+                <p>
+This work is archived by Zenodo:
+                </p>
+                <blockquote>
+            <p class="biblio">Li, Charles. 2026. <q>Digital edition of <cite>Kavikāmadhenu</cite> ad <cite>Amarakoṣa</cite> 1.0.1</q> <a href="">doi:10.5281/zenodo.?????</a></p>
+                </blockquote>
+          </blockquote>
+        </section>
+        <section>
+        <p><a href="Kk-Li.xml"><cite>Kavikāmadhenu</cite> ad <cite>Amarakoṣa</cite> 1.0.1, critical text with apparatus</a>, ed. Li 2026</p>
+        <h3>Witnesses used in the editions</h3>
+        <table>
+          <tr><td colspan="2">Sanskrit</td></tr>
+          <tr><td class="msid"><a href="Kk-Deokar.xml">D<sup>Ed</sup></a></td><td>transcription of <cite>Kavikāmadhenu</cite> ad <cite>Amarakoṣa</cite> 1.0.1 (ed. Deokar 2014, 98)</td></tr>
+          <tr class="sub"><td class="msid">D<sup>Ed</sup>-R</td><td>manuscript R variants from apparatus</td></tr>
+          <tr><td colspan="2">Tibetan</td></tr>
+          <tr><td class="msid"><a href="Kk-N.xml">Y</a></td><td>translation of Kīrticandra &amp; Yar klung lo tsā ba grags pa rgyal mtshan, Narthang Tangyur</td></tr>
+          <tr><td class="msid"><a href="Kk-D.xml">Z</a></td><td>translation of Zhwa lu lo tsā ba chos skyong bzang po, Derge Tangyur</td></tr>
+          <tr><td class="msid"><a href="Kk-ST.xml">S</a></td><td>translation of Si tu paṇ chen, gsung 'bum, National Library of Mongolia</td></tr>
+          <tr><td colspan="2">Sinhalese</td></tr>
+          <tr><td class="msid">Sin<sup>B</sup></td><td>Sinhalese commentary, ed. Batuvantudave 1880</td></tr>
+          <tr><td class="msid">Sin<sup>G</sup></td><td>Sinhalese commentary, ed. Gunasekera, n.d.</td></tr>
+          <tr><td class="msid"><a href="WEd.xml">Sin<sup>W</sup></a></td><td>Sinhalese commentary, ed. Wimalajoti 1934</td></tr>
+          <tr><td colspan="2">Other testimonia</td></tr>
+          <tr><td class="msid"><a href="https://tst-project.github.io/mss/Sanscrit_0612.1.xml">BnF 612</a></td><td>Anonymous initial commentary, annotated manuscript of the <cite>Amarakoṣa</cite>, Bengali script, Bibliothèque nationale de France, MS Sanscrit 612</td></tr>
+        </table>
+        <p>See the article for further testmonia and a full bibliography.</p>
+      </section>
+    </article>
+    <script>
+        fetch('https://api.github.com/repos/chchch/kavikamadhenu1.0.1/commits')
+            .then((res) => res.json())
+            .then((data) => {
+                const date = new Date(data[0].commit.committer.date);
+                const datestr = date.toLocaleString('en-GB', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                document.getElementById('lastupdate').innerHTML = 
+                    `Last updated <a href="${data[0].html_url}">${datestr}</a>.`;
+            });
+    </script>
+</body>
+</html>

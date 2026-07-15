@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="bo">'chi ba med pa'i mdzod kyi rgya cher 'grel pa 'dod 'jo'i ba mo</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <authority>self-published</authority>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Buddhist Digital Resource Center</orgName>
+                  </repository>
+                  <idno type="shelfmark">bdr:MW2KG5015_4579</idno>
+                  <idno type="alternate"><idno>T3635</idno></idno>
+               <idno type="URI">http://purl.bdrc.io/resource/MW2KG5015_4579</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This xylograph contains the Tibetan translation of the <title xml:lang="sa-Latn">Amarakoṣaṭīkākāmadhenu</title> by <persName xml:lang="bo">yar klung lo tsā ba grags pa rgyal mtshan</persName> as preserved in the Narthang Tangyur.</summary>
+                  
+               <msItem xml:id="Kk-N" defective="false"><title xml:lang="bo">'chi ba med pa'i mdzod kyi rgya cher 'grel pa 'dod 'jo'i ba mo</title><textLang mainLang="bod"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="xylography">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="74">ff. 244v - 318r</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="dbucan" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Wylie and IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+    <graphic url="https://iiifpres.bdrc.io/wvo:bdr:MW2KG5015_4579::bdr:I2KG212489/manifest" facs="2"/></facsimile>
+<text corresp="#Kk-N" xml:lang="bo">
+    <body>
+    <p corresp="#KkT1.0.1-1">
+      <pb n="59r" facs="2"/>
+      <lb n="5"/>
+      <ruby>de nas<rt xml:lang="sa-Latn">ataḥ</rt></ruby> <ruby>gzhan la phan pa<rt xml:lang="sa-Latn">parahita</rt></ruby> <ruby>rjes su ston pa<rt xml:lang="sa-Latn">anuśāsana</rt></ruby>s <ruby>sdig pa rab tu zhi ba dang<rt xml:lang="sa-Latn">pāpapraśānta</rt></ruby> / <ruby>bsod nams kyi tshogs<rt xml:lang="sa-Latn">puṇysambhāra</rt></ruby> <ruby>phun sum tshogs <lb n="6"/>ba bsags pa'i phyir/<rt xml:lang="sa-Latn">sampatsambhārāt</rt></ruby> <ruby>/bcom ldan 'das<rt xml:lang="sa-Latn">bhagavān</rt></ruby> <ruby>kun tu bzang po<rt xml:lang="sa-Latn">samantabhadra</rt></ruby> la <ruby>'dir<rt xml:lang="sa-Latn">iha</rt></ruby> <ruby>mchod pa<rt xml:lang="sa-Latn">pūjā</rt></ruby>r brjod nas/ <ruby>/gang gi zhes bya ba la sogs pa<rt xml:lang="sa-Latn">yasya ity evam ādi</rt></ruby> la <ruby>mkhyen pa<rt xml:lang="sa-Latn">jñāna</rt></ruby> ni/ <ruby>/yul gyi dngos po mtha' dag<rt xml:lang="sa-Latn">samastavastuviṣaya</rt></ruby> <ruby>yongs su shes pa<rt xml:lang="sa-Latn">parijñāna</rt></ruby>'o/ <ruby>/brtse ba<rt xml:lang="sa-Latn">dayā</rt></ruby> ni/ <ruby>sdug bsngal<rt xml:lang="sa-Latn">duḥkha</rt></ruby> las <ruby>yang dag par bsgral <lb n="7"/>ba<rt xml:lang="sa-Latn">samuttaraṇa</rt></ruby>r <ruby>'dod pa<rt xml:lang="sa-Latn">kāma</rt></ruby>'o/
+        <ruby>/de gnyis<rt xml:lang="sa-Latn">tad dvaya</rt></ruby> kyi <ruby>rgya mtsho lta bu<rt xml:lang="sa-Latn">sindhu iva</rt></ruby> ste/ <ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby> ni <ruby>sangs rgyas<rt xml:lang="sa-Latn">buddha</rt></ruby> <ruby>bcom ldan 'das<rt xml:lang="sa-Latn">bhagavān</rt></ruby> <ruby>de'i<rt xml:lang="sa-Latn">tasya</rt></ruby> <ruby>mkhyen pa dang brtse pa'i rgya mtsho<rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby>'o/ <ruby>'dir<rt xml:lang="sa-Latn">iha</rt></ruby> <ruby>rgya mtsho'i sgras<rt xml:lang="sa-Latn">sindhuśabda</rt></ruby> <ruby>gting med de la sogs pa'i yon tan<rt xml:lang="sa-Latn">agādhādiguṇa</rt></ruby> <ruby>mtshungs pa nye bar 'jal ba<rt xml:lang="sa-Latn">samānopamā</rt></ruby>'o/ <ruby>mkhyen pa dang brtse bas <pb n="59v" facs="3"/><lb n="1"/>byas pa<rt xml:lang="sa-Latn">jñānadayākṛta</rt></ruby> dang / <ruby>de <rt xml:lang="sa-Latn">tat</rt></ruby> ni <ruby>gting med pa<rt xml:lang="sa-Latn">agādha</rt></ruby> <ruby>zhes <unclear>bya</unclear> ba la sogs pa<rt xml:lang="sa-Latn">ity evam ādi</rt></ruby> <ruby>byed pa po<rt xml:lang="sa-Latn">kartṛ</rt></ruby> <ruby>mang po<rt xml:lang="sa-Latn">bahula</rt></ruby>'i <ruby>bsdu ba<rt xml:lang="sa-Latn">samāsa</rt></ruby>'o/ <ruby>/bya ba<rt xml:lang="sa-Latn">kṛtya</rt></ruby> ni <ruby>ma 'ongs pa<rt xml:lang="sa-Latn">anāgata</rt></ruby>'i <ruby>don<rt xml:lang="sa-Latn">artha</rt></ruby> yin pas <ruby>'dir<rt xml:lang="sa-Latn">atra</rt></ruby> <ruby>dgos pa med do/<rt xml:lang="sa-Latn">aprayojana</rt></ruby> <ruby>/mkhyen pa dang brtse ba<rt xml:lang="sa-Latn">jñānadayā</rt></ruby> dag ni <ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby> <ruby>zhes bshad<rt xml:lang="sa-Latn">ity uktam</rt></ruby> de/ <ruby>byed pa po<rt xml:lang="sa-Latn">kartṛ</rt></ruby> <ruby>sgrub pa<rt xml:lang="sa-Latn">pratipatti</rt></ruby> ste/ <ruby>de'i<rt xml:lang="sa-Latn">tad</rt></ruby> tshig <ruby>mi mngon pa<rt xml:lang="sa-Latn">guḍha</rt></ruby><ruby>'am/<rt xml:lang="sa-Latn"> vā</rt></ruby>
+        <ruby>/drug pa<rt xml:lang="sa-Latn">ṣaṣṭhī</rt></ruby> <lb n="2"/><ruby>'grel pa<rt xml:lang="sa-Latn">vṛtti</rt></ruby>'i <ruby>bsdu pa<rt xml:lang="sa-Latn">samāsa</rt></ruby>'o/ <ruby>/mkhyen ba dang brtse ba dag gis<rt xml:lang="sa-Latn">jñānadayā mayā</rt></ruby> <ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby> <ruby>lta bu<rt xml:lang="sa-Latn">iva</rt></ruby> ste/ <ruby>/rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby> ni <ruby>gzhi yangs pa<rt xml:lang="sa-Latn">vipulādhāra</rt></ruby>'o/ <ruby>/gting mtha' med pa<rt xml:lang="sa-Latn">agādha</rt></ruby> ni/ <ruby>gzhan<rt xml:lang="sa-Latn">anya</rt></ruby> gyis <ruby>mi rtogs pa<rt xml:lang="sa-Latn">anadhigata</rt></ruby> ste/ <ruby>gang gi<rt xml:lang="sa-Latn">yat</rt></ruby> <ruby>mkhyen pa dang brtse ba<rt xml:lang="sa-Latn">jñānadayā</rt></ruby>'i <ruby>pha rol<rt xml:lang="sa-Latn">pāra</rt></ruby> <ruby>zab mo<rt xml:lang="sa-Latn">gāmbhīrya</rt></ruby> <ruby>yongs su spyod mi nus pa<rt xml:lang="sa-Latn">aparibhogya</rt></ruby>'o/ <ruby>/bcom ldan 'das<rt xml:lang="sa-Latn">bhagavān</rt></ruby> de ni <lb n="3"/><ruby>thugs rje<rt xml:lang="sa-Latn">karuṇā</rt></ruby>'i <ruby>dkyil 'khor mtha' dag<rt xml:lang="sa-Latn">samastaviṣaya</rt></ruby> la <ruby>mkhyen pa dang brtse ba<rt xml:lang="sa-Latn">jñānadayā</rt></ruby>s <ruby>khyab pa<rt xml:lang="sa-Latn">vyāpti</rt></ruby>s <ruby>gang zhig sdug bsngal<rt xml:lang="sa-Latn">yad duḥkha</rt></ruby> gyi <ruby>rgya mtsho<rt xml:lang="sa-Latn">sāgara</rt></ruby> <ruby>gting mtha'i med pa<rt xml:lang="sa-Latn">agādha</rt></ruby> ni/ <ruby>skyabs med pa<rt xml:lang="sa-Latn">nistrāṇa</rt></ruby>'i <ruby>'gro ba<rt xml:lang="sa-Latn">prāṇin</rt></ruby> rnams <ruby>mngon par<rt xml:lang="sa-Latn">prakaṭam</rt></ruby> <ruby>khyab<rt xml:lang="sa-Latn">vyāpti</rt></ruby> cing <ruby>gang ba<rt xml:lang="sa-Latn">pūrṇa</rt></ruby> de la gang gis <ruby>mthar thug pa<rt xml:lang="sa-Latn">paryanta</rt></ruby>r <ruby>sgrol<rt xml:lang="sa-Latn">mokṣa</rt></ruby> <ruby>nus pa<rt xml:lang="sa-Latn">śakya</rt></ruby> <ruby>de bzhin du gyur pa<rt xml:lang="sa-Latn">tathābhūta</rt></ruby> yin <lb n="4"/>pa <unclear>de ni</unclear> <ruby>sdig pa<rt xml:lang="sa-Latn">agha</rt></ruby> dang <ruby>bral<rt xml:lang="sa-Latn">vigata</rt></ruby> nyid <ruby>'dod chags la sogs pa'i nyes pa<rt xml:lang="sa-Latn">rāgādidoṣa</rt></ruby> rnams <ruby>spangs pa<rt xml:lang="sa-Latn">rahita</rt></ruby>'o/ <ruby>byams pa dang bzod pa dang nye bar zhi ba la sogs pa'i yon tan<rt xml:lang="sa-Latn">maitrīkṣamopaśamādiguṇa</rt></ruby> no/
+        </p>
+      <p corresp="#KkT1.0.1-4">
+        <ruby>/dpal dang bdud rtsi dang bcas phyir zhes<rt xml:lang="sa-Latn">śriye cāmṛtāya ca iti</rt></ruby> te/ <ruby>tshad med pa<rt xml:lang="sa-Latn">apramāṇa</rt></ruby>'i <ruby>ched du<rt xml:lang="sa-Latn">hetu</rt></ruby> <ruby>'jug pa<rt xml:lang="sa-Latn">pravṛtti</rt></ruby> <ruby>bzhin du<rt xml:lang="sa-Latn">evam</rt></ruby> <ruby>bzhi pa<rt xml:lang="sa-Latn">caturthī</rt></ruby>'i <ruby>don<rt xml:lang="sa-Latn">artha</rt></ruby> te/ <ruby>/dang<rt xml:lang="sa-Latn">ca</rt></ruby> <lb n="5"/>gi <ruby>yi ge<rt xml:lang="sa-Latn">akṣara</rt></ruby> ni <ruby>phan tshun du bsdu ba<rt xml:lang="sa-Latn">samāhāretaretara</rt></ruby>'i <ruby>tshig<rt xml:lang="sa-Latn">pada</rt></ruby> go/ <ruby>dpal<rt xml:lang="sa-Latn">śrī</rt></ruby> ni <ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampatti</rt></ruby>'o/ <ruby>/bdud rtsi<rt xml:lang="sa-Latn">amṛta</rt></ruby> <unclear>ni</unclear> <ruby>thar pa<rt xml:lang="sa-Latn">mokṣa</rt></ruby> dang <ruby>mya ngan las 'das pa<rt xml:lang="sa-Latn">nirvāṇa</rt></ruby>'o/
+      </p>
+      <p corresp="#KkT1.0.1-3">
+        <ruby>/mchog gi snying rje la sogs pa<rt xml:lang="sa-Latn">paramakāruṇikādi</rt></ruby> <ruby>yon tan<rt xml:lang="sa-Latn">guṇa</rt></ruby> <ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampatti</rt></ruby> <ruby>de lta bu<rt xml:lang="sa-Latn">evam</rt></ruby> ni/ <ruby>gzhan la phan pa<rt xml:lang="sa-Latn">parahita</rt></ruby> dang <ruby><unclear>bde</unclear> ba<rt xml:lang="sa-Latn">sukha</rt></ruby> <ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampatti</rt></ruby> rnams ral <lb n="6"/><ruby>zad pa med<rt xml:lang="sa-Latn">akṣaya</rt></ruby> de <ruby>snyel ba mi mnga' ba<rt xml:lang="sa-Latn">nāśarahita</rt></ruby>'o/
+      </p>
+      <lg corresp="#KkT1.0.1-2">
+        <l><ruby>/khyad par<rt xml:lang="sa-Latn">viśeṣataḥ</rt></ruby> du byung pa <ruby>don dam pa<rt xml:lang="sa-Latn">paramārtha</rt></ruby> <ruby>sgrub pa<rt xml:lang="sa-Latn">pratipatti</rt></ruby> ni <ruby>blo dang ldan pa<rt xml:lang="sa-Latn">dhīra</rt></ruby>'o/</l>
+        <l><ruby>/bsten par bya ba<rt xml:lang="sa-Latn">sevyatām</rt></ruby> ni <ruby>dpal dang bdud rtsi'i phyir<rt xml:lang="sa-Latn">śryamṛtayoḥ</rt></ruby> ro/</l>
+      </lg>
+      <p corresp="#KkT1.0.1-5">
+        <ruby>/'dir<rt xml:lang="sa-Latn">iha</rt></ruby> <ruby>mkhyen pa dang brtse ba la sogs pa<rt xml:lang="sa-Latn">jñānadayādi</rt></ruby>'i <ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby>s <ruby>sems can<rt xml:lang="sa-Latn">sattva</rt></ruby> rnams la <ruby>rgyu med pa<rt xml:lang="sa-Latn">niṣkaraṇa</rt></ruby>r <ruby>mchog tu<rt xml:lang="sa-Latn">parama</rt></ruby> <ruby>mnyes <lb n="7"/>shing phan pa<rt xml:lang="sa-Latn">vātsalya</rt></ruby>'i <ruby>rang bzhin can<rt xml:lang="sa-Latn">svabhāva</rt></ruby> de lta bus ni <ruby>bcom ldan 'das<rt xml:lang="sa-Latn">bhagavān</rt></ruby> <ruby>bde bar gshegs pa<rt xml:lang="sa-Latn">sugata</rt></ruby> <ruby>nye bar mtshon<rt xml:lang="sa-Latn">upalakṣita</rt></ruby> te/ <ruby>rtags<rt xml:lang="sa-Latn">liṅga</rt></ruby> gyi <ruby>rab tu gsal ba<rt xml:lang="sa-Latn">prasāda</rt></ruby> <ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby> ni/ <ruby>snyan ngag<rt xml:lang="sa-Latn">kāvya</rt></ruby> gi <ruby>yon tan<rt xml:lang="sa-Latn">guṇa</rt></ruby> te/ <ruby>dbyangs can gyi mgul rgyan gyi snyan <unclear>ngag gi</unclear> rgyan<rt xml:lang="sa-Latn">sarasvatīkaṇṭhābharaṇakāvyālaṅkāra</rt></ruby> las/ /<ruby>gang<rt xml:lang="sa-Latn">yat</rt></ruby> zhig <ruby>don<rt xml:lang="sa-Latn">artha</rt></ruby> gang <ruby>rab gsal<rt xml:lang="sa-Latn">prākaṭya</rt></ruby> <pb n="60r" facs="4"/><lb n="1"/><metamark>༅༅།</metamark> <space/> /dang / <ruby>rab mdzes<rt xml:lang="sa-Latn">sundara</rt></ruby> de yi <ruby>mngon brjod<rt xml:lang="sa-Latn">abhidhāna</rt></ruby> de/ <ruby>dper na<rt xml:lang="sa-Latn">tad yathā</rt></ruby>
+      </p>
+      <lg corresp="#KkT1.0.1-6">
+        <l><ruby>'dir<rt xml:lang="sa-Latn">iha</rt></ruby> <ruby>shar gyur pas<rt xml:lang="sa-Latn">udayati</rt></ruby> <ruby>rgya grol<rt xml:lang="sa-Latn">mudrābhañjana</rt></ruby> <ruby>pad+ma<rt xml:lang="sa-Latn">padma</rt></ruby> <ruby>shar gyur ri bo<rt xml:lang="sa-Latn">udayagiri</rt></ruby> dang/</l>
+        <l><ruby>nags tshal<rt xml:lang="sa-Latn">vana</rt></ruby> <ruby>phreng pa<rt xml:lang="sa-Latn">mālā</rt></ruby> <ruby>man+da ra ba<rt xml:lang="sa-Latn">mandāra</rt></ruby>'i <ruby>me tog<rt xml:lang="sa-Latn">puṣpa</rt></ruby> <ruby>gzhon nu<rt xml:lang="sa-Latn">bāla</rt></ruby> ltar/</l>
+        <l><ruby>/ngur ba<rt xml:lang="sa-Latn">koka</rt></ruby> <ruby>lhan cig mi gna<rt xml:lang="sa-Latn">virahavidhura</rt></ruby>s <ruby>rab tu rtsom<rt xml:lang="sa-Latn">prārambha</rt></ruby> zhing <ruby>gnyis gnyis <rt xml:lang="sa-Latn">dvandva</rt></ruby><lb n="2"/><ruby>gnyen<rt xml:lang="sa-Latn">bandhu</rt></ruby>/</l>
+        <l><ruby>/spre'u<rt xml:lang="sa-Latn">kapi</rt></ruby> <ruby>rab tu khros pa<rt xml:lang="sa-Latn">samkupita</rt></ruby>s <ruby>mkhur tshos<rt xml:lang="sa-Latn">kapola</rt></ruby> 'gram pa <ruby>zangs mdog<rt xml:lang="sa-Latn">tāmra</rt></ruby> bzhin/</l>
+      </lg>
+      <p corresp="#KkT1.0.1-7">
+        <ruby>/zhes<rt xml:lang="sa-Latn">iti</rt></ruby> bshad do/ <ruby>/'dir<rt xml:lang="sa-Latn">iha</rt></ruby> <ruby>mun pa<rt xml:lang="sa-Latn">tamas</rt></ruby> bsam pas <ruby>ngur pa'i mya ngan bsal<rt xml:lang="sa-Latn">kokaśokaharaṇa</rt></ruby> te <ruby>ngur pa<rt xml:lang="sa-Latn">koka</rt></ruby> <ruby>pho mo lhan cig mi gnas pa<rt xml:lang="sa-Latn">strīpuruṣasahānavasthāna</rt></ruby> yin pa/
+        <ruby>/de la sogs pa<rt xml:lang="sa-Latn">tadādi</rt></ruby> <ruby>bsal<rt xml:lang="sa-Latn">praharaṇa</rt></ruby> nas <ruby>nyi ma<rt xml:lang="sa-Latn">sūrya</rt></ruby>'i <ruby>mtshan nyid<rt xml:lang="sa-Latn">lakṣaṇa</rt></ruby> <ruby>ma <lb n="3"/>bshad kyang<rt xml:lang="sa-Latn">anukto 'pi</rt></ruby> <ruby>nyi ma<rt xml:lang="sa-Latn">sūrya</rt></ruby> <ruby>nye bar mtshon pa<rt xml:lang="sa-Latn">upalakṣaṇa</rt></ruby> bzhin no/
+      </p>
+      <p corresp="#KkT1.0.1-10">
+        <ruby>/bsod nams dang ye shes kyi tshogs bsags pa<rt xml:lang="sa-Latn">puṇyajñānasambhāra</rt></ruby> las <ruby>thar pa<rt xml:lang="sa-Latn">mokṣa</rt></ruby> dang <ruby>mya ngan las 'das pa<rt xml:lang="sa-Latn">nirvāṇa</rt></ruby> ste/ <ruby>rang dang gzhan gyi don phun sum tshogs pa<rt xml:lang="sa-Latn">svaparārthasampat</rt></ruby>'o/
+      </p>
+    </body>
+  </text>
+</TEI>

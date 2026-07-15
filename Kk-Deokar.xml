@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+        <title><title xml:lang="sa">Kavikāmadhenu</title>, ed. Deokar 2013</title>
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <authority>self-published</authority>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Staats- und Universitätsbibliothek Hamburg</orgName>
+                  </repository>
+                  <idno type="shelfmark">Sg XXIII 316 ST-1</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+            <summary>This edition of the <title xml:lang="sa">Kavikāmadhenu</title> was edited based on two manuscripts, only one of which contained the commentary on verse 1.0.1.</summary>
+                  
+            <msItem defective="false" xml:id="DEd"><title xml:lang="sa">Kavikāmadhenu</title><textLang mainLang="san"/></msItem>
+          </msContents>
+          <physDesc>
+          <objectDesc form="codex" rend="movable-type">
+           <supportDesc material="paper">
+             <support></support>
+              <extent>
+                           <measure unit="page" quantity=""/>
+                           <dimensions type="object" unit="mm">
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc></layoutDesc>
+            </objectDesc>
+            <typeDesc>
+              <typeNote scope="major" script="devanagari" medium="ink black"/>
+            </typeDesc>
+            <additions>
+            </additions>
+            <bindingDesc>
+                     <binding>
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+               <origin>
+                     <origDate calendar="gregorian" when="2013"/>
+                  </origin><provenance></provenance><acquisition></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+  <text corresp="#DEd" xml:lang="sa">
+    <body>
+      <p xml:id="Kk1.0.1-8">
+        <pb n="98"/><lb n="7"/>[ayaṃ heturūpako 'laṃkāraḥ | tad yathā ‘gāmbhīryeṇa] <note xml:lang="en">R2a1</note> samudro 'si’ <note>kāvyādarśa <lb n="8"/><num xml:lang="en">2.85</num></note> iti | tasyāgādhatvaṃ yathoktaguṇavattayātulatvam | ‘duḥkhainovyasaneṣv agham’ ity a<lb n="9"/>bhidhānād anaghaguṇatvaṃ sukhahetulaghutvavispaṣṭatvādi | sevā śrutacintāvyākhyānādiḥ | <lb n="10"/>akṣayatvaṃ saṃpūrṇatā | sarvanāmaśabdaiḥ prakrāntasya liṅgam ādīyate prakāśyamānasya vā | <lb n="11"/>tad yathā ‘karmaṇā yam abhipraiti sa saṃpradānam’ <note>pā. <num xml:lang="en">1.4.32</num></note>, ‘aṇau yat_ karma ṇau cet_ sa <lb n="12"/>kartā’ | tad atra kāmacārāc chrutatvāc ca prakrāntasyaiva sindhuśabdasya liṅgena sa iti <lb n="13"/>nirdeśo na nāmaliṅgānuśāsanaśabdasya | śrīs trivargasaṃpattiḥ | tad uktaṃ vyāḍinā
+      </p>
+      <lg xml:id="Kk1.0.1-9">
+       <l><lb n="14"/>lakṣmīsarasvatīdhītrivargasampad_vibhūtiśobhāsu |</l>
+       <l><lb n="15"/>upakaraṇaveśaracanāvidhāsu ca śrīr iti prathitā ||</l>
+       <trailer><lb n="16"/>iti |</trailer>
+      </lg>
+      <p xml:id="Kk1.0.1-10">athavā yā vāṅ_mayasarvajñatvalakṣaṇā svārthasaṃpat, yā ca taddhetukā trivargahetuḥ <lb n="17"/>parārthasaṃpat_ tadubhayī śrīḥ | svaparārthasaṃpadā ca puṇyajñānasaṃbhārād_ <app><lem>yatnāt_ prāpto</lem><rdg wit="#R">ayatnāyāto</rdg></app> mokṣo <lb n="18"/>'mṛtam iti |
+      </p>
+    </body>
+  </text>
+</TEI>
