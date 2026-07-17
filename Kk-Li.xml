@@ -56,7 +56,7 @@
             <abbr>Sin</abbr>
             <expan>Sinhalese commentary</expan>
             <listWit>
-              <witness xml:id="SinB">
+              <witness xml:id="SinB" source="SinB.xml">
                <abbr>Sin<hi rend="superscript">B</hi></abbr>
                <expan>Sinhalese commentary, ed. Batuvantudave 1880</expan>
               </witness>
