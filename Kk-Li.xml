@@ -60,9 +60,9 @@
                <abbr>Sin<hi rend="superscript">B</hi></abbr>
                <expan>Sinhalese commentary, ed. Batuvantudave 1880</expan>
               </witness>
-              <witness xml:id="SinG">
+              <witness xml:id="SinG" source="SinG.xml">
                <abbr>Sin<hi rend="superscript">G</hi></abbr>
-               <expan>Sinhalese commentary, ed. Gunasekera (no date)</expan>
+               <expan>Sinhalese commentary, ed. Guṇaśekara (no date)</expan>
               </witness>
               <witness xml:id="SinW" source="WEd.xml">
                <abbr>Sin<hi rend="superscript">W</hi></abbr>
