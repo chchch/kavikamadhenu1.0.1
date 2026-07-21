@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="Sin">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+        <title><title xml:lang="si">Amarakoṣasannaya</title> ad <title xml:lang="sa">Amarakoṣa</title> 1.0.1</title>
+            <title type="sub">Collation of Batuvantudave 1880 with two other editions.</title>
+        </titleStmt>
+         <sourceDesc>
+            <msDesc>
+               <msContents>
+            <summary><p>This digital edition accompanies the article, <q>On the trail of the <title xml:lang="sa">Kavikāmadhenu</title></q>, published in <cite>The Journal of Sanskrit Studies</cite> 1.</p></summary>
+               </msContents>
+            </msDesc>
+         <listWit>
+          <witness xml:id="SinB" source="SinB.xml">
+           <abbr>Sin<hi rend="superscript">B</hi></abbr>
+           <expan>Sinhalese commentary, ed. Batuvantudave 1880</expan>
+          </witness>
+          <witness xml:id="SinG" source="SinG.xml">
+           <abbr>Sin<hi rend="superscript">G</hi></abbr>
+           <expan>Sinhalese commentary, ed. Guṇaśekara (no date)</expan>
+          </witness>
+          <witness xml:id="SinW" source="WEd.xml">
+           <abbr>Sin<hi rend="superscript">W</hi></abbr>
+           <expan>Sinhalese commentary, ed. Wimalajoti 1934</expan>
+          </witness>
+        
+<witness xml:id="Sin" source="Sin.xml">
+<abbr>Sin</abbr>
+<expan><title xml:lang="si">Amarakoṣasannaya</title> ad <title xml:lang="sa">Amarakoṣa</title> 1.0.1</expan>
+</witness></listWit>
+      </sourceDesc>
+      </fileDesc>
+      
+    <revisionDesc/>
+  </teiHeader>
+  <text type="edition" xml:lang="si-Latn-t-si-Sinh">
+    <body>
+      <lg xml:lang="sa">
+        <l>[yasya jñānadayāsindhor agādhasyānaghā guṇāḥ |</l>
+        <l>sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca ||]</l>
+      </lg>
+    <p xml:id="AKS0.1">he dhīrāḥ (yuṣmābhiḥ) akṣayaḥ saḥ śriye ca amṛtāya ca sevyatām, yanū mehi kriyākāraka padasambandhayi; pan̆ḍitavariṇi topavisin kṣayabhāva yakaṭa noyannāvū hētemē trivargasampat piṇisat nivan piṇisat sevinā læbēvā yanu artthayi.</p>
+    <p xml:id="AKS0.2">agādhasya pātālatala rahitahō itāgæmburu; jñānadayāsindhoḥ, næṇa kuḷuṇu sayuru bandu; yasya, yam utumekugē; guṇāḥ, prajñā kṛpādiguṇayō; anaghāḥ, pav rahitahō nirdoṣada; akṣayaḥ saḥ, nirvvikāravū hētema; śriye ca, trivargasampat piṇisada; amṛtāya ca, nivan piṇisada; dhīrāḥ, pan̆ḍitavariṇi topavisin; sevyatām, sevunā læbēvā.</p>
+    <p xml:id="AKS0.3">mē ślokaya budun·gē nairggika guṇānusmaraṇayen buddhasēvāva karaṇulæbēvayi yana abhiprāyen kiyana ladæyi mē nāmaliṅgānuśāsanayehi artthakiyana væḍitara ācārīn·gē sammatayi ― brahmaviṣṇumaheśādi sevā kiyanaladæyi samahara ācārīn·gē matayi ― bhaṭṭojidīkṣitācāryyātmaja bhānudīkṣitācārīn visin gurusevā dakvana bavak mut buddhasēvā noveyi amarācārīn saugatavīmehi hetunætæyi dæḍisē kiyati — mema ācārīn·gē druṣṭivirodhaheyin kiyana pamaṇak vinā bhāratītomō gurusevā artthaya sphuṭa nokarannīya — maheśvara nam ācārīn visin viracitavū amarakoṣa viveka nam vyākhyānayehi mē buddhādi kisivek nodakvā ślokārttha pamaṇak kiyati.</p>
+  <head type="sub">purātana sannaya.</head>
+    <p xml:id="AKS1.0.1-1">śāstrārambhayehi sarvajñayanṭa pūjāvidhānakaḷa kalhi parahitānuśāsanayen vighnopaśamaya karannāvū puṇyasampattiya ræskarannō; “yasyajñānadayāsindhoḥ” yanādī mē solōvak dækvūhu ― jñāna, samastavastuviṣayavū parijñānayenhā; dayā, duḥkhayen samuddharaṇavāñjā lakṣaṇavū karuṇāyen; sindhoḥ, sāgarayakvænivū nohot uktalakṣaṇavū jñānadayādedenāṭa vipulādhāraheyin sāgarayakvænivū; agādhasya, anut visin pātālatala nodaknālada jñānadayādedenāgē keḷavara ætiheyin pirisin̆dagata nohækkāvū gāmbhīryya æti; yasya, yam sarvvajñayak·hugē; guṇāḥ, maitrīkṣamopaśamādī guṇayō; anaghāḥ, rāgādidoṣarahitayō da; he dhīrāḥ, pan̆ḍitavariṇi; akṣayaḥ, parama karuṇādī guṇaśālitvayen parahita sukhasampādanayehilā kṣayaknættāvū hevat virāmayak nættāvū nohot saṃsārayen sundarasthānayaṭa giyabava hetukoṭageṇa ajarāmaraheyin kṣayak nættāvū saḥ, ē sarvvajñatema; śriye ca, trivargasampattiya piṇisada; amṛtāya ca, nivan piṇisada; sevyatām, topavisin sevinā læbēvā.</p>
+    <p xml:id="AKS1.0.1-2">mē solōva sarvajñayan·gē sāgaratvayen rūpaṇayaheyin sarvajñayanṭahā sāgarayaṭa śleṣayi; mehi samudrayāgē agādhatva nam pātālatalaya nodækkahæki bavaya; anaghavū guṇayō nam ratnākaratvādīhuya; akṣayatva nam paripūrṇabavaya; śrī nam śrīdevatāya amṛta nam amāyayi datayutu “yasya jñānadayāsindhoḥ” yanādiyen iṣṭadevatāśrīrvādadækvūhu “śriye ca amṛtāya ca” yannen sakalajñānapravṛttiya phalapramāṇaheyin pravṛttiphala dækvūhu.</p>
+    <p xml:id="AKS1.0.1-3">mē solōvehi śleṣayen tamankaraṇa śāstra yāgēda svarūpa kīha hēmesē datayutu ෴ jñānadayā, kavitvavaktṛtvādiyehihō aṣṭādaśa vidyāsthānayehi jñānadānasampattiya hetukoṭa geṇa; sindhoḥ, sāgarayakvænivū; agādhasya, anantaroktavū guṇayogaya hetukoṭa geṇa patulnodækkahækkāvū; yasya, yam śāstrayak·hugē, guṇāḥ, laghutvaviṣpaṣṭatvādiguṇayō; anaghāḥ, śubhahetuhuda; he dhīrāḥ; pan̆ḍitavariṇi; akṣayaḥ, sampūrṇavū; saḥ, ē jñānadayāsindhuvatemē hevat mē nāmaliṅgānuśāsanayatema; śriye ca, trivargasampattiya piṇisada nohot vāṅmaya śilpa dænīmalakṣaṇakoṭa æti svārtthasampattiya taddhetukatrivarggahetuvū parārtthasampattīya yana mē svārtthasampat parārtthasampat deka piṇisada; amṛtāya ca, ē svārtthasampattiyenudu puṇyajñānasambhārayen ayatnayen siddhavannāvū mokṣaya piṇisada; sevyatām, śruticintāvyākhyānādilakṣaṇavū sēvāva karaṇu læbēvā.
+  </p>
+    <p xml:id="AKS1.0.1-4">mē śāstrapakṣayehi dānan dāḥ yana vākyayehi ḍudāñ dāne yana dhātuhu keren (sampadādibhyaḥ) kvip ca yi kvip kaḷa kalhi dā kiyā tibeyi jñānasya dāḥ tasyā ī lakṣmī jñānadeyi vākyageṇa ṣaṣṭhīsamāsakoṭa jñānade śabdaya siddhakalhi ohukeren tṛtīyā kaḷakala jñānadayā yi kiyā rūpayaveyi datayutuyi.
+  </p>
+    </body>
+  </text>
+<standOff type="apparatus" corresp="#AKS1.0.1-1" source="alignments/AKS1.0.1-1.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="16,29">
+    <rdgGrp type="lemma" select="#SinB">
+      <lem>sarvajñayanṭa</lem>
+      <rdg type="minor" wit="#SinB">sarvajñayan·ṭa</rdg>
+    </rdgGrp>
+    <rdg wit="#SinG">sarvajñayanaṭa</rdg>
+    <rdg wit="#SinW">sarvajñayan·vahan·sēṭa</rdg>
+  </app>
+  <app loc="49,68">
+    <rdgGrp type="lemma" select="#SinB #SinW">
+      <lem>parahitānuśāsanayen</lem>
+      <rdg type="minor" wit="#SinB">parahitānuśāsa<lb n="25"/>nayen</rdg>
+    </rdgGrp>
+    <rdg wit="#SinG">parahitavū anuśāsanayen</rdg>
+  </app>
+  <app loc="68,82">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>vighnopaśamaya</lem>
+      <rdg type="minor" wit="#SinG">vighnopaśa<lb n="23"/>maya</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">vighnopasamaya</rdg>
+  </app>
+  <app loc="140,146">
+    <lem wit="#SinB #SinW">yanādī</lem>
+    <rdg wit="#SinG">yanādi</rdg>
+  </app>
+  <app loc="148,155">
+    <lem wit="#SinB">solōvak</lem>
+    <rdg wit="#SinG">so<lb n="25"/>lovak</rdg>
+    <rdg wit="#SinW">ślokaya</rdg>
+  </app>
+  <app loc="155,162">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>dækvūhu</lem>
+      <rdg type="minor" wit="#SinB">dæk·vūhu</rdg>
+      <rdg type="minor" wit="#SinG">dæk·vūhu ෴</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">dæk·vūha</rdg>
+  </app>
+  <app loc="262,271">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>sāgarayak</lem>
+      <rdg type="minor" wit="#SinB">sāgarayak·</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">sāgaraya</rdg>
+  </app>
+  <app loc="328,337">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>sāgarayak</lem>
+      <rdg type="minor" wit="#SinB">sāgarayak·</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">sāgaraya</rdg>
+  </app>
+  <app loc="463,480">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>sarvvajñayak·hugē</lem>
+      <rdg type="minor" wit="#SinG">sarvajñayak·hugē</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">sarvajñavarayak·hugē</rdg>
+  </app>
+  <app loc="542,544">
+    <lem wit="#SinB #SinG">he</lem>
+    <rdg wit="#SinW"/>
+  </app>
+  <app loc="559,565">
+    <lem wit="#SinB">variṇi</lem>
+    <rdg wit="#SinG">varini</rdg>
+    <rdg wit="#SinW">varuṇi</rdg>
+  </app>
+  <app loc="588,602">
+    <lem wit="#SinB #SinW">guṇaśālitvayen</lem>
+    <rdg wit="#SinG">guṇaśālit·vayen·ma</rdg>
+  </app>
+  <app loc="839,845">
+    <lem wit="#SinB">sevinā</lem>
+    <rdg wit="#SinG #SinW">sevunā</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#AKS0.1" source="alignments/AKS0.1.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <listApp type="omissions">
+    <app loc="0,201">
+      <lem>he… artthayi</lem>
+      <rdg wit="#SinG #SinW"/>
+    </app>
+  </listApp>
+</listApp></standOff><standOff type="apparatus" corresp="#AKS0.2" source="alignments/AKS0.2.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <listApp type="omissions">
+    <app loc="0,288">
+      <lem>agādhasya… læbēvā</lem>
+      <rdg wit="#SinG"/>
+    </app>
+  </listApp>
+  <app loc="27,37">
+    <lem wit="#SinB">itāgæmburu</lem>
+    <rdg wit="#SinW">itā gæmburuvū</rdg>
+  </app>
+  <app loc="71,76">
+    <lem wit="#SinB">bandu</lem>
+    <rdg wit="#SinW">ban̆duvū</rdg>
+  </app>
+  <app loc="157,173">
+    <lem wit="#SinB">saḥ, nirvvikāravū</lem>
+    <rdg wit="#SinW">nirvvikāravū; saḥ</rdg>
+  </app>
+  <app loc="173,179">
+    <rdgGrp type="lemma" select="#SinB">
+      <lem>hētema</lem>
+      <rdg type="minor" wit="#SinB">hēte<lb n="11"/>ma</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">hetema</rdg>
+  </app>
+  <app loc="242,256">
+    <lem wit="#SinB">pan̆ḍitavariṇi</lem>
+    <rdg wit="#SinW">paṇḍitavaruṇi</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#AKS0.3" source="alignments/AKS0.3.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <listApp type="omissions">
+    <app loc="0,553">
+      <lem>mē… kiyati</lem>
+      <rdg wit="#SinG"/>
+    </app>
+  </listApp>
+  <app loc="17,26">
+    <lem wit="#SinB">nairggika</lem>
+    <rdg wit="#SinW">naisarggika</rdg>
+  </app>
+  <app loc="137,146">
+    <lem wit="#SinB">ācārīn·gē</lem>
+    <rdg wit="#SinW">ācāryyayan·gē</rdg>
+  </app>
+  <app loc="199,208">
+    <lem wit="#SinB">ācārīn·gē</lem>
+    <rdg wit="#SinW">ācāryyayan·gē</rdg>
+  </app>
+  <app loc="241,263">
+    <lem wit="#SinB">bhānudīkṣitācārīn visin</lem>
+    <rdg wit="#SinW">bhānudīkṣitācārīhu</rdg>
+  </app>
+  <app loc="296,302">
+    <lem wit="#SinB">noveyi</lem>
+    <rdg wit="#SinW">novet·yayida</rdg>
+  </app>
+  <app loc="302,312">
+    <lem wit="#SinB">amarācārīn</lem>
+    <rdg wit="#SinW">amarācāryyayan</rdg>
+  </app>
+  <app loc="325,335">
+    <lem wit="#SinB">hetunætæyi</lem>
+    <rdg wit="#SinW">hetunætæyida</rdg>
+  </app>
+  <app loc="348,352">
+    <lem wit="#SinB">mema</lem>
+    <rdg wit="#SinW">mē</rdg>
+  </app>
+  <app loc="352,361">
+    <lem wit="#SinB">ācārīn·gē</lem>
+    <rdg wit="#SinW">ācāryyayan·gē</rdg>
+  </app>
+  <app loc="453,459">
+    <lem wit="#SinB">ācārīn</lem>
+    <rdg wit="#SinW">ācāryyayan</rdg>
+  </app>
+  <app loc="515,522">
+    <lem wit="#SinB">kisivek</lem>
+    <rdg wit="#SinW">kisiveku</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#AKS1.0.1-2" source="alignments/AKS1.0.1-2.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="2,8">
+    <lem wit="#SinB">solōva</lem>
+    <rdg wit="#SinG">solova</rdg>
+    <rdg wit="#SinW">ślokaya</rdg>
+  </app>
+  <app loc="8,22">
+    <lem wit="#SinB #SinG">sarvajñayan·gē</lem>
+    <rdg wit="#SinW">sarvajña</rdg>
+  </app>
+  <app loc="107,119">
+    <rdgGrp type="lemma" select="#SinB #SinW">
+      <lem>pātālatalaya</lem>
+      <rdg type="minor" wit="#SinB">pātālata<lb n="5"/>laya</rdg>
+      <rdg type="minor" wit="#SinW">pātāla talaya</rdg>
+    </rdgGrp>
+    <rdg wit="#SinG">pā<lb n="6"/>tālaya</rdg>
+  </app>
+  <app loc="130,136">
+    <lem wit="#SinB #SinG">bavaya</lem>
+    <rdg wit="#SinW">bavayi</rdg>
+  </app>
+  <app loc="154,172">
+    <lem wit="#SinB #SinW">ratnākaratvādīhuya</lem>
+    <rdg wit="#SinG">rat·nākarat·vādihuya</rdg>
+  </app>
+  <app loc="185,200">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>paripūrṇabavaya</lem>
+      <rdg type="minor" wit="#SinG">paripūrṇa <lb n="8"/>bavaya</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">paripūrṇa bavayi</rdg>
+  </app>
+  <app loc="273,283">
+    <lem wit="#SinB #SinW">iṣṭadevatā</lem>
+    <rdg wit="#SinG">iṣ·ṭa<lb n="10"/>dēvatā</rdg>
+  </app>
+  <app loc="348,355">
+    <lem wit="#SinB #SinW">pramāṇa</lem>
+    <rdg wit="#SinG">prāmaṇa</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#AKS1.0.1-3" source="alignments/AKS1.0.1-3.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="2,10">
+    <lem wit="#SinB">solōvehi</lem>
+    <rdg wit="#SinG">solovehi</rdg>
+    <rdg wit="#SinW">ślokayehi</rdg>
+  </app>
+  <app loc="52,58">
+    <rdgGrp type="lemma" select="#SinB #SinW">
+      <lem>hēmesē</lem>
+      <rdg type="minor" wit="#SinW">hē mesē</rdg>
+    </rdgGrp>
+    <rdg wit="#SinG">heda mesē</rdg>
+  </app>
+  <app loc="150,154">
+    <lem wit="#SinB #SinW">geṇa</lem>
+    <rdg wit="#SinG">gena</rdg>
+  </app>
+  <app loc="163,172">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>sāgarayak</lem>
+      <rdg type="minor" wit="#SinB">sāgarayak·</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">sāgaraya</rdg>
+  </app>
+  <app loc="202,212">
+    <lem wit="#SinB #SinG">guṇayogaya</lem>
+    <rdg wit="#SinW">guṇa<lb n="15"/>yōgaya</rdg>
+  </app>
+  <app loc="282,295">
+    <lem wit="#SinB #SinW">viṣpaṣṭatvādi</lem>
+    <rdg wit="#SinG">viṣ·paṣṭatvādivū</rdg>
+  </app>
+  <app loc="333,347">
+    <lem wit="#SinB">pan̆ḍitavariṇi</lem>
+    <rdg wit="#SinG">paṇ·ḍita<lb n="21"/>varini</rdg>
+    <rdg wit="#SinW">paṇḍitavaruṇi</rdg>
+  </app>
+  <app loc="372,389">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>jñānadayāsindhuva</lem>
+      <rdg type="minor" wit="#SinG">jñānadayāsin·dhuva</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">jñānadayāsindhu</rdg>
+  </app>
+  <app loc="659,668">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>ayatnayen</lem>
+      <rdg type="minor" wit="#SinG">ayat·nayen</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">yatnayen</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#AKS1.0.1-4" source="alignments/AKS1.0.1-4.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<listApp>
+  <app loc="22,25">
+    <rdgGrp type="lemma" select="#SinB #SinW">
+      <lem>dāḥ</lem>
+      <rdg type="minor" wit="#SinW">dāḥ’</rdg>
+    </rdgGrp>
+    <rdg wit="#SinG">dā</rdg>
+  </app>
+  <app loc="87,91">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>kvip</lem>
+      <rdg type="minor" wit="#SinB">kvip·</rdg>
+      <rdg type="minor" wit="#SinG">k·vip</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">kvip pratyaya</rdg>
+  </app>
+  <app loc="106,112">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>tibeyi</lem>
+      <rdg type="minor" wit="#SinG">ti<lb n="34"/>beyi</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">dvē</rdg>
+  </app>
+  <app loc="120,123">
+    <lem wit="#SinB #SinW">dāḥ</lem>
+    <rdg wit="#SinG">dā jñānadā</rdg>
+  </app>
+  <app loc="128,129">
+    <lem wit="#SinB #SinW">ī</lem>
+    <rdg wit="#SinG">īḥ</rdg>
+  </app>
+  <app loc="129,135">
+    <lem wit="#SinB #SinW">lakṣmī</lem>
+    <rdg wit="#SinG">lakṣmīḥ</rdg>
+  </app>
+  <app loc="153,165">
+    <lem wit="#SinB #SinG">ṣaṣṭhīsamāsa</lem>
+    <rdg wit="#SinW">ṣaṣṭhīsamāsaya</rdg>
+  </app>
+  <app loc="231,241">
+    <rdgGrp type="lemma" select="#SinB #SinG">
+      <lem>rūpayaveyi</lem>
+      <rdg type="minor" wit="#SinG">rūpaya veyi</rdg>
+    </rdgGrp>
+    <rdg wit="#SinW">rūpaya vēyayi</rdg>
+  </app>
+  <app loc="241,251">
+    <lem wit="#SinB #SinW">datayutuyi</lem>
+    <rdg wit="#SinG">datayutu ෴</rdg>
+  </app>
+</listApp></standOff></TEI>
