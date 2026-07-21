@@ -52,7 +52,7 @@
             </listWit>
           </witness>
 
-          <witness xml:id="Sin" n="collective">
+          <witness xml:id="Sin" n="collective" source="Sin.xml">
             <abbr>Sin</abbr>
             <expan>Sinhalese commentary</expan>
             <listWit>
@@ -202,7 +202,7 @@
     <note target="#Kk1.0.1-n18c" xml:lang="en">For more information on this verse, see Birwé 1967, 51.</note>
   </standOff>
   <standOff corresp="#Kk1.0.1-10" type="notes1">
-    <note target="#Kk1.0.1-n19" xml:lang="en">Cf. <foreign xml:lang="si">trivargasampattiya piṇisada nohot vāṅmaya śilpa dænīma lakṣaṇakoṭa æti svārtthasapettiya taddhetukatrivargahetuvū parārtthasampattīya yana mē svārttha sampat parārttha sampat deka piṇisada</foreign> <abbr corresp="#SinW"/>.</note>
+    <note target="#Kk1.0.1-n19" xml:lang="en">Cf. <foreign xml:lang="si">trivargasampattiya piṇisada nohot vāṅmaya śilpa dænīma lakṣaṇakoṭa æti svārtthasampattiya taddhetukatrivargahetuvū parārtthasampattīya yana mē svārttha sampat parārttha sampat deka piṇisada</foreign> <abbr corresp="#SinW"/>.</note>
     <note target="#Kk1.0.1-n20" xml:lang="en"><abbr corresp="#SinB"/> &amp; <abbr corresp="#SinG"/> preserve the reading <foreign xml:lang="sa">ayatnayen</foreign>, while <abbr corresp="#SinW"/> reads <foreign xml:lang="sa">yatnayen</foreign>. Similarly, <abbr corresp="#Z"/> &amp; <abbr corresp="#S"/> read <foreign xml:lang="sa">yatnena</foreign> or <foreign xml:lang="sa">yatnāt</foreign> (<foreign xml:lang="bo">'bad pas las</foreign>, <foreign xml:lang="bo">'bad pas</foreign>).</note>
   </standOff>
 
