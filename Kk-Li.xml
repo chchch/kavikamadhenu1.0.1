@@ -37,38 +37,36 @@
             <abbr>Tib</abbr>
             <expan>Tibetan translations</expan>
             <listWit>
-              <witness xml:id="S" source="Kk-ST.xml">
+              <witness xml:id="S" source="TibS.xml">
                 <abbr>S</abbr>
                 <expan>Translation of Si tu pan chen</expan>
               </witness>
-              <witness xml:id="Y" source="Kk-N.xml">
+              <witness xml:id="Y" source="TibY.xml">
                 <abbr>Y</abbr>
                 <expan>Translation of Yar klung lo tsā ba rgyal mtshan</expan>
               </witness>
-              <witness xml:id="Z" source="Kk-D.xml">
+              <witness xml:id="Z" source="TibZ.xml">
                <abbr>Z</abbr>
                <expan>Translation of Zhwa lu lot tsā ba chos skyong bzang po</expan>
               </witness>
             </listWit>
           </witness>
 
-          <witness xml:id="Sin" n="collective" source="Sin.xml">
+          <witness xml:id="Sin" source="Sin.xml">
             <abbr>Sin</abbr>
-            <expan>Sinhalese commentary</expan>
-            <listWit>
-              <witness xml:id="SinB" source="SinB.xml">
-               <abbr>Sin<hi rend="superscript">B</hi></abbr>
-               <expan>Sinhalese commentary, ed. Batuvantudave 1880</expan>
-              </witness>
-              <witness xml:id="SinG" source="SinG.xml">
-               <abbr>Sin<hi rend="superscript">G</hi></abbr>
-               <expan>Sinhalese commentary, ed. Guṇaśekara (no date)</expan>
-              </witness>
-              <witness xml:id="SinW" source="SinW.xml">
-               <abbr>Sin<hi rend="superscript">W</hi></abbr>
-               <expan>Sinhalese commentary, ed. Wimalajoti 1934</expan>
-              </witness>
-            </listWit>
+            <expan>Sinhalese commentary, collation of all three editions</expan>
+          </witness>
+          <witness xml:id="SinB" source="SinB.xml">
+           <abbr>Sin<hi rend="superscript">B</hi></abbr>
+           <expan>Sinhalese commentary, ed. Batuvantudave 1880</expan>
+          </witness>
+          <witness xml:id="SinG" source="SinG.xml">
+           <abbr>Sin<hi rend="superscript">G</hi></abbr>
+           <expan>Sinhalese commentary, ed. Guṇaśekara (no date)</expan>
+          </witness>
+          <witness xml:id="SinW" source="SinW.xml">
+           <abbr>Sin<hi rend="superscript">W</hi></abbr>
+           <expan>Sinhalese commentary, ed. Wimalajoti 1934</expan>
           </witness>
           <witness xml:id="SBB3085">
             <abbr>SBB 3085</abbr>
