@@ -20,6 +20,7 @@
                   </repository>
                   <idno type="shelfmark">bdr:MW4CZ302668</idno>
                   <idno type="alternate"/>
+                  <idno type="URI">http://purl.bdrc.io/resource/MW4CZ302668</idno>
                </msIdentifier>
                <msContents class="#STM">
                   <summary>This translation of the <title xml:lang="sa">Kavikāmadhenu</title> was printed as part of the collected works of <persName xml:lang="bo">si tu pan chen</persName>. This print is preserved at the National Library of Mongolia.</summary>
