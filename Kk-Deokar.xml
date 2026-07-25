@@ -30,8 +30,10 @@
            <supportDesc material="paper">
              <support></support>
               <extent>
-                           <measure unit="page" quantity=""/>
+                  <measure unit="page" quantity="610">i–xiv, two unnumbered, 1–594.</measure>
                            <dimensions type="object" unit="mm">
+                              <height quantity="250"/>
+                              <width quantity="170"/>
                            </dimensions>
                            <dimensions type="leaf" unit="mm">
                            </dimensions>
@@ -42,6 +44,8 @@
             </objectDesc>
             <typeDesc>
               <typeNote scope="major" script="devanagari" medium="ink black"/>
+              <typeNote scope="major" script="latin" medium="ink black"/>
+              <typeNote scope="major" script="dbucan" medium="ink black"/>
             </typeDesc>
             <additions>
             </additions>
@@ -58,7 +62,7 @@
                   </origin><provenance></provenance><acquisition></acquisition></history>
                <additional>
                   <listBibl>
-                     
+              <bibl>Deokar, Lata Mahesh, ed. 2014. <title>Subhūticandra's Kavikāmadhenu on Amarakośa 1.1.1–1.4.8, together with Si tu Paṇ chen's Tibetan translation.</title> Marburg: Indica et Tibetica Verlag.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
