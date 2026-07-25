@@ -15,7 +15,7 @@
 <abbr>SinG</abbr>
 <expan><title xml:lang="sa">Amarakoṣa</title>, with excerpts from a Sinhalese commentary (ed. Guṇaśekara, n.d.)</expan>
 </witness>
-<witness xml:id="SinW" source="WEd.xml">
+<witness xml:id="SinW" source="SinW.xml">
 <abbr>SinW</abbr>
 <expan><title xml:lang="sa">Amarakoṣa</title>, with Sinhalese commentary</expan>
 </witness>

@@ -64,7 +64,7 @@
                <abbr>Sin<hi rend="superscript">G</hi></abbr>
                <expan>Sinhalese commentary, ed. Guṇaśekara (no date)</expan>
               </witness>
-              <witness xml:id="SinW" source="WEd.xml">
+              <witness xml:id="SinW" source="SinW.xml">
                <abbr>Sin<hi rend="superscript">W</hi></abbr>
                <expan>Sinhalese commentary, ed. Wimalajoti 1934</expan>
               </witness>
