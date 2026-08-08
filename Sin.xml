@@ -112,41 +112,52 @@
     </rdgGrp>
     <rdg wit="#SinW">dæk·vūha</rdg>
   </app>
-  <app loc="262,271">
+  <app loc="263,272">
     <rdgGrp type="lemma" select="#SinB #SinG">
       <lem>sāgarayak</lem>
       <rdg type="minor" wit="#SinB">sāgarayak·</rdg>
     </rdgGrp>
     <rdg wit="#SinW">sāgaraya</rdg>
   </app>
-  <app loc="328,337">
+  <app loc="329,338">
     <rdgGrp type="lemma" select="#SinB #SinG">
       <lem>sāgarayak</lem>
       <rdg type="minor" wit="#SinB">sāgarayak·</rdg>
     </rdgGrp>
     <rdg wit="#SinW">sāgaraya</rdg>
   </app>
-  <app loc="463,480">
+  <app loc="418,432">
+    <lem>pirisin̆dagata</lem>
+    <rdg wit="#SinB #SinG #SinW">pirisin̆dagata</rdg>
+  </app>
+  <app loc="464,481">
     <rdgGrp type="lemma" select="#SinB #SinG">
       <lem>sarvvajñayak·hugē</lem>
       <rdg type="minor" wit="#SinG">sarvajñayak·hugē</rdg>
     </rdgGrp>
     <rdg wit="#SinW">sarvajñavarayak·hugē</rdg>
   </app>
-  <app loc="542,544">
+  <app loc="543,545">
     <lem wit="#SinB #SinG">he</lem>
     <rdg wit="#SinW"/>
   </app>
-  <app loc="559,565">
+  <app loc="560,566">
     <lem wit="#SinB">variṇi</lem>
     <rdg wit="#SinG">varini</rdg>
     <rdg wit="#SinW">varuṇi</rdg>
   </app>
-  <app loc="588,602">
+  <app loc="589,603">
     <lem wit="#SinB #SinW">guṇaśālitvayen</lem>
     <rdg wit="#SinG">guṇaśālit·vayen·ma</rdg>
   </app>
-  <app loc="839,845">
+  <app loc="771,789">
+    <lem>trivargasampattiya</lem>
+    <rdgGrp select="#SinB #SinW #SinG">
+      <rdg type="main">trivargasampattiya</rdg>
+      <rdg type="minor" wit="#SinG">tri<cb n="2"/><lb n="1"/>vargga sampattiya</rdg>
+    </rdgGrp>
+  </app>
+  <app loc="840,846">
     <lem wit="#SinB">sevinā</lem>
     <rdg wit="#SinG #SinW">sevunā</rdg>
   </app>
