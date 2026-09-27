@@ -227,7 +227,7 @@
     <rdg wit="#B">dhur</rdg>
   </app>
   <app loc="401,410">
-    <lem>śamādayaḥ</lem>
+    <lem subtype="suffix">śamādayaḥ</lem>
     <rdg wit="#B">gamādayaḥ</rdg>
   </app>
   <app loc="502,515">
@@ -283,9 +283,10 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
-</interp><listApp>
+</interp>
+<listApp>
   <app loc="18,26">
-    <lem>śālitvād</lem>
+    <lem subtype="suffix">śālitvād</lem>
     <rdg wit="#B">cālitvād</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-4" source="alignments/Kk1.0.1-4.xml"><interp type="normalization">
@@ -304,7 +305,8 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
-</interp><listApp>
+</interp>
+<listApp>
   <app loc="86,101">
     <lem>phalapravaṇāc ca</lem>
     <rdg wit="#B">phalapravaṇā ca</rdg>
@@ -313,16 +315,16 @@
     <lem>śriye</lem>
     <rdg wit="#B">śriyai</rdg>
   </app>
-  <app loc="302,311">
+  <app loc="293,309">
     <rdgGrp type="lemma" select="#Bpc">
-      <lem>sindhuś ca</lem>
-      <rdg type="minor" wit="#Bpc">siṃdhuś ca</rdg>
+      <lem>jñānadayāsindhuś</lem>
+      <rdg type="minor" wit="#Bpc">jñānadayāsiṃdhuś</rdg>
     </rdgGrp>
-    <rdg wit="#Bac">siṃdhoś ca</rdg>
+    <rdg wit="#Bac">jñānadayāsiṃdhoś</rdg>
   </app>
-  <app loc="316,328">
-    <lem>sukhaiṣibhir</lem>
-    <rdg wit="#B">sukheṣubhir</rdg>
+  <app loc="311,328">
+    <lem>bhavasukhaiṣibhir</lem>
+    <rdg wit="#B">bhavasukheṣubhir</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-5" source="alignments/Kk1.0.1-5.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -347,19 +349,19 @@
     <rdg wit="#Bac">avatra</rdg>
   </app>
   <app loc="6,20">
-    <lem>jñānadayārṇava</lem>
+    <lem subtype="prefix">jñānadayārṇava</lem>
     <rdg wit="#B">jñānadayārṇa</rdg>
   </app>
   <app loc="56,63">
-    <lem>akāraṇa</lem>
+    <lem subtype="prefix">akāraṇa</lem>
     <rdg wit="#B">karuṇā</rdg>
   </app>
   <app loc="63,69">
-    <lem wit="#Bpc">parama</lem>
+    <lem wit="#Bpc" subtype="infix">parama</lem>
     <rdg wit="#Bac">paramāma</rdg>
   </app>
   <app loc="76,84">
-    <lem>svabhāvo</lem>
+    <lem subtype="suffix">svabhāvo</lem>
     <rdg wit="#B">svarbhāvo</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-6" source="alignments/Kk1.0.1-6.xml"><interp type="normalization">
@@ -378,17 +380,18 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
-</interp><listApp>
+</interp>
+<listApp>
   <app loc="35,40">
-    <lem wit="#Bpc">udaya</lem>
+    <lem wit="#Bpc" subtype="prefix">udaya</lem>
     <rdg wit="#Bac">udayati</rdg>
   </app>
   <app loc="61,67">
-    <lem>puṣpam</lem>
+    <lem subtype="suffix">puṣpam</lem>
     <rdg wit="#B">puṣpaḥ</rdg>
   </app>
   <app loc="85,92">
-    <lem>dvandva</lem>
+    <lem subtype="infix">dvandva</lem>
     <rdg wit="#B">dvanda</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-7" source="alignments/Kk1.0.1-7.xml"><interp type="normalization">
@@ -485,11 +488,11 @@
     <rdg wit="#B">prakāntasyaiva</rdg>
   </app>
   <app loc="599,605">
-    <lem wit="#DEd">śāsana</lem>
+    <lem wit="#DEd" subtype="infix">śāsana</lem>
     <rdg wit="#B">nāsana</rdg>
   </app>
   <app loc="618,626">
-    <lem wit="#DEd">trivarga</lem>
+    <lem wit="#DEd" subtype="prefix">trivarga</lem>
     <rdg wit="#B">trivarggasya</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-9" source="alignments/Kk1.0.1-9.xml"><interp type="normalization">
@@ -511,19 +514,19 @@
 </interp>
 <listApp>
   <app loc="18,21">
-    <lem wit="#DEd">tri</lem>
+    <lem wit="#DEd" subtype="infix">tri</lem>
     <rdg wit="#B">trī</rdg>
   </app>
   <app loc="39,46">
-    <lem wit="#DEd">śobhāsu</lem>
-    <rdg wit="#B">sobhāsu |</rdg>
+    <lem wit="#DEd" subtype="suffix">śobhāsu</lem>
+    <rdg wit="#B">sobhāsu</rdg>
   </app>
   <app loc="82,95">
     <rdgGrp type="lemma" select="#DEd">
       <lem>prathitā || iti</lem>
       <rdg type="minor" wit="#DEd">prathitā || <trailer><lb n="16"/>iti |</trailer></rdg>
     </rdgGrp>
-    <rdg wit="#B">prasthiteti |</rdg>
+    <rdg wit="#B">prasthiteti</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#Kk1.0.1-10" source="alignments/Kk1.0.1-10.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -545,7 +548,7 @@
 <listApp>
   <app loc="6,11">
     <rdgGrp type="lemma" select="#DEd">
-      <lem>yā vāṅ</lem>
+      <lem subtype="prefix">yā vāṅ</lem>
       <rdg type="minor" wit="#DEd">yā vāṅ_</rdg>
     </rdgGrp>
     <rdg wit="#B">yāvan</rdg>
