@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="edition.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="SD">
-   <script xmlns="http://www.w3.org/1999/xhtml" src="../lib/js/xslt-polyfill.min.js"></script>
+   <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -160,7 +160,7 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="50,54">
     <lem wit="#Z #S">nams</lem>
     <rdg wit="#Y">
-      <ruby>nams kyi tshogs<rt xml:lang="sa-Latn">puṇysambhāra</rt></ruby>
+      nams kyi tshogs
     </rdg>
   </app>
   <app loc="67,69">
@@ -176,7 +176,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>kun</lem>
       <rdg type="minor" wit="#S">
-        <ruby>kun </ruby>
+        kun 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y #Z"/>
@@ -193,71 +193,71 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>po</lem>
       <rdg type="minor" wit="#S">
-        <ruby>po<rt xml:lang="sa-Latn">samantabhadra</rt></ruby>
+        po
       </rdg>
     </rdgGrp>
     <rdg wit="#Y #Z"/>
   </app>
   <app loc="109,111">
     <lem wit="#S">la</lem>
-    <rdg wit="#Y"><ruby>kun tu bzang po<rt xml:lang="sa-Latn">samantabhadra</rt></ruby> la <ruby>'dir<rt xml:lang="sa-Latn">iha</rt></ruby></rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">bhagavān</rt></ruby> <ruby>kun tu bzang po <rt xml:lang="sa-Latn">samantabhadra</rt></ruby> la</rdg>
+    <rdg wit="#Y">kun tu bzang po la 'dir</rdg>
+    <rdg wit="#Z"> kun tu bzang po  la</rdg>
   </app>
   <app loc="124,128">
     <lem wit="#Z #S">pa ni</lem>
-    <rdg wit="#Y">nas/ <ruby>/</ruby></rdg>
+    <rdg wit="#Y">nas/ /</rdg>
   </app>
   <app loc="135,141">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>zhes pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>zhes <lb n="4"/>pa </ruby>
+        zhes <lb n="4"/>pa 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y">zhes bya ba</rdg>
   </app>
   <app loc="149,152">
     <lem wit="#S">ste</lem>
-    <rdg wit="#Y">la <ruby>mkhyen pa<rt xml:lang="sa-Latn">jñāna</rt></ruby> ni/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">yasya iti ādi</rt></ruby> ste/ <ruby>mkhyen pa ni </ruby></rdg>
+    <rdg wit="#Y">la mkhyen pa ni/ /</rdg>
+    <rdg wit="#Z"> ste/ mkhyen pa ni </rdg>
   </app>
   <app loc="181,201">
     <rdgGrp type="lemma" select="#S">
       <lem>mkhyen pa ni mkhyen pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>mkhyen pa<rt xml:lang="sa-Latn">parijñāna</rt></ruby> ni <ruby>mkhyen pa<rt xml:lang="sa-Latn">jñāna</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">mkhyen pa ni mkhyen pa'o</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>shes pa<rt xml:lang="sa-Latn">parijñāna</rt></ruby>'o/ <ruby>/brtse ba<rt xml:lang="sa-Latn">dayā</rt></ruby> ni</rdg>
-    <rdg wit="#Z"><ruby>mkhyen pa<rt xml:lang="sa-Latn">parijñāna</rt></ruby>'o/ /<ruby>brtse ba <rt xml:lang="sa-Latn">dayā</rt></ruby> ni</rdg>
+    <rdg wit="#Y">shes pa'o/ /brtse ba ni</rdg>
+    <rdg wit="#Z">mkhyen pa'o/ /brtse ba  ni</rdg>
   </app>
   <app loc="226,251">
     <rdgGrp type="lemma" select="#S">
       <lem>'don par bzhed pa ni brtse ba'o</lem>
-      <rdg type="minor" wit="#S"><ruby>'don pa<rt xml:lang="sa-Latn">samuddharaṇa</rt></ruby>r <ruby>bzhed pa<rt xml:lang="sa-Latn">kāma</rt></ruby> ni <ruby>brtse ba<rt xml:lang="sa-Latn">dayā</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">'don par bzhed pa ni brtse ba'o</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>bsgral <lb n="7"/>ba<rt xml:lang="sa-Latn">samuttaraṇa</rt></ruby>r <ruby>'dod pa<rt xml:lang="sa-Latn">kāma</rt></ruby>'o/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby>'don pa<rt xml:lang="sa-Latn">samuddharaṇa</rt></ruby>r <ruby>bzhed pa<rt xml:lang="sa-Latn">kāma</rt></ruby>'o</rdg>
+    <rdg wit="#Y">bsgral <lb n="7"/>bar 'dod pa'o/ /</rdg>
+    <rdg wit="#Z">'don par bzhed pa'o</rdg>
   </app>
   <app loc="254,260">
     <rdgGrp type="lemma" select="#S">
       <lem>dag gis</lem>
       <rdg type="minor" wit="#S">
-        <ruby>dag gis<rt xml:lang="sa-Latn">taiḥ</rt></ruby>
+        dag gis
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>gnyis<rt xml:lang="sa-Latn">tad dvaya</rt></ruby> kyi</rdg>
-    <rdg wit="#Z"><ruby>gnyis <rt xml:lang="sa-Latn">tad dvaya</rt></ruby> ni</rdg>
+    <rdg wit="#Y">gnyis kyi</rdg>
+    <rdg wit="#Z">gnyis  ni</rdg>
   </app>
   <app loc="269,273">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>dang</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>
-          <rt xml:lang="sa-Latn">sindhu</rt>
-        </ruby>
-        <ruby>dang </ruby>
+        
+          
+        
+        dang 
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>dang </ruby>
+        dang 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
@@ -265,17 +265,17 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="273,280">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>'dra bas</lem>
-      <rdg type="minor" wit="#Z"><ruby>'dra ba<rt xml:lang="sa-Latn">iva</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#Z">'dra bas</rdg>
       <rdg type="minor" wit="#S">
-        <ruby>'dra bas<rt xml:lang="sa-Latn">iva</rt></ruby>
+        'dra bas
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>lta bu<rt xml:lang="sa-Latn">sindhu iva</rt></ruby> ste</rdg>
+    <rdg wit="#Y">lta bu ste</rdg>
   </app>
   <app loc="289,292">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>ste</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">sindhu</rt></ruby> ste</rdg>
+      <rdg type="minor" wit="#Z"> ste</rdg>
     </rdgGrp>
     <rdg wit="#Y">ni</rdg>
   </app>
@@ -283,18 +283,18 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>mkhyen</lem>
       <rdg type="minor" wit="#S">
-        <ruby>mkhyen </ruby>
+        mkhyen 
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">sangs rgyas bcom ldan 'das de'i mkhyen </rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>sangs rgyas<rt xml:lang="sa-Latn">buddha</rt></ruby>
-        <ruby>bcom ldan 'das<rt xml:lang="sa-Latn">bhagavān</rt></ruby>
-        <ruby>de'i<rt xml:lang="sa-Latn">tasya</rt></ruby>
-        <ruby>mkhyen </ruby>
+        sangs rgyas
+        bcom ldan 'das
+        de'i
+        mkhyen 
       </rdg>
-      <rdg type="minor" wit="#Z"><ruby>sangs rgyas <rt xml:lang="sa-Latn">buddha</rt></ruby> <ruby>bcom ldan 'das <rt xml:lang="sa-Latn">bhagavān</rt></ruby> de'i <ruby>mkhyen </ruby></rdg>
+      <rdg type="minor" wit="#Z">sangs rgyas  bcom ldan 'das  de'i mkhyen </rdg>
     </rdgGrp>
   </app>
   <app loc="310,314">
@@ -305,24 +305,24 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="318,351">
     <rdgGrp type="lemma" select="#S">
       <lem>mtsho de ni sangs rgyas bcom ldan 'das so</lem>
-      <rdg type="minor" wit="#S"><ruby><lb n="5"/>mtsho<rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby> <ruby>de ni<rt xml:lang="sa-Latn">eva</rt></ruby> <ruby>sangs rgyas<rt xml:lang="sa-Latn">buddha</rt></ruby> <ruby>bcom ldan 'das<rt xml:lang="sa-Latn">bhagavān</rt></ruby> so/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S"><lb n="5"/>mtsho de ni sangs rgyas bcom ldan 'das so/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y #Z"><ruby>mtsho<rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby>'o</rdg>
+    <rdg wit="#Y #Z">mtsho'o</rdg>
   </app>
   <app loc="368,377">
     <rdgGrp type="lemma" select="#S">
       <lem>sgra 'di ni</lem>
       <rdg type="minor" wit="#S">
-        <ruby>sgra<rt xml:lang="sa-Latn">sindhuśabda</rt></ruby>
-        <ruby>'di ni<rt xml:lang="sa-Latn">atra</rt></ruby>
+        sgra
+        'di ni
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">sgras</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>sgras<rt xml:lang="sa-Latn">sindhuśabda</rt></ruby>
+        sgras
       </rdg>
-      <rdg type="minor" wit="#Z"><ruby>sgra<rt xml:lang="sa-Latn">sindhuśabda</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#Z">sgras</rdg>
     </rdgGrp>
   </app>
   <app loc="385,387">
@@ -332,124 +332,124 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="411,429">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'i phyir btags pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>pa'i phyir<rt xml:lang="sa-Latn">samānāt</rt></ruby> <ruby>btags pa<rt xml:lang="sa-Latn">gauṇaḥ</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">pa'i phyir btags pa'o</rdg>
     </rdgGrp>
     <rdg wit="#Y #Z">pa</rdg>
   </app>
   <app loc="431,461">
     <rdgGrp type="lemma" select="#S">
       <lem>de'i gting med pa nyid la sogs pa'ang</lem>
-      <rdg type="minor" wit="#S"><ruby>de'i<rt xml:lang="sa-Latn">tena</rt></ruby> <ruby>gting med pa nyid la sogs pa<rt xml:lang="sa-Latn">agādhatvādi</rt></ruby>'ang</rdg>
+      <rdg type="minor" wit="#S">de'i gting med pa nyid la sogs pa'ang</rdg>
     </rdgGrp>
-    <rdg wit="#Y #Z"><ruby>nye bar 'jal ba<rt xml:lang="sa-Latn">samānopamā</rt></ruby>'o</rdg>
+    <rdg wit="#Y #Z">nye bar 'jal ba'o</rdg>
   </app>
   <app loc="485,489">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">jñānadayākṛta</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">pa'o</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">jñānadayākṛta</rt></ruby> dang</rdg>
+    <rdg wit="#Y">pa dang</rdg>
     <rdg wit="#Z">pa</rdg>
   </app>
   <app loc="489,496">
     <rdgGrp type="lemma" select="#S">
       <lem>zhes par</lem>
-      <rdg type="minor" wit="#S"><ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby>r</rdg>
+      <rdg type="minor" wit="#S">zhes par</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>de <rt xml:lang="sa-Latn">tat</rt></ruby> ni <ruby>gting med pa<rt xml:lang="sa-Latn">agādha</rt></ruby> <ruby>zhes <unclear>bya</unclear> ba la sogs pa<rt xml:lang="sa-Latn">ity evam ādi</rt></ruby></rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">kṛta</rt></ruby> <ruby>de <rt xml:lang="sa-Latn">tat</rt></ruby> ni <ruby>gting med pa la sogs pa <rt xml:lang="sa-Latn">agādhādi</rt></ruby> can <ruby>zhes pa <rt xml:lang="sa-Latn">iti</rt></ruby> ste</rdg>
+    <rdg wit="#Y">de  ni gting med pa zhes <unclear>bya</unclear> ba la sogs pa</rdg>
+    <rdg wit="#Z"> de  ni gting med pa la sogs pa  can zhes pa  ste</rdg>
   </app>
   <app loc="502,507">
     <rdgGrp type="lemma" select="#S">
       <lem>can la</lem>
-      <rdg type="minor" wit="#S"><ruby><pb n="2v" facs="246" type="folio"/><lb n="1"/>can<rt xml:lang="sa-Latn">kartṛ</rt></ruby> la</rdg>
+      <rdg type="minor" wit="#S"><pb n="2v" facs="246" type="folio"/><lb n="1"/>can la</rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>po<rt xml:lang="sa-Latn">kartṛ</rt></ruby>
+      po
     </rdg>
-    <rdg wit="#Z"><ruby>po <rt xml:lang="sa-Latn">kartṛ</rt></ruby> la</rdg>
+    <rdg wit="#Z">po  la</rdg>
   </app>
   <app loc="511,524">
     <rdgGrp type="lemma" select="#S">
       <lem>por ro zhes pa'i</lem>
-      <rdg type="minor" wit="#S"><ruby>po<rt xml:lang="sa-Latn">bahula</rt></ruby>r ro <ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">por ro zhes pa'i</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>po<rt xml:lang="sa-Latn">bahula</rt></ruby>'i</rdg>
-    <rdg wit="#Z"><ruby>po<rt xml:lang="sa-Latn">bahula</rt></ruby>'o <ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby>'i</rdg>
+    <rdg wit="#Y">po'i</rdg>
+    <rdg wit="#Z">po'o zhes pa'i</rdg>
   </app>
   <app loc="555,567">
     <rdgGrp type="lemma" select="#S">
       <lem>nyid kyi phyir</lem>
       <rdg type="minor" wit="#S">
-        <ruby>nyid kyi phyir<rt xml:lang="sa-Latn">arthatvāt</rt></ruby>
+        nyid kyi phyir
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y">yin pas <ruby>'dir<rt xml:lang="sa-Latn">atra</rt></ruby></rdg>
-    <rdg wit="#Z"><ruby>can <rt xml:lang="sa-Latn">arthin</rt></ruby> yin pa'i phyir <ruby>'dir </ruby></rdg>
+    <rdg wit="#Y">yin pas 'dir</rdg>
+    <rdg wit="#Z">can  yin pa'i phyir 'dir </rdg>
   </app>
   <app loc="602,605">
     <lem wit="#S">gis</lem>
     <rdgGrp select="#Y #Z">
       <rdg type="main">ni</rdg>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">jñānadayā</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#Z"> ni</rdg>
     </rdgGrp>
   </app>
   <app loc="609,614">
     <rdgGrp type="lemma" select="#Y #S">
       <lem>mtsho</lem>
       <rdg type="minor" wit="#Y">
-        <ruby>mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby>
+        mtsho
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>mtsho<rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby>
+        mtsho
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><pb n="245r" facs="488" type="folio"/><lb n="1"/>༅༅།<space/> /mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby>'o</rdg>
+    <rdg wit="#Z"><pb n="245r" facs="488" type="folio"/><lb n="1"/>༅༅།<space/> /mtsho'o</rdg>
   </app>
   <app loc="618,628">
     <rdgGrp type="lemma" select="#S">
       <lem>brjod pas na</lem>
-      <rdg type="minor" wit="#S"><ruby>brjod pa<rt xml:lang="sa-Latn">ity ukta</rt></ruby>s na</rdg>
+      <rdg type="minor" wit="#S">brjod pas na</rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>bshad<rt xml:lang="sa-Latn">ity uktam</rt></ruby>
+      bshad
     </rdg>
-    <rdg wit="#Z"><ruby>bshad pa <rt xml:lang="sa-Latn">ity ukta</rt></ruby> ni</rdg>
+    <rdg wit="#Z">bshad pa  ni</rdg>
   </app>
   <app loc="628,651">
     <rdgGrp type="lemma" select="#S">
       <lem>des byas so zhes shes par bya</lem>
-      <rdg type="minor" wit="#S"><ruby>des bya<rt xml:lang="sa-Latn">tatkṛta</rt></ruby>s so <ruby>zhes shes par bya<rt xml:lang="sa-Latn">iti prajñāyate</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">des byas so zhes shes par bya</rdg>
     </rdgGrp>
-    <rdg wit="#Y">de/ <ruby>byed pa po<rt xml:lang="sa-Latn">kartṛ</rt></ruby> <ruby>sgrub pa<rt xml:lang="sa-Latn">pratipatti</rt></ruby></rdg>
+    <rdg wit="#Y">de/ byed pa po sgrub pa</rdg>
     <rdg wit="#Z">
-      <ruby>byed pa po <rt xml:lang="sa-Latn">kartṛ</rt></ruby>
-      <ruby>sgrub pa </ruby>
+      byed pa po 
+      sgrub pa 
     </rdg>
   </app>
   <app loc="654,666">
     <rdgGrp type="lemma" select="#S">
       <lem>de la ltos pa'i</lem>
-      <rdg type="minor" wit="#S"><ruby>de la<rt xml:lang="sa-Latn">tatra</rt></ruby> <ruby>ltos pa<rt xml:lang="sa-Latn">apekṣā</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">de la ltos pa'i</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">de'i</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>de'i<rt xml:lang="sa-Latn">tad</rt></ruby>
+        de'i
       </rdg>
     </rdgGrp>
   </app>
   <app loc="671,683">
     <rdgGrp type="lemma" select="#S">
       <lem>dang 'brel pas</lem>
-      <rdg type="minor" wit="#S"><ruby>dang 'brel pa<rt xml:lang="sa-Latn">padasambandha</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">dang 'brel pas</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">mi mngon pa'am </rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>mi mngon pa<rt xml:lang="sa-Latn">aprekṣā</rt></ruby>
-        <ruby>'am/<rt xml:lang="sa-Latn"> vā</rt></ruby>
-        <ruby>/</ruby>
+        mi mngon pa
+        'am/
+        /
       </rdg>
       <rdg type="minor" wit="#Z">mi mngon pa'am</rdg>
     </rdgGrp>
@@ -458,7 +458,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#Z #S">
       <lem>yang na</lem>
       <rdg type="minor" wit="#S">
-        <ruby>yang na<rt xml:lang="sa-Latn">punar</rt></ruby>
+        yang na
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
@@ -467,18 +467,18 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>pa'i</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa'i<rt xml:lang="sa-Latn">ṣaṣṭhī</rt></ruby>
+        pa'i
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">ṣaṣṭhī</rt></ruby> <lb n="2"/><ruby>'grel pa<rt xml:lang="sa-Latn">vṛtti</rt></ruby>'i</rdg>
-    <rdg wit="#Z"><ruby>pa <rt xml:lang="sa-Latn">ṣaṣṭhī</rt></ruby> <ruby>'brel pa<rt xml:lang="sa-Latn">sambandha</rt></ruby>'i</rdg>
+    <rdg wit="#Y">pa <lb n="2"/>'grel pa'i</rdg>
+    <rdg wit="#Z">pa  'brel pa'i</rdg>
   </app>
   <app loc="701,705">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>ba'o</lem>
-      <rdg type="minor" wit="#Z #S"><ruby>ba<rt xml:lang="sa-Latn">samāsa</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#Z #S">ba'o</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">samāsa</rt></ruby>'o/ <ruby>/</ruby></rdg>
+    <rdg wit="#Y">pa'o/ /</rdg>
   </app>
   <app loc="713,715">
     <lem wit="#Z #S">pa</lem>
@@ -488,22 +488,22 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#Y #S">
       <lem>gis</lem>
       <rdg type="minor" wit="#Y">
-        <ruby>gis<rt xml:lang="sa-Latn">jñānadayā mayā</rt></ruby>
+        gis
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">jñānadayā</rt></ruby> ni</rdg>
+    <rdg wit="#Z"> ni</rdg>
   </app>
   <app loc="744,746">
     <lem wit="#S">bu</lem>
-    <rdg wit="#Y"><ruby>bu<rt xml:lang="sa-Latn">iva</rt></ruby> ste/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby>bu<rt xml:lang="sa-Latn">iva</rt></ruby>r gyur pa ste</rdg>
+    <rdg wit="#Y">bu ste/ /</rdg>
+    <rdg wit="#Z">bur gyur pa ste</rdg>
   </app>
   <app loc="746,749">
     <lem wit="#S">ste</lem>
     <rdgGrp select="#Y #Z">
       <rdg type="main">rgya mtsho ni</rdg>
-      <rdg type="minor" wit="#Y"><ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby> ni</rdg>
-      <rdg type="minor" wit="#Z"><ruby>rgya mtsho <rt xml:lang="sa-Latn">sindhu</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#Y">rgya mtsho ni</rdg>
+      <rdg type="minor" wit="#Z">rgya mtsho  ni</rdg>
     </rdgGrp>
   </app>
   <app loc="749,752">
@@ -513,27 +513,27 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="752,758">
     <rdgGrp type="lemma" select="#S">
       <lem>gzhi'i</lem>
-      <rdg type="minor" wit="#S"><ruby>gzhi<rt xml:lang="sa-Latn">ādhāra</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">gzhi'i</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">gzhi yangs pa'o </rdg>
-      <rdg type="minor" wit="#Y"><ruby>gzhi yangs pa<rt xml:lang="sa-Latn">vipulādhāra</rt></ruby>'o/ <ruby>/</ruby></rdg>
-      <rdg type="minor" wit="#Z"><ruby>gzhi yangs pa<rt xml:lang="sa-Latn">vipulādhāra</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#Y">gzhi yangs pa'o/ /</rdg>
+      <rdg type="minor" wit="#Z">gzhi yangs pa'o</rdg>
     </rdgGrp>
   </app>
   <app loc="758,775">
     <rdgGrp type="lemma" select="#S">
       <lem>rgya mtsho chen po'o</lem>
-      <rdg type="minor" wit="#S"><ruby>rgya mtsho chen po<rt xml:lang="sa-Latn">mahāsamudra</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">rgya mtsho chen po'o/ /</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
-    <rdg wit="#Z"><ruby>rgya mtsho <rt xml:lang="sa-Latn">sindhu</rt></ruby> ni <ruby>brtan <rt xml:lang="sa-Latn">dṛḍha</rt></ruby> zhing <ruby>yangs pa<rt xml:lang="sa-Latn">vipula</rt></ruby>'o <ruby>zhes <rt xml:lang="sa-Latn">iti</rt></ruby> <ruby>lha <rt xml:lang="sa-Latn">deva</rt></ruby> rnams la <ruby>rab tu grags <rt xml:lang="sa-Latn">prathita</rt></ruby> so</rdg>
+    <rdg wit="#Z">rgya mtsho  ni brtan  zhing yangs pa'o zhes  lha  rnams la rab tu grags  so</rdg>
   </app>
   <app loc="777,782">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>gting</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>gting </ruby>
+        gting 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y">gting mtha'</rdg>
@@ -542,18 +542,18 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>mkhyen</lem>
       <rdg type="minor" wit="#S">
-        <ruby>mkhyen </ruby>
+        mkhyen 
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">gang gi mkhyen pa dang </rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>gang gi<rt xml:lang="sa-Latn">yat</rt></ruby>
-        <ruby>mkhyen pa dang </ruby>
+        gang gi
+        mkhyen pa dang 
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>gang gi <rt xml:lang="sa-Latn">yasya</rt></ruby>
-        <ruby>mkhyen pa dang </ruby>
+        gang gi 
+        mkhyen pa dang 
       </rdg>
     </rdgGrp>
   </app>
@@ -561,92 +561,92 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>pha mtha' yas pa'i phyir</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pha mtha' yas pa'i phyir<rt xml:lang="sa-Latn">pāratvāt</rt></ruby>
+        pha mtha' yas pa'i phyir
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>ba<rt xml:lang="sa-Latn">jñānadayā</rt></ruby>'i <ruby>pha rol<rt xml:lang="sa-Latn">pāra</rt></ruby></rdg>
-    <rdg wit="#Z"><ruby>ba'i rgya mtsho<rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby>'i <ruby>pha rol </ruby></rdg>
+    <rdg wit="#Y">ba'i pha rol</rdg>
+    <rdg wit="#Z">ba'i rgya mtsho'i pha rol </rdg>
   </app>
   <app loc="844,848">
     <lem wit="#S">cing</lem>
     <rdgGrp select="#Y #Z">
       <rdg type="main">mo</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>mo<rt xml:lang="sa-Latn">gāmbhīrya</rt></ruby>
+        mo
       </rdg>
     </rdgGrp>
   </app>
   <app loc="855,868">
     <rdgGrp type="lemma" select="#S">
       <lem>gcad du med pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>gcad du med pa<rt xml:lang="sa-Latn">aparicchedya</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">gcad du med pa'o</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>spyod mi nus pa<rt xml:lang="sa-Latn">aparibhogya</rt></ruby>'o/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby>dpyod mi nus pa<rt xml:lang="sa-Latn">aparicchedya</rt></ruby>'o</rdg>
+    <rdg wit="#Y">spyod mi nus pa'o/ /</rdg>
+    <rdg wit="#Z">dpyod mi nus pa'o</rdg>
   </app>
   <app loc="870,874">
     <rdgGrp type="lemma" select="#Y #S">
       <lem>bcom</lem>
       <rdg type="minor" wit="#S">
-        <ruby>bcom </ruby>
+        bcom 
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z">gang gi phyir <ruby>bcom </ruby></rdg>
+    <rdg wit="#Z">gang gi phyir bcom </rdg>
   </app>
   <app loc="882,885">
     <lem wit="#S">kyi</lem>
     <rdg wit="#Y">de ni</rdg>
-    <rdg wit="#Z"><ruby>de<rt xml:lang="sa-Latn">bhagavān</rt></ruby>'i</rdg>
+    <rdg wit="#Z">de'i</rdg>
   </app>
   <app loc="885,903">
     <lem>mkhyen pas shes bya'i</lem>
-    <rdg wit="#Y"><ruby>thugs rje<rt xml:lang="sa-Latn">karuṇā</rt></ruby>'i</rdg>
-    <rdg wit="#Z"><ruby>mkhyen pa dang brtse ba <rt xml:lang="sa-Latn">jñānadayā</rt></ruby> <ruby>shes bya<rt xml:lang="sa-Latn">jñēya</rt></ruby>'i</rdg>
-    <rdg wit="#S"><ruby>mkhen pa<rt xml:lang="sa-Latn">jñāna</rt></ruby>s <ruby>shes bya<rt xml:lang="sa-Latn">jñeya</rt></ruby>'i</rdg>
+    <rdg wit="#Y">thugs rje'i</rdg>
+    <rdg wit="#Z">mkhyen pa dang brtse ba  shes bya'i</rdg>
+    <rdg wit="#S">mkhen pas shes bya'i</rdg>
   </app>
   <app loc="913,921">
     <rdgGrp type="lemma" select="#S">
       <lem>thams cad</lem>
       <rdg type="minor" wit="#S">
-        <ruby>thams cad<rt xml:lang="sa-Latn">samastaviṣaya</rt></ruby>
+        thams cad
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">mtha' dag</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>mtha' dag<rt xml:lang="sa-Latn">samastaviṣaya</rt></ruby>
+        mtha' dag
       </rdg>
     </rdgGrp>
   </app>
   <app loc="923,945">
     <rdgGrp type="lemma" select="#S">
       <lem>khyab cing brtse bas kyang</lem>
-      <rdg type="minor" wit="#S"><ruby>khyab<rt xml:lang="sa-Latn">vyāpti</rt></ruby> cing <ruby>brtse ba<rt xml:lang="sa-Latn">dayā</rt></ruby>s kyang</rdg>
+      <rdg type="minor" wit="#S">khyab cing brtse bas kyang</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>mkhyen pa dang brtse ba<rt xml:lang="sa-Latn">jñānadayā</rt></ruby>s <ruby>khyab pa<rt xml:lang="sa-Latn">vyāpti</rt></ruby>s <ruby>gang zhig </ruby></rdg>
-    <rdg wit="#Z"><ruby>khyab pa<rt xml:lang="sa-Latn">vyāpti</rt></ruby>s/ <ruby>gang <unclear>yang</unclear> </ruby></rdg>
+    <rdg wit="#Y">mkhyen pa dang brtse bas khyab pas gang zhig </rdg>
+    <rdg wit="#Z">khyab pas/ gang <unclear>yang</unclear> </rdg>
   </app>
   <app loc="962,973">
     <rdgGrp type="lemma" select="#S">
       <lem>mtshor bying</lem>
-      <rdg type="minor" wit="#S"><ruby>mtsho<rt xml:lang="sa-Latn">sāgara</rt></ruby>r <ruby>bying </ruby></rdg>
+      <rdg type="minor" wit="#S">mtshor bying </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">mtsho gting </rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>mtsho<rt xml:lang="sa-Latn">sāgara</rt></ruby>
-        <ruby>gting </ruby>
+        mtsho
+        gting 
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>mtsho <rt xml:lang="sa-Latn">sāgara</rt></ruby>
-        <ruby>gting </ruby>
+        mtsho 
+        gting 
       </rdg>
     </rdgGrp>
   </app>
   <app loc="973,977">
     <rdgGrp type="lemma" select="#S">
       <lem>ba'i</lem>
-      <rdg type="minor" wit="#S"><ruby>ba<rt xml:lang="sa-Latn">nimagna</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">ba'i</rdg>
     </rdgGrp>
     <rdg wit="#Y">mtha'i</rdg>
     <rdg wit="#Z">mtha'</rdg>
@@ -655,83 +655,83 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>'gro ba</lem>
       <rdg type="minor" wit="#S">
-        <ruby>'gro ba<rt xml:lang="sa-Latn">gāmin</rt></ruby>
+        'gro ba
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>med pa<rt xml:lang="sa-Latn">agādha</rt></ruby> ni</rdg>
+    <rdg wit="#Y">med pa ni</rdg>
     <rdg wit="#Z">med <lb n="3"/>pa</rdg>
   </app>
   <app loc="992,1006">
     <rdgGrp type="lemma" select="#S">
       <lem>pa mtha' yas pa la</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">nistrāṇa</rt></ruby> <ruby>mtha' yas pa<rt xml:lang="sa-Latn">ananta</rt></ruby> la</rdg>
+      <rdg type="minor" wit="#S">pa mtha' yas pa la</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">nistrāṇa</rt></ruby>'i <ruby>'gro ba<rt xml:lang="sa-Latn">prāṇin</rt></ruby> rnams</rdg>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">nistrāṇa</rt></ruby>'i <ruby>'gro ba <rt xml:lang="sa-Latn">prāṇin</rt></ruby> rnams kyis</rdg>
+    <rdg wit="#Y">pa'i 'gro ba rnams</rdg>
+    <rdg wit="#Z">pa'i 'gro ba  rnams kyis</rdg>
   </app>
   <app loc="1023,1037">
     <rdgGrp type="lemma" select="#S">
       <lem>rgyas pa'i phyir</lem>
       <rdg type="minor" wit="#S">
-        <ruby>rgyas pa'i phyir<rt xml:lang="sa-Latn">vṛddhyartham</rt></ruby>
+        rgyas pa'i phyir
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>gang ba<rt xml:lang="sa-Latn">pūrṇa</rt></ruby> de la</rdg>
-    <rdg wit="#Z"><ruby>gang ba <rt xml:lang="sa-Latn">pūrṇa</rt></ruby> de dag</rdg>
+    <rdg wit="#Y">gang ba de la</rdg>
+    <rdg wit="#Z">gang ba  de dag</rdg>
   </app>
   <app loc="1037,1050">
     <rdgGrp type="lemma" select="#S">
       <lem>su zhig gis de'i</lem>
-      <rdg type="minor" wit="#S"><ruby>su zhig gis<rt xml:lang="sa-Latn">kenacit</rt></ruby> <ruby>de<rt xml:lang="sa-Latn">tat</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">su zhig gis de'i</rdg>
     </rdgGrp>
     <rdg wit="#Y #Z">gang gis</rdg>
   </app>
   <app loc="1062,1070">
     <rdgGrp type="lemma" select="#S">
       <lem>bgrod par</lem>
-      <rdg type="minor" wit="#S"><ruby>bgrod pa<rt xml:lang="sa-Latn">gamana</rt></ruby>r</rdg>
+      <rdg type="minor" wit="#S">bgrod par</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">sgrol</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>sgrol<rt xml:lang="sa-Latn">mokṣa</rt></ruby>
+        sgrol
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>sgrol </ruby>
+        sgrol 
       </rdg>
     </rdgGrp>
   </app>
   <app loc="1073,1087">
     <rdgGrp type="lemma" select="#S">
       <lem>zhes dgongs pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>zhes dgongs pa<rt xml:lang="sa-Latn">ity abhiprāya</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">zhes dgongs pa'o/ /</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">pa</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>pa<rt xml:lang="sa-Latn">śakya</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
   </app>
   <app loc="1089,1095">
     <lem>te ltar</lem>
     <rdg wit="#Y">
-      <ruby>de bzhin du </ruby>
+      de bzhin du 
     </rdg>
     <rdg wit="#Z">
-      <ruby>
-        <rt xml:lang="sa-Latn">śakya</rt>
-      </ruby>
-      <ruby>de lta bur </ruby>
+      
+        
+      
+      de lta bur 
     </rdg>
     <rdg wit="#S">de ltar</rdg>
   </app>
   <app loc="1101,1105">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>gang</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">tathābhūta</rt></ruby> gang</rdg>
+      <rdg type="minor" wit="#Z"> gang</rdg>
       <rdg type="minor" wit="#S">
-        <ruby>gang<rt xml:lang="sa-Latn">kathambhūta</rt></ruby>
+        gang
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
@@ -739,56 +739,56 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="1105,1114">
     <rdgGrp type="lemma" select="#S">
       <lem>sdig med de</lem>
-      <rdg type="minor" wit="#S"><ruby>sdig med<rt xml:lang="sa-Latn">anagha</rt></ruby> de</rdg>
+      <rdg type="minor" wit="#S">sdig med de</rdg>
     </rdgGrp>
-    <rdg wit="#Y">yin <lb n="4"/>pa <unclear>de ni</unclear> <ruby>sdig pa<rt xml:lang="sa-Latn">agha</rt></ruby> dang <ruby>bral<rt xml:lang="sa-Latn">vigata</rt></ruby> nyid</rdg>
-    <rdg wit="#Z">yin pa de ni <ruby>sdig med<rt xml:lang="sa-Latn">anagha</rt></ruby> de</rdg>
+    <rdg wit="#Y">yin <lb n="4"/>pa <unclear>de ni</unclear> sdig pa dang bral nyid</rdg>
+    <rdg wit="#Z">yin pa de ni sdig med de</rdg>
   </app>
   <app loc="1137,1139">
     <lem wit="#S">pa</lem>
     <rdgGrp select="#Y #Z">
       <rdg type="main">pa rnams</rdg>
-      <rdg type="minor" wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">rāgādidoṣa</rt></ruby> rnams</rdg>
-      <rdg type="minor" wit="#Z"><ruby>pa <rt xml:lang="sa-Latn">rāgādidoṣa</rt></ruby> rnams</rdg>
+      <rdg type="minor" wit="#Y">pa rnams</rdg>
+      <rdg type="minor" wit="#Z">pa  rnams</rdg>
     </rdgGrp>
   </app>
   <app loc="1151,1159">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>yon tan ni</lem>
-      <rdg type="minor" wit="#Z"><ruby>yon tan <rt xml:lang="sa-Latn">guṇa</rt></ruby> ni</rdg>
-      <rdg type="minor" wit="#S"><ruby>yon tan<rt xml:lang="sa-Latn">guṇa</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#Z">yon tan  ni</rdg>
+      <rdg type="minor" wit="#S">yon tan ni</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
   <app loc="1197,1216">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>pa ste/ gu ṇa bod pa la'o</lem>
-      <rdg type="minor" wit="#Z"><ruby>pa <rt xml:lang="sa-Latn">maitrīkṣamopaśamādi</rt></ruby> ste/ <lb n="4"/><ruby>gu ṇa bod pa la<rt xml:lang="sa-Latn">guṇa amantraṇe</rt></ruby>'o</rdg>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">maitrīkṣamopaśamādi</rt></ruby> ste/ <ruby>gu ṇa <lb n="4"/>bod pa la<rt xml:lang="sa-Latn">guṇa āmantraṇe</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#Z">pa  ste/ <lb n="4"/>gu ṇa bod pa la'o</rdg>
+      <rdg type="minor" wit="#S">pa ste/ gu ṇa <lb n="4"/>bod pa la'o/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa'i yon tan<rt xml:lang="sa-Latn">maitrīkṣamopaśamādiguṇa</rt></ruby> no</rdg>
+    <rdg wit="#Y">pa'i yon tan no</rdg>
   </app>
   <app loc="1261,1269">
     <rdgGrp type="lemma" select="#S">
       <lem>ste/ de ni</lem>
-      <rdg type="minor" wit="#S">ste/ <ruby>de<rt xml:lang="sa-Latn">tat</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#S">ste/ de ni</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">śeṣa</rt></ruby> yin te</rdg>
+    <rdg wit="#Z"> yin te</rdg>
   </app>
   <app loc="1269,1275">
     <rdgGrp type="lemma" select="#S">
       <lem>tshogs</lem>
       <rdg type="minor" wit="#S">
-        <ruby>tshogs<rt xml:lang="sa-Latn">gaṇa</rt></ruby>
+        tshogs
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>tshogs<rt xml:lang="sa-Latn">gaṇa</rt></ruby> dang <ruby>bcas pa </ruby></rdg>
+    <rdg wit="#Z">tshogs dang bcas pa </rdg>
   </app>
   <app loc="1292,1294">
     <rdgGrp type="lemma" select="#S">
       <lem>la</lem>
       <rdg type="minor" wit="#S">
-        <ruby>la<rt xml:lang="sa-Latn">aparisamāpta</rt></ruby>
+        la
       </rdg>
     </rdgGrp>
     <rdg wit="#Z"/>
@@ -797,74 +797,74 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>brita</lem>
       <rdg type="minor" wit="#S">
-        <ruby>brita </ruby>
+        brita 
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">aparisamāpta</rt></ruby>r <ruby>bṛta </ruby></rdg>
+    <rdg wit="#Z">r bṛta </rdg>
   </app>
   <app loc="1299,1314">
     <rdgGrp type="lemma" select="#S">
       <lem>byed pa'i phyir ro</lem>
-      <rdg type="minor" wit="#S"><ruby>byed pa'i phyir<rt xml:lang="sa-Latn">vṛta karaṇāt</rt></ruby> ro/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">byed pa'i phyir ro/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>byas pa<rt xml:lang="sa-Latn">vṛta karaṇa</rt></ruby>s so</rdg>
+    <rdg wit="#Z">byas pas so</rdg>
   </app>
   <app loc="1352,1359">
     <rdgGrp type="lemma" select="#S">
       <lem>goms par</lem>
       <rdg type="minor" wit="#S">
-        <ruby>goms par </ruby>
+        goms par 
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>goms pa<rt xml:lang="sa-Latn">abhyāsa</rt></ruby> dang</rdg>
+    <rdg wit="#Z">goms pa dang</rdg>
   </app>
   <app loc="1359,1363">
     <lem wit="#S">byed</lem>
     <rdg wit="#Z">
-      <ruby>bsngags </ruby>
+      bsngags 
     </rdg>
   </app>
   <app loc="1367,1372">
     <rdgGrp type="lemma" select="#S">
       <lem>phyir</lem>
       <rdg type="minor" wit="#S">
-        <ruby>phyir<rt xml:lang="sa-Latn">abhyāsatvāt</rt></ruby>
+        phyir
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>don <rt xml:lang="sa-Latn">artha</rt></ruby> rnams la <ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby>s</rdg>
+    <rdg wit="#Z">don  rnams la zhes pas</rdg>
   </app>
   <app loc="1372,1382">
     <rdgGrp type="lemma" select="#S">
       <lem>i las atsa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>i las atsa_<rt xml:lang="sa-Latn">er ac</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">i las atsa_'o</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>e ra tsa<rt xml:lang="sa-Latn">er ac</rt></ruby>'o</rdg>
+    <rdg wit="#Z">e ra tsa'o</rdg>
   </app>
   <app loc="1384,1388">
     <rdgGrp type="lemma" select="#S">
       <lem>kyai</lem>
       <rdg type="minor" wit="#S">
-        <ruby>kyai<rt xml:lang="sa-Latn">bho</rt></ruby>
+        kyai
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>kye </ruby>
+      kye 
     </rdg>
   </app>
   <app loc="1414,1419">
     <rdgGrp type="lemma" select="#S">
       <lem>bsten</lem>
       <rdg type="minor" wit="#S">
-        <ruby>bsten </ruby>
+        bsten 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>bstan </ruby>
+      bstan 
     </rdg>
   </app>
   <app loc="1422,1426">
     <lem wit="#S">byos</lem>
-    <rdg wit="#Z"><ruby>bya ba <rt xml:lang="sa-Latn">nirdeśatva</rt></ruby> nyid yin <lb n="5"/>no</rdg>
+    <rdg wit="#Z">bya ba  nyid yin <lb n="5"/>no</rdg>
   </app>
   <app loc="1426,1430">
     <lem wit="#S">shig</lem>
@@ -874,11 +874,11 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>ces</lem>
       <rdg type="minor" wit="#S">
-        <ruby>ces<rt xml:lang="sa-Latn">sevyatām iti</rt></ruby>
+        ces
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>zhes </ruby>
+      zhes 
     </rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-2" source="alignments/KkT1.0.1-2.xml"><interp type="normalization">
@@ -914,7 +914,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>de</lem>
       <rdg type="minor" wit="#S">
-        <ruby>de </ruby>
+        de 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y #Z">du</rdg>
@@ -923,49 +923,49 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>slad</lem>
       <rdg type="minor" wit="#S">
-        <ruby>slad<rt xml:lang="sa-Latn">tasmāt</rt></ruby>
+        slad
       </rdg>
     </rdgGrp>
     <rdg wit="#Y">byung pa</rdg>
     <rdg wit="#Z">
-      <ruby>'phags pa </ruby>
+      'phags pa 
     </rdg>
   </app>
   <app loc="94,104">
     <rdgGrp type="lemma" select="#S">
       <lem>gyi mchog ni</lem>
-      <rdg type="minor" wit="#S"><ruby>gyi mchog<rt xml:lang="sa-Latn">paramārtha</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#S">gyi mchog ni</rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>dam pa<rt xml:lang="sa-Latn">paramārtha</rt></ruby>
-      <ruby>s</ruby>
+      dam pa
+      s
     </rdg>
     <rdg wit="#Z">dam pa</rdg>
   </app>
   <app loc="104,119">
     <rdgGrp type="lemma" select="#S">
       <lem>bsgrub pa'i phyir</lem>
-      <rdg type="minor" wit="#S"><ruby>bsgrub pa<rt xml:lang="sa-Latn">pratipatti</rt></ruby>'i phyir/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">bsgrub pa'i phyir/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>grub pa<rt xml:lang="sa-Latn">pratipatti</rt></ruby> ni</rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">paramārtha</rt></ruby> <ruby>grub pa<rt xml:lang="sa-Latn">siddha</rt></ruby>'i phyir du</rdg>
+    <rdg wit="#Y">grub pa ni</rdg>
+    <rdg wit="#Z"> grub pa'i phyir du</rdg>
   </app>
   <app loc="121,126">
     <rdgGrp type="lemma" select="#S">
       <lem>brtse</lem>
       <rdg type="minor" wit="#S">
-        <ruby>brtse<rt xml:lang="sa-Latn">kṛpā</rt></ruby>
+        brtse
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
     <rdg wit="#Z">
-      <ruby>brtse ba </ruby>
+      brtse ba 
     </rdg>
   </app>
   <app loc="126,130">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>dang</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">kṛpā</rt></ruby> dang</rdg>
+      <rdg type="minor" wit="#Z"> dang</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
@@ -973,41 +973,41 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>blo gros</lem>
       <rdg type="minor" wit="#S">
-        <ruby>blo gros<rt xml:lang="sa-Latn">prajñā</rt></ruby>
+        blo gros
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>blo dang ldan pa<rt xml:lang="sa-Latn">dhīra</rt></ruby>'o/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby>blo<rt xml:lang="sa-Latn">prajñā</rt></ruby>s</rdg>
+    <rdg wit="#Y">blo dang ldan pa'o/ /</rdg>
+    <rdg wit="#Z">blos</rdg>
   </app>
   <app loc="143,152">
     <rdgGrp type="lemma" select="#S">
       <lem>phyin nyid</lem>
-      <rdg type="minor" wit="#S"><ruby>phyin<rt xml:lang="sa-Latn">pāramitā</rt></ruby> nyid</rdg>
+      <rdg type="minor" wit="#S">phyin nyid</rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>tu son pa<rt xml:lang="sa-Latn">pāramitā</rt></ruby>
+      tu son pa
     </rdg>
   </app>
   <app loc="152,158">
     <rdgGrp type="lemma" select="#S">
       <lem>'tshol</lem>
       <rdg type="minor" wit="#S">
-        <ruby>'tshol </ruby>
+        'tshol 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>tshol </ruby>
+      tshol 
     </rdg>
   </app>
   <app loc="161,165">
     <rdgGrp type="lemma" select="#S">
       <lem>byed</lem>
       <rdg type="minor" wit="#S">
-        <ruby>byed<rt xml:lang="sa-Latn">anveṣate</rt></ruby>
+        byed
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>bsten par bya ba<rt xml:lang="sa-Latn">sevyatām</rt></ruby> ni <ruby>dpal dang bdud rtsi'i phyir<rt xml:lang="sa-Latn">śryamṛtayoḥ</rt></ruby> ro</rdg>
-    <rdg wit="#Z"><ruby>byed pa <rt xml:lang="sa-Latn">anveṣate</rt></ruby> dang</rdg>
+    <rdg wit="#Y">bsten par bya ba ni dpal dang bdud rtsi'i phyir ro</rdg>
+    <rdg wit="#Z">byed pa  dang</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-3" source="alignments/KkT1.0.1-3.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1040,10 +1040,10 @@ KkT1.0.1-1: Z doesn't match alignment.
   </listApp>
   <app loc="30,51">
     <lem>rgya che ba nyid gyi phyir</lem>
-    <rdg wit="#Y"><ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampatti</rt></ruby> <ruby>de lta bu<rt xml:lang="sa-Latn">evam</rt></ruby> ni</rdg>
-    <rdg wit="#Z"><ruby>chen po <rt xml:lang="sa-Latn">mahāguṇa</rt></ruby> <ruby>de lta bu<rt xml:lang="sa-Latn">evam</rt></ruby> ni</rdg>
+    <rdg wit="#Y">phun sum tshogs pa de lta bu ni</rdg>
+    <rdg wit="#Z">chen po  de lta bu ni</rdg>
     <rdg wit="#S">
-      <ruby>rgya che <lb n="6"/>ba nyid kyi phyir<rt xml:lang="sa-Latn">vipulatvāt</rt></ruby>
+      rgya che <lb n="6"/>ba nyid kyi phyir
     </rdg>
   </app>
   <app loc="56,59">
@@ -1054,75 +1054,75 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>phan</lem>
       <rdg type="minor" wit="#S">
-        <ruby>phan<rt xml:lang="sa-Latn">parahita</rt></ruby>
+        phan
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">phan pa dang</rdg>
-      <rdg type="minor" wit="#Y"><ruby>phan pa<rt xml:lang="sa-Latn">parahita</rt></ruby> dang</rdg>
-      <rdg type="minor" wit="#Z"><ruby>phan pa <rt xml:lang="sa-Latn">parahita</rt></ruby> dang</rdg>
+      <rdg type="minor" wit="#Y">phan pa dang</rdg>
+      <rdg type="minor" wit="#Z">phan pa  dang</rdg>
     </rdgGrp>
   </app>
   <app loc="63,66">
     <rdgGrp type="lemma" select="#S">
       <lem>bde</lem>
       <rdg type="minor" wit="#S">
-        <ruby>bde<rt xml:lang="sa-Latn">sukha</rt></ruby>
+        bde
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">bde ba</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby><unclear>bde</unclear> ba<rt xml:lang="sa-Latn">sukha</rt></ruby>
+        <unclear>bde</unclear> ba
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>bde ba </ruby>
+        bde ba 
       </rdg>
     </rdgGrp>
   </app>
   <app loc="66,85">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>yang dag par sgrub pa la</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">sukha</rt></ruby> <ruby>yang dag par sgrub pa<rt xml:lang="sa-Latn">samudāgama</rt></ruby> la</rdg>
-      <rdg type="minor" wit="#S"><ruby>yang dag par sgrub pa<rt xml:lang="sa-Latn">samudāgama</rt></ruby> la</rdg>
+      <rdg type="minor" wit="#Z"> yang dag par sgrub pa la</rdg>
+      <rdg type="minor" wit="#S">yang dag par sgrub pa la</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampatti</rt></ruby> rnams ral</rdg>
+    <rdg wit="#Y">phun sum tshogs pa rnams ral</rdg>
   </app>
   <app loc="85,107">
     <rdgGrp type="lemma" select="#S">
       <lem>ngal zhing gtugs pa med pas</lem>
-      <rdg type="minor" wit="#S"><ruby>ngal<rt xml:lang="sa-Latn">śrama</rt></ruby> zhing <ruby>gtugs pa med pa<rt xml:lang="sa-Latn">aparyādatta</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">ngal zhing gtugs pa med pas</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>zad pa med<rt xml:lang="sa-Latn">akṣaya</rt></ruby> de <ruby>snyel ba </ruby></rdg>
-    <rdg wit="#Z"><ruby>zad pa mi mnga' <rt xml:lang="sa-Latn">na kṣaya</rt></ruby> zhing <ruby>bsnyel ba mi mnga' ba<rt xml:lang="sa-Latn">asaṃpramoṣa</rt></ruby>s</rdg>
+    <rdg wit="#Y">zad pa med de snyel ba </rdg>
+    <rdg wit="#Z">zad pa mi mnga'  zhing bsnyel ba mi mnga' bas</rdg>
   </app>
   <app loc="131,136">
     <rdgGrp type="lemma" select="#S">
       <lem>ba las</lem>
-      <rdg type="minor" wit="#S"><ruby>ba<rt xml:lang="sa-Latn">samsāra</rt></ruby> las</rdg>
+      <rdg type="minor" wit="#S">ba las</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>ba<rt xml:lang="sa-Latn">samsāra</rt></ruby>r</rdg>
+    <rdg wit="#Z">bar</rdg>
   </app>
   <app loc="136,150">
     <rdgGrp type="lemma" select="#S">
       <lem>legs par brgal ba</lem>
       <rdg type="minor" wit="#S">
-        <ruby>legs par brgal ba<rt xml:lang="sa-Latn">samtīrṇa</rt></ruby>
+        legs par brgal ba
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>gnas pa </ruby>
+      gnas pa 
     </rdg>
   </app>
   <app loc="154,158">
     <lem wit="#S">kyis</lem>
-    <rdg wit="#Z">na yang <ruby>'di la </ruby></rdg>
+    <rdg wit="#Z">na yang 'di la </rdg>
   </app>
   <app loc="158,163">
     <rdgGrp type="lemma" select="#S">
       <lem>rga ba</lem>
       <rdg type="minor" wit="#S">
-        <ruby>rga ba </ruby>
+        rga ba 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">rga shi</rdg>
@@ -1130,18 +1130,18 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="185,195">
     <rdgGrp type="lemma" select="#S">
       <lem>mi zad pa ste</lem>
-      <rdg type="minor" wit="#S"><ruby>mi zad pa<rt xml:lang="sa-Latn">akṣaya</rt></ruby> ste</rdg>
+      <rdg type="minor" wit="#S">mi zad pa ste</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>mi mnga' ba<rt xml:lang="sa-Latn">nāśarahita</rt></ruby>'o</rdg>
-    <rdg wit="#Z"><ruby>mi mnga' ba<rt xml:lang="sa-Latn">atra ajarāmara</rt></ruby>s</rdg>
+    <rdg wit="#Y">mi mnga' ba'o</rdg>
+    <rdg wit="#Z">mi mnga' bas</rdg>
   </app>
   <app loc="195,207">
     <rdgGrp type="lemma" select="#S">
       <lem>bri ba med pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>bri ba med pa<rt xml:lang="sa-Latn">ahīna</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">bri ba med pa'o</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
-    <rdg wit="#Z"><ruby>mi zad pa<rt xml:lang="sa-Latn">akṣaya</rt></ruby>'o</rdg>
+    <rdg wit="#Z">mi zad pa'o</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-4" source="alignments/KkT1.0.1-4.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1179,9 +1179,9 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="0,23">
     <rdgGrp type="lemma" select="#S">
       <lem> rgya mtsho'i gting med pa ni</lem>
-      <rdg type="minor" wit="#S"><ruby>/rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby>'i <ruby>gting med pa<rt xml:lang="sa-Latn">agādha</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#S">/rgya mtsho'i gting med pa ni</rdg>
     </rdgGrp>
-    <rdg wit="#Z">/<ruby>gting med pa <rt xml:lang="sa-Latn">agādha</rt></ruby> ni <ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby>'i</rdg>
+    <rdg wit="#Z">/gting med pa  ni rgya mtsho'i</rdg>
   </app>
   <app loc="32,35">
     <lem>rig</lem>
@@ -1189,25 +1189,25 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="41,45">
     <lem wit="#S">dang</lem>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">atalasparśatva</rt></ruby> do</rdg>
+    <rdg wit="#Z"> do</rdg>
   </app>
   <app loc="46,51">
     <rdgGrp type="lemma" select="#S">
       <lem>skyon</lem>
       <rdg type="minor" wit="#S">
-        <ruby>skyon </ruby>
+        skyon 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>sdig </ruby>
+      sdig 
     </rdg>
   </app>
   <app loc="54,58">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'i</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">anagha</rt></ruby>'i <pb n="3r" facs="247" type="folio"/><lb n="1"/><metamark>༅༅།</metamark> <space/> <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">pa'i <pb n="3r" facs="247" type="folio"/><lb n="1"/><metamark>༅༅།</metamark> <space/> /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">anagha</rt></ruby> kyi</rdg>
+    <rdg wit="#Z"> kyi</rdg>
   </app>
   <app loc="64,66">
     <lem wit="#S">ni</lem>
@@ -1220,20 +1220,20 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="85,91">
     <rdgGrp type="lemma" select="#S">
       <lem>la sogs</lem>
-      <rdg type="minor" wit="#S">la <ruby>sogs </ruby></rdg>
+      <rdg type="minor" wit="#S">la sogs </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">ratnākara</rt></ruby> su gyur</rdg>
+    <rdg wit="#Z"> su gyur</rdg>
   </app>
   <app loc="91,97">
     <rdgGrp type="lemma" select="#S">
       <lem>pa dang</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">ādi</rt></ruby> dang</rdg>
+      <rdg type="minor" wit="#S">pa dang</rdg>
     </rdgGrp>
     <rdg wit="#Z">pas na</rdg>
   </app>
   <app loc="105,107">
     <lem wit="#S">ni</lem>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">akṣaya</rt></ruby> ste</rdg>
+    <rdg wit="#Z"> ste</rdg>
   </app>
   <app loc="132,136">
     <lem wit="#S">bo'i</lem>
@@ -1249,19 +1249,19 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="164,166">
     <lem wit="#S">ba</lem>
-    <rdg wit="#Z"><ruby>ba<rt xml:lang="sa-Latn">nimna</rt></ruby>r</rdg>
+    <rdg wit="#Z">bar</rdg>
   </app>
   <app loc="166,179">
     <rdgGrp type="lemma" select="#S">
       <lem>yin pas gtam gyi</lem>
-      <rdg type="minor" wit="#S"><ruby>yin pa<rt xml:lang="sa-Latn">pravaṇa</rt></ruby>s <ruby>gtam<rt xml:lang="sa-Latn">pravṛtti</rt></ruby> gyi</rdg>
+      <rdg type="minor" wit="#S">yin pas gtam gyi</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>rab tu 'dzud pa<rt xml:lang="sa-Latn">praviśa</rt></ruby>s na <ruby>rab tu 'jug pa<rt xml:lang="sa-Latn">pravṛtti</rt></ruby>'i</rdg>
+    <rdg wit="#Z">rab tu 'dzud pas na rab tu 'jug pa'i</rdg>
   </app>
   <app loc="186,199">
     <lem>nye bar son pa ni</lem>
     <rdg wit="#Z">ston to</rdg>
-    <rdg wit="#S"><ruby>nye bar ston pa<rt xml:lang="sa-Latn">upadarśa</rt></ruby> ni</rdg>
+    <rdg wit="#S">nye bar ston pa ni</rdg>
   </app>
   <app loc="211,217">
     <lem wit="#Z #S">rtsi'i</lem>
@@ -1270,27 +1270,27 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="217,227">
     <rdgGrp type="lemma" select="#S">
       <lem>ched du'ang</lem>
-      <rdg type="minor" wit="#S"><ruby>ched du<rt xml:lang="sa-Latn">śriye cāmṛtāya ca</rt></ruby>'ang</rdg>
+      <rdg type="minor" wit="#S">ched du'ang</rdg>
     </rdgGrp>
     <rdg wit="#Y">dang bcas phyir</rdg>
-    <rdg wit="#Z"><ruby>phyir <rt xml:lang="sa-Latn">śryamṛtayoḥ</rt></ruby> du yang</rdg>
+    <rdg wit="#Z">phyir  du yang</rdg>
   </app>
   <app loc="227,236">
     <rdgGrp type="lemma" select="#S">
       <lem>zhes pa ste</lem>
-      <rdg type="minor" wit="#S"><ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby> ste</rdg>
+      <rdg type="minor" wit="#S">zhes pa ste</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>zhes<rt xml:lang="sa-Latn">śriye cāmṛtāya ca iti</rt></ruby> te</rdg>
-    <rdg wit="#Z"><ruby>zhes pa <rt xml:lang="sa-Latn">iti</rt></ruby> ni</rdg>
+    <rdg wit="#Y">zhes te</rdg>
+    <rdg wit="#Z">zhes pa  ni</rdg>
   </app>
   <app loc="236,246">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>'tshed pa'i</lem>
       <rdg type="minor" wit="#Z #S">
-        <ruby>'tshed pa'i </ruby>
+        'tshed pa'i 
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>tshad med pa<rt xml:lang="sa-Latn">apramāṇa</rt></ruby>'i</rdg>
+    <rdg wit="#Y">tshad med pa'i</rdg>
   </app>
   <app loc="246,257">
     <lem wit="#Z #S">phyir du 'gro</lem>
@@ -1299,8 +1299,8 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="257,259">
     <lem wit="#S">ba</lem>
     <rdg wit="#Y">
-      <ruby>ched du<rt xml:lang="sa-Latn">hetu</rt></ruby>
-      <ruby>'jug pa<rt xml:lang="sa-Latn">pravṛtti</rt></ruby>
+      ched du
+      'jug pa
     </rdg>
     <rdg wit="#Z">bar byed pa</rdg>
   </app>
@@ -1309,53 +1309,53 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp select="#Y #Z">
       <rdg type="main">bzhin du</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>bzhin du<rt xml:lang="sa-Latn">evam</rt></ruby>
+        bzhin du
       </rdg>
     </rdgGrp>
   </app>
   <app loc="264,277">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>de'i don nyid la</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">pākāya vrajati evam</rt></ruby> de'i <ruby>don nyid <rt xml:lang="sa-Latn">tattva</rt></ruby> la</rdg>
-      <rdg type="minor" wit="#S"><ruby>de<rt xml:lang="sa-Latn">pākāya vrajati iva tat</rt></ruby>'i <ruby>don <lb n="2"/>nyid la </ruby></rdg>
+      <rdg type="minor" wit="#Z"> de'i don nyid  la</rdg>
+      <rdg type="minor" wit="#S">de'i don <lb n="2"/>nyid la </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
   <app loc="281,285">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">tādarthya caturthī</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">pa'o/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">caturthī</rt></ruby>'i <ruby>don<rt xml:lang="sa-Latn">artha</rt></ruby> te/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">caturthī</rt></ruby>'i <ruby>rnam dbye<rt xml:lang="sa-Latn">vibhāga</rt></ruby>'o</rdg>
+    <rdg wit="#Y">pa'i don te/ /</rdg>
+    <rdg wit="#Z">pa'i rnam dbye'o</rdg>
   </app>
   <app loc="287,299">
     <rdgGrp type="lemma" select="#S">
       <lem>dang dang yang</lem>
-      <rdg type="minor" wit="#S"><ruby>dang dang<rt xml:lang="sa-Latn">ca ca</rt></ruby> yang</rdg>
+      <rdg type="minor" wit="#S">dang dang yang</rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>dang<rt xml:lang="sa-Latn">ca</rt></ruby>
+      dang
     </rdg>
     <rdg wit="#Z">
-      <ruby>gang </ruby>
+      gang 
     </rdg>
   </app>
   <app loc="301,316">
     <rdgGrp type="lemma" select="#S">
       <lem>don can tsa yig dag</lem>
-      <rdg type="minor" wit="#S"><ruby>don can<rt xml:lang="sa-Latn">arthin</rt></ruby> <ruby>tsa yig<rt xml:lang="sa-Latn">ca śabda</rt></ruby> dag</rdg>
+      <rdg type="minor" wit="#S">don can tsa yig dag</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">yi ge</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>yi ge<rt xml:lang="sa-Latn">akṣara</rt></ruby>
+        yi ge
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>
-          <rt xml:lang="sa-Latn">yasya</rt>
-        </ruby>
-        <ruby>yi ge </ruby>
+        
+          
+        
+        yi ge 
       </rdg>
     </rdgGrp>
   </app>
@@ -1371,46 +1371,46 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="334,338">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">samāhāretaretara</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">pa'o/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>ba<rt xml:lang="sa-Latn">samāhāretaretara</rt></ruby>'i <ruby>tshig<rt xml:lang="sa-Latn">pada</rt></ruby> go</rdg>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">samāhāretaretara</rt></ruby>'i <ruby>tshig <rt xml:lang="sa-Latn">pada</rt></ruby> go</rdg>
+    <rdg wit="#Y">ba'i tshig go</rdg>
+    <rdg wit="#Z">pa'i tshig  go</rdg>
   </app>
   <app loc="402,427">
     <rdgGrp type="lemma" select="#S">
       <lem>dpal ni dpal mo dang 'chi med ni</lem>
-      <rdg type="minor" wit="#S"><ruby>dpal<rt xml:lang="sa-Latn">śrī</rt></ruby> ni <ruby>dpal mo<rt xml:lang="sa-Latn">lakṣmī</rt></ruby> dang <ruby>'chi med<rt xml:lang="sa-Latn">amṛta</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#S">dpal ni dpal mo dang 'chi med ni</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">dpal ni phun sum tshogs pa'o </rdg>
-      <rdg type="minor" wit="#Y"><ruby>dpal<rt xml:lang="sa-Latn">śrī</rt></ruby> ni <ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampatti</rt></ruby>'o/ <ruby>/</ruby></rdg>
-      <rdg type="minor" wit="#Z"><ruby>dpal <rt xml:lang="sa-Latn">śrī</rt></ruby> ni <ruby>phun sum tshogs pa<rt xml:lang="sa-Latn">sampat</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#Y">dpal ni phun sum tshogs pa'o/ /</rdg>
+      <rdg type="minor" wit="#Z">dpal  ni phun sum tshogs pa'o</rdg>
     </rdgGrp>
   </app>
   <app loc="431,442">
     <rdgGrp type="lemma" select="#S">
       <lem>rtsi ste de'i</lem>
-      <rdg type="minor" wit="#S"><ruby>rtsi<rt xml:lang="sa-Latn">sudhā</rt></ruby> ste <ruby>de'i </ruby></rdg>
+      <rdg type="minor" wit="#S">rtsi ste de'i </rdg>
     </rdgGrp>
     <rdg wit="#Z"><lb n="1"/>rtsi'i</rdg>
   </app>
   <app loc="448,453">
     <lem wit="#S">bsten</lem>
     <rdg wit="#Z">
-      <ruby>
-        <rt xml:lang="sa-Latn">amṛtāya</rt>
-      </ruby>
-      <ruby>zhes pa <rt xml:lang="sa-Latn">iti</rt></ruby>
-      <ruby>bcud len gyi phyir <rt xml:lang="sa-Latn">rasāyanāt</rt></ruby>
-      <ruby>bsten </ruby>
+      
+        
+      
+      zhes pa 
+      bcud len gyi phyir 
+      bsten 
     </rdg>
   </app>
   <app loc="495,499">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'i</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">samsāra</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">pa'i</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">samsāra</rt></ruby>r</rdg>
+    <rdg wit="#Z">par</rdg>
   </app>
   <app loc="524,528">
     <lem>gyis</lem>
@@ -1418,7 +1418,7 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="532,534">
     <lem wit="#S">te</lem>
-    <rdg wit="#Z"><ruby>gyi phyir <rt xml:lang="sa-Latn">śriye</rt></ruby> te</rdg>
+    <rdg wit="#Z">gyi phyir  te</rdg>
   </app>
   <app loc="592,596">
     <lem wit="#S">gyis</lem>
@@ -1428,32 +1428,32 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>'chi med</lem>
       <rdg type="minor" wit="#S">
-        <ruby>'chi med<rt xml:lang="sa-Latn">mumukṣubhiḥ amṛta</rt></ruby>
+        'chi med
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>
-        <rt xml:lang="sa-Latn">mumukṣubhiḥ</rt>
-      </ruby>
-      <ruby>bdud rtsi'i phyir </ruby>
+      
+        
+      
+      bdud rtsi'i phyir 
     </rdg>
   </app>
   <app loc="603,605">
     <lem wit="#S">de</lem>
     <rdg wit="#Y"/>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">amṛtāya</rt></ruby> te</rdg>
+    <rdg wit="#Z"> te</rdg>
   </app>
   <app loc="609,613">
     <lem wit="#Z #S">pa'i</lem>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">mokṣa</rt></ruby> dang</rdg>
+    <rdg wit="#Y">pa dang</rdg>
   </app>
   <app loc="613,642">
     <rdgGrp type="lemma" select="#S">
       <lem>ched du bsten par gyis shig ces pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>ched<rt xml:lang="sa-Latn">mokṣārthaṃ</rt></ruby> du <ruby>bsten pa<rt xml:lang="sa-Latn">sevya</rt></ruby>r gyis shig <ruby>ces pa<rt xml:lang="sa-Latn">iti</rt></ruby>'o</rdg>
+      <rdg type="minor" wit="#S">ched du bsten par gyis shig ces pa'o</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>mya ngan las 'das pa<rt xml:lang="sa-Latn">nirvāṇa</rt></ruby>'o</rdg>
-    <rdg wit="#Z"><ruby>ched du <rt xml:lang="sa-Latn">mokṣāya</rt></ruby> <ruby>bsten par bya ba <lb n="2"/>nyid<rt xml:lang="sa-Latn">sevyatva</rt></ruby> do <ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby>'o</rdg>
+    <rdg wit="#Y">mya ngan las 'das pa'o</rdg>
+    <rdg wit="#Z">ched du  bsten par bya ba <lb n="2"/>nyid do zhes pa'o</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-5" source="alignments/KkT1.0.1-5.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1482,15 +1482,15 @@ KkT1.0.1-1: Z doesn't match alignment.
   </listApp>
   <app loc="21,25">
     <lem wit="#Z #S">ba'i</lem>
-    <rdg wit="#Y"><ruby>ba la sogs pa<rt xml:lang="sa-Latn">jñānadayādi</rt></ruby>'i</rdg>
+    <rdg wit="#Y">ba la sogs pa'i</rdg>
   </app>
   <app loc="29,36">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>mtsho la</lem>
-      <rdg type="minor" wit="#Z"><ruby>mtsho <rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby> la</rdg>
-      <rdg type="minor" wit="#S"><ruby>mtsho<rt xml:lang="sa-Latn">jñānadayāsindhu</rt></ruby> la</rdg>
+      <rdg type="minor" wit="#Z">mtsho  la</rdg>
+      <rdg type="minor" wit="#S">mtsho la</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby>s</rdg>
+    <rdg wit="#Y">mtshos</rdg>
   </app>
   <app loc="74,79">
     <lem wit="#Z #S">thams</lem>
@@ -1500,7 +1500,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#Z #S">
       <lem>cad</lem>
       <rdg type="minor" wit="#S">
-        <ruby>cad<rt xml:lang="sa-Latn">sarvasattva</rt></ruby>
+        cad
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
@@ -1509,19 +1509,19 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>mnyen</lem>
       <rdg type="minor" wit="#S">
-        <ruby><lb n="4"/>mnyen </ruby>
+        <lb n="4"/>mnyen 
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">mnyes </rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>mnyes </ruby>
+        mnyes 
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>
-          <rt xml:lang="sa-Latn">parama</rt>
-        </ruby>
-        <ruby>mnyes </ruby>
+        
+          
+        
+        mnyes 
       </rdg>
     </rdgGrp>
   </app>
@@ -1533,25 +1533,25 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#Z #S">
       <lem>can</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>can<rt xml:lang="sa-Latn">svabhāva</rt></ruby>
+        can
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>can<rt xml:lang="sa-Latn">vātsalyasvabhāva</rt></ruby>
+        can
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>can<rt xml:lang="sa-Latn">svabhāva</rt></ruby> de lta bus ni</rdg>
+    <rdg wit="#Y">can de lta bus ni</rdg>
   </app>
   <app loc="153,159">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>de nyid</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>
-          <rt xml:lang="sa-Latn">sugata</rt>
-        </ruby>
-        <ruby>de nyid </ruby>
+        
+          
+        
+        de nyid 
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>de nyid<rt xml:lang="sa-Latn">sa eva</rt></ruby>
+        de nyid
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
@@ -1559,17 +1559,17 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="159,168">
     <rdgGrp type="lemma" select="#S">
       <lem>gsal zhing</lem>
-      <rdg type="minor" wit="#S"><ruby>gsal<rt xml:lang="sa-Latn">sphuṭa</rt></ruby> zhing</rdg>
+      <rdg type="minor" wit="#S">gsal zhing</rdg>
     </rdgGrp>
     <rdg wit="#Y #Z"/>
   </app>
   <app loc="180,183">
     <rdgGrp type="lemma" select="#S">
       <lem>pas</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">upalakṣita</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">pas</rdg>
     </rdgGrp>
-    <rdg wit="#Y">te/ <ruby>rtags<rt xml:lang="sa-Latn">liṅga</rt></ruby> gyi</rdg>
-    <rdg wit="#Z"><ruby>par byed pa<rt xml:lang="sa-Latn">upalakṣita</rt></ruby>s</rdg>
+    <rdg wit="#Y">te/ rtags gyi</rdg>
+    <rdg wit="#Z">par byed pas</rdg>
   </app>
   <app loc="183,190">
     <rdgGrp type="lemma" select="#Z #S">
@@ -1582,24 +1582,24 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>rab</lem>
       <rdg type="minor" wit="#S">
-        <ruby>rab </ruby>
+        rab 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y #Z">
-      <ruby>rab tu </ruby>
+      rab tu 
     </rdg>
   </app>
   <app loc="193,197">
     <lem wit="#S" subtype="prefix">dnga</lem>
     <rdg wit="#Y">
-      <ruby>gsal ba<rt xml:lang="sa-Latn">prasāda</rt></ruby>
+      gsal ba
     </rdg>
     <rdg wit="#Z">dngas <lb n="3"/>pa</rdg>
   </app>
   <app loc="197,202">
     <lem wit="#S" subtype="suffix">s zhes</lem>
     <rdg wit="#Y">
-      <ruby>zhes </ruby>
+      zhes 
     </rdg>
     <rdg wit="#Z">zhes bya</rdg>
   </app>
@@ -1607,39 +1607,39 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa<rt xml:lang="sa-Latn">prasāda</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">iti</rt></ruby> ni</rdg>
-    <rdg wit="#Z"><ruby>ba<rt xml:lang="sa-Latn">prasāda iti</rt></ruby>'i</rdg>
+    <rdg wit="#Y">pa ni</rdg>
+    <rdg wit="#Z">ba'i</rdg>
   </app>
   <app loc="209,215">
     <rdgGrp type="lemma" select="#Y #S">
       <lem>ngag gi</lem>
-      <rdg type="minor" wit="#Y #S"><ruby>ngag<rt xml:lang="sa-Latn">kāvya</rt></ruby> gi</rdg>
+      <rdg type="minor" wit="#Y #S">ngag gi</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>dngags <rt xml:lang="sa-Latn">kāvya</rt></ruby> kyi</rdg>
+    <rdg wit="#Z">dngags  kyi</rdg>
   </app>
   <app loc="221,223">
     <rdgGrp type="lemma" select="#S">
       <lem>no</lem>
-      <rdg type="minor" wit="#S">no/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">no/ /</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">te</rdg>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">guṇa</rt></ruby> te</rdg>
+      <rdg type="minor" wit="#Z"> te</rdg>
     </rdgGrp>
   </app>
   <app loc="225,233">
     <rdgGrp type="lemma" select="#S">
       <lem>de skad du</lem>
       <rdg type="minor" wit="#S">
-        <ruby>de skad du/<rt xml:lang="sa-Latn">tad uktam</rt></ruby>
+        de skad du/
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
     <rdg wit="#Z">
-      <ruby>ji skad du<rt xml:lang="sa-Latn">yathoktam</rt></ruby>
+      ji skad du
     </rdg>
   </app>
   <app loc="256,267">
@@ -1662,7 +1662,7 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="296,298">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>ni</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">yasya artha</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#Z"> ni</rdg>
     </rdgGrp>
     <rdg wit="#Y">gang</rdg>
   </app>
@@ -1670,38 +1670,38 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#Z #S">
       <lem>ba</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>ba<rt xml:lang="sa-Latn">prākaṭya</rt></ruby>
+        ba
       </rdg>
-      <rdg type="minor" wit="#S"><ruby>ba<rt xml:lang="sa-Latn">prākaṭya</rt></ruby>/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">ba/ /</rdg>
     </rdgGrp>
     <rdg wit="#Y">dang</rdg>
   </app>
   <app loc="308,312">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>de ni</lem>
-      <rdg type="minor" wit="#S"><ruby>de<rt xml:lang="sa-Latn">saḥ</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#S">de ni</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
   <app loc="315,324">
     <rdgGrp type="lemma" select="#S">
       <lem>tu dang bar</lem>
-      <rdg type="minor" wit="#S"><ruby>tu dang ba<rt xml:lang="sa-Latn">prasāda</rt></ruby>r</rdg>
+      <rdg type="minor" wit="#S">tu dang bar</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>mdzes<rt xml:lang="sa-Latn">sundara</rt></ruby> de yi <ruby>mngon </ruby></rdg>
-    <rdg wit="#Z"><ruby>tu dngas pa<rt xml:lang="sa-Latn">prasāda</rt></ruby>r</rdg>
+    <rdg wit="#Y">mdzes de yi mngon </rdg>
+    <rdg wit="#Z">tu dngas par</rdg>
   </app>
   <app loc="324,329">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>brjod</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>brjod<rt xml:lang="sa-Latn">abhidhīyate</rt></ruby>
+        brjod
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>brjod/<rt xml:lang="sa-Latn">abhidhīyate</rt></ruby>
+        brjod/
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>brjod<rt xml:lang="sa-Latn">abhidhāna</rt></ruby> de</rdg>
+    <rdg wit="#Y">brjod de</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-6" source="alignments/KkT1.0.1-6.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -1726,60 +1726,60 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#Z #S">
       <lem> 'di</lem>
       <rdg type="minor" wit="#Z">
-        <ruby>'di </ruby>
+        'di 
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>'di<rt xml:lang="sa-Latn">ayam</rt></ruby>
+        'di
       </rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>'dir<rt xml:lang="sa-Latn">iha</rt></ruby>
+      'dir
     </rdg>
   </app>
   <app loc="14,16">
     <rdgGrp type="lemma" select="#S">
       <lem>pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa </ruby>
+        pa 
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">rgya grol pa</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>rgya grol<rt xml:lang="sa-Latn">mudrābhañjana</rt></ruby>
-        <ruby>pa</ruby>
+        rgya grol
+        pa
       </rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>rgya grol <rt xml:lang="sa-Latn">mudrābhañjana</rt></ruby>
-        <ruby>pa</ruby>
+        rgya grol 
+        pa
       </rdg>
     </rdgGrp>
   </app>
   <app loc="20,31">
     <rdgGrp type="lemma" select="#S">
       <lem>can dang shar</lem>
-      <rdg type="minor" wit="#S"><ruby>can<rt xml:lang="sa-Latn">padmin</rt></ruby> dang <ruby>shar </ruby></rdg>
+      <rdg type="minor" wit="#S">can dang shar </rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>shar gyur </ruby>
+      shar gyur 
     </rdg>
-    <rdg wit="#Z"><ruby>can<rt xml:lang="sa-Latn">padmin</rt></ruby> rnams rgyas gyur cing</rdg>
+    <rdg wit="#Z">can rnams rgyas gyur cing</rdg>
   </app>
   <app loc="31,35">
     <rdgGrp type="lemma" select="#S">
       <lem>ri'i</lem>
-      <rdg type="minor" wit="#S"><ruby>ri<rt xml:lang="sa-Latn">udayagiri</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">ri'i</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>ri bo<rt xml:lang="sa-Latn">udayagiri</rt></ruby> dang</rdg>
-    <rdg wit="#Z"><ruby>ri <rt xml:lang="sa-Latn">giri</rt></ruby> dang</rdg>
+    <rdg wit="#Y">ri bo dang</rdg>
+    <rdg wit="#Z">ri  dang</rdg>
   </app>
   <app loc="44,47">
     <rdgGrp type="lemma" select="#S">
       <lem subtype="prefix">gyi</lem>
-      <rdg type="minor" wit="#S">gyi/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">gyi/ /</rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>phreng pa<rt xml:lang="sa-Latn">mālā</rt></ruby>
+      phreng pa
     </rdg>
     <rdg wit="#Z"/>
   </app>
@@ -1789,20 +1789,20 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="58,60">
     <lem wit="#S">yi</lem>
-    <rdg wit="#Y #Z"><ruby>ba<rt xml:lang="sa-Latn">mandāra</rt></ruby>'i</rdg>
+    <rdg wit="#Y #Z">ba'i</rdg>
   </app>
   <app loc="70,95">
     <rdgGrp type="lemma" select="#S">
       <lem>nu'i phreng ba rgya grol zhing</lem>
-      <rdg type="minor" wit="#S"><ruby>nu<rt xml:lang="sa-Latn">puṣpa bāla</rt></ruby>'i <ruby>phreng ba<rt xml:lang="sa-Latn">mālā</rt></ruby> <ruby>rgya grol<rt xml:lang="sa-Latn">mudrābhañjana</rt></ruby> zhing/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">nu'i phreng ba rgya grol zhing/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>nu<rt xml:lang="sa-Latn">bāla</rt></ruby> ltar/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby>nu <rt xml:lang="sa-Latn">bāla</rt></ruby> bzhin</rdg>
+    <rdg wit="#Y">nu ltar/ /</rdg>
+    <rdg wit="#Z">nu  bzhin</rdg>
   </app>
   <app loc="97,112">
     <rdgGrp type="lemma" select="#S">
       <lem>'gal ba rnams bral</lem>
-      <rdg type="minor" wit="#S"><ruby>'gal ba<rt xml:lang="sa-Latn">viraha</rt></ruby> rnams <ruby>bral<rt xml:lang="sa-Latn">vidhura</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">'gal ba rnams bral</rdg>
     </rdgGrp>
     <rdg wit="#Y #Z"/>
   </app>
@@ -1810,56 +1810,56 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa<rt xml:lang="sa-Latn">koka</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>ba<rt xml:lang="sa-Latn">koka</rt></ruby> <ruby>lhan cig mi gna<rt xml:lang="sa-Latn">virahavidhura</rt></ruby>s <ruby>rab tu rtsom<rt xml:lang="sa-Latn">prārambha</rt></ruby> zhing</rdg>
+    <rdg wit="#Y">ba lhan cig mi gnas rab tu rtsom zhing</rdg>
     <rdg wit="#Z">
-      <ruby>ba <rt xml:lang="sa-Latn">koka</rt></ruby>
-      <ruby>lhan cig mi gnas <rt xml:lang="sa-Latn">virahavidhura</rt></ruby>
-      <ruby>rab tu bcom zhing </ruby>
+      ba 
+      lhan cig mi gnas 
+      rab tu bcom zhing 
     </rdg>
   </app>
   <app loc="128,133">
     <lem>gnyer</lem>
     <rdgGrp select="#Y #Z #S">
       <rdg type="main">gnyen </rdg>
-      <rdg type="minor" wit="#Y"><ruby><rt xml:lang="sa-Latn">dvandva</rt></ruby><lb n="2"/><ruby>gnyen<rt xml:lang="sa-Latn">bandhu</rt></ruby>/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#Y"><lb n="2"/>gnyen/ /</rdg>
       <rdg type="minor" wit="#Z">
-        <ruby>gnyen <rt xml:lang="sa-Latn">dvandvabandhu</rt></ruby>
+        gnyen 
       </rdg>
       <rdg type="minor" wit="#S">
-        <ruby>gnyen<rt xml:lang="sa-Latn">bandhu</rt></ruby>
+        gnyen
       </rdg>
     </rdgGrp>
   </app>
   <app loc="133,146">
     <rdgGrp type="lemma" select="#S">
       <lem>gyur khros pa yi</lem>
-      <rdg type="minor" wit="#S">gyur <ruby>khros pa<rt xml:lang="sa-Latn">kupita</rt></ruby> yi/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">gyur khros pa yi/ /</rdg>
     </rdgGrp>
     <rdg wit="#Y #Z"/>
   </app>
   <app loc="148,156">
     <rdgGrp type="lemma" select="#S">
       <lem>spre'u 'i</lem>
-      <rdg type="minor" wit="#S"><ruby>spre'u<rt xml:lang="sa-Latn">kapi</rt></ruby> 'i</rdg>
+      <rdg type="minor" wit="#S">spre'u 'i</rdg>
     </rdgGrp>
     <rdg wit="#Y #Z">
-      <ruby>spre'u<rt xml:lang="sa-Latn">kapi</rt></ruby>
+      spre'u
     </rdg>
   </app>
   <app loc="156,163">
     <rdgGrp type="lemma" select="#S">
       <lem>'gram pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>'gram pa<rt xml:lang="sa-Latn">kapola</rt></ruby>
+        'gram pa
       </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">rab tu </rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>rab tu </ruby>
+        rab tu 
       </rdg>
       <rdg type="minor" wit="#Z">rab tu</rdg>
     </rdgGrp>
@@ -1868,22 +1868,22 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>dmar</lem>
       <rdg type="minor" wit="#S">
-        <ruby>dmar </ruby>
+        dmar 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y #Z">
-      <ruby>mkhur </ruby>
+      mkhur 
     </rdg>
   </app>
   <app loc="175,196">
     <rdgGrp type="lemma" select="#S">
       <lem>ba smag las rnam par 'byed</lem>
-      <rdg type="minor" wit="#S"><ruby>ba<rt xml:lang="sa-Latn">tāmra</rt></ruby> <ruby>smag<rt xml:lang="sa-Latn">tamas</rt></ruby> las <ruby>rnam par 'byed/<rt xml:lang="sa-Latn">vibhinatti</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">ba smag las rnam par 'byed/</rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">tshos 'gram pa zangs mdog bzhin</rdg>
-      <rdg type="minor" wit="#Y"><ruby>tshos<rt xml:lang="sa-Latn">kapola</rt></ruby> 'gram pa <ruby>zangs mdog<rt xml:lang="sa-Latn">tāmra</rt></ruby> bzhin</rdg>
-      <rdg type="minor" wit="#Z"><ruby>tshos <rt xml:lang="sa-Latn">kapola</rt></ruby> 'gram pa <ruby>zangs mdog <rt xml:lang="sa-Latn">tāmra</rt></ruby> bzhin</rdg>
+      <rdg type="minor" wit="#Y">tshos 'gram pa zangs mdog bzhin</rdg>
+      <rdg type="minor" wit="#Z">tshos  'gram pa zangs mdog  bzhin</rdg>
     </rdgGrp>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-7" source="alignments/KkT1.0.1-7.xml"><interp type="normalization">
@@ -1909,11 +1909,11 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem> 'dir</lem>
       <rdg type="minor" wit="#S">
-        <ruby>'dir<rt xml:lang="sa-Latn">iha</rt></ruby>
+        'dir
       </rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>/zhes<rt xml:lang="sa-Latn">iti</rt></ruby> bshad do/ <ruby>/'dir<rt xml:lang="sa-Latn">iha</rt></ruby></rdg>
-    <rdg wit="#Z">/<ruby>zhes pa 'dir </ruby></rdg>
+    <rdg wit="#Y">/zhes bshad do/ /'dir</rdg>
+    <rdg wit="#Z">/zhes pa 'dir </rdg>
   </app>
   <app loc="9,13">
     <lem wit="#S">dang</lem>
@@ -1922,22 +1922,22 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="13,20">
     <rdgGrp type="lemma" select="#S">
       <lem>bral bas</lem>
-      <rdg type="minor" wit="#S"><ruby>bral ba<rt xml:lang="sa-Latn">tamo vigata</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">bral bas</rdg>
     </rdgGrp>
     <rdg wit="#Y">bsam pas</rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">tamas</rt></ruby> <ruby>bsal ba<rt xml:lang="sa-Latn">vigata</rt></ruby>s</rdg>
+    <rdg wit="#Z"> bsal bas</rdg>
   </app>
   <app loc="24,28">
     <rdgGrp type="lemma" select="#Y #S">
       <lem>pa'i</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">koka</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">pa'i</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>ba<rt xml:lang="sa-Latn">koka</rt></ruby>'i</rdg>
+    <rdg wit="#Z">ba'i</rdg>
   </app>
   <app loc="39,41">
     <lem wit="#S">ba</lem>
-    <rdg wit="#Y">te <ruby>ngur pa<rt xml:lang="sa-Latn">koka</rt></ruby> <ruby>pho mo lhan cig mi gnas pa<rt xml:lang="sa-Latn">strīpuruṣasahānavasthāna</rt></ruby> yin pa/ <ruby>/</ruby></rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">śokaharaṇa</rt></ruby> te/ <ruby>ngur pa <rt xml:lang="sa-Latn">koka</rt></ruby> <ruby>pho mo <rt xml:lang="sa-Latn">strīpuruṣa</rt></ruby> <ruby>mtshan mo <rt xml:lang="sa-Latn">tamas</rt></ruby> <ruby>lhan cig mi gnas pa<rt xml:lang="sa-Latn">virahavidhura</rt></ruby> yin la</rdg>
+    <rdg wit="#Y">te ngur pa pho mo lhan cig mi gnas pa yin pa/ /</rdg>
+    <rdg wit="#Z"> te/ ngur pa  pho mo  mtshan mo  lhan cig mi gnas pa yin la</rdg>
   </app>
   <app loc="41,43">
     <lem wit="#S">la</lem>
@@ -1946,52 +1946,52 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="47,52">
     <rdgGrp type="lemma" select="#S">
       <lem>pas ma</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">śokaharaṇādi</rt></ruby>s <ruby>ma </ruby></rdg>
+      <rdg type="minor" wit="#S">pas ma </rdg>
     </rdgGrp>
     <rdgGrp select="#Y #Z">
       <rdg type="main">pa</rdg>
       <rdg type="minor" wit="#Y">
-        <ruby>pa<rt xml:lang="sa-Latn">tadādi</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
   </app>
   <app loc="52,62">
     <lem wit="#S">brjod kyang</lem>
-    <rdg wit="#Y"><ruby>bsal<rt xml:lang="sa-Latn">praharaṇa</rt></ruby> nas</rdg>
-    <rdg wit="#Z"><ruby>bsal ba<rt xml:lang="sa-Latn">ādi haraṇa</rt></ruby>s</rdg>
+    <rdg wit="#Y">bsal nas</rdg>
+    <rdg wit="#Z">bsal bas</rdg>
   </app>
   <app loc="79,85">
     <rdgGrp type="lemma" select="#S">
       <lem>kyi don</lem>
-      <rdg type="minor" wit="#S">kyi <ruby>don<rt xml:lang="sa-Latn">artha</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">kyi don</rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>ma <lb n="3"/>bshad kyang<rt xml:lang="sa-Latn">anukto 'pi</rt></ruby>
+      ma <lb n="3"/>bshad kyang
     </rdg>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">lakṣaṇa</rt></ruby> <ruby>ma bshad kyang <rt xml:lang="sa-Latn">anukto 'pi</rt></ruby> <ruby>don <rt xml:lang="sa-Latn">artha</rt></ruby> gyis</rdg>
+    <rdg wit="#Z"> ma bshad kyang  don  gyis</rdg>
   </app>
   <app loc="85,89">
     <rdgGrp type="lemma" select="#S">
       <lem>gsal</lem>
       <rdg type="minor" wit="#S">
-        <ruby>gsal </ruby>
+        gsal 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>nyi ma<rt xml:lang="sa-Latn">sūrya</rt></ruby>
-      <ruby>nye </ruby>
+      nyi ma
+      nye 
     </rdg>
     <rdg wit="#Z">
-      <ruby>rab tu gsal </ruby>
+      rab tu gsal 
     </rdg>
   </app>
   <app loc="98,108">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o zhes so</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">upalakṣyate</rt></ruby>'o <ruby>zhes<rt xml:lang="sa-Latn">iti</rt></ruby> so</rdg>
+      <rdg type="minor" wit="#S">pa'o zhes so</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">upalakṣaṇa</rt></ruby> bzhin no</rdg>
-    <rdg wit="#Z"><ruby>par byed pa <rt xml:lang="sa-Latn">prakaṭam upalakṣyate</rt></ruby> bzhin no</rdg>
+    <rdg wit="#Y">pa bzhin no</rdg>
+    <rdg wit="#Z">par byed pa  bzhin no</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-8" source="alignments/KkT1.0.1-8.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2024,16 +2024,16 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="37,38">
     <lem wit="#S" subtype="prefix">t</lem>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">viniyujyate</rt></ruby> te</rdg>
+    <rdg wit="#Z"> te</rdg>
   </app>
   <app loc="38,43">
     <rdgGrp type="lemma" select="#S">
       <lem subtype="suffix">e de la</lem>
-      <rdg type="minor" wit="#S">e <ruby>de la<rt xml:lang="sa-Latn">tatra</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">e de la</rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>'dir <rt xml:lang="sa-Latn">tatra</rt></ruby>
-      <ruby>snyan dngags </ruby>
+      'dir 
+      snyan dngags 
     </rdg>
   </app>
   <app loc="49,51">
@@ -2042,24 +2042,24 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="51,56">
     <lem wit="#S">snyan</lem>
-    <rdg wit="#Z"><ruby>d <rt xml:lang="sa-Latn">kavivaktṛtva</rt></ruby> kyis</rdg>
+    <rdg wit="#Z">d  kyis</rdg>
   </app>
   <app loc="79,83">
     <rdgGrp type="lemma" select="#S">
       <lem>yang</lem>
       <rdg type="minor" wit="#S">
-        <ruby>yang </ruby>
+        yang 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>dang </ruby>
+      dang 
     </rdg>
   </app>
   <app loc="83,85">
     <rdgGrp type="lemma" select="#S">
       <lem>na</lem>
       <rdg type="minor" wit="#S">
-        <ruby>na<rt xml:lang="sa-Latn">punar</rt></ruby>
+        na
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">por</rdg>
@@ -2071,14 +2071,14 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="121,128">
     <rdgGrp type="lemma" select="#S">
       <lem>sbyin te</lem>
-      <rdg type="minor" wit="#S"><ruby>sbyin<rt xml:lang="sa-Latn">dadāti</rt></ruby> te</rdg>
+      <rdg type="minor" wit="#S">sbyin te</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">jñānadāna</rt></ruby> dang</rdg>
+    <rdg wit="#Z"> dang</rdg>
   </app>
   <app loc="132,141">
     <rdgGrp type="lemma" select="#S">
       <lem>i zhes pa ni</lem>
-      <rdg type="minor" wit="#S"><ruby>i<rt xml:lang="sa-Latn">tasya i</rt></ruby> <ruby>zhes pa<rt xml:lang="sa-Latn">iti</rt></ruby> ni</rdg>
+      <rdg type="minor" wit="#S">i zhes pa ni</rdg>
     </rdgGrp>
     <rdg wit="#Z"/>
   </app>
@@ -2094,34 +2094,34 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa<rt xml:lang="sa-Latn">jñānadāna</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa nyid <rt xml:lang="sa-Latn">jñānadānatva</rt></ruby> kyis</rdg>
+    <rdg wit="#Z">pa nyid  kyis</rdg>
   </app>
   <app loc="194,196">
     <rdgGrp type="lemma" select="#S">
       <lem>pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa<rt xml:lang="sa-Latn">sampatti</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">sampatti</rt></ruby>'i</rdg>
+    <rdg wit="#Z">pa'i</rdg>
   </app>
   <app loc="205,207">
     <rdgGrp type="lemma" select="#S">
       <lem>pa</lem>
       <rdg type="minor" wit="#S">
-        <ruby>pa<rt xml:lang="sa-Latn">hetubhūta</rt></ruby>
+        pa
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">hetubhūta</rt></ruby>'i</rdg>
+    <rdg wit="#Z">pa'i</rdg>
   </app>
   <app loc="207,210">
     <rdgGrp type="lemma" select="#S">
       <lem>des</lem>
       <rdg type="minor" wit="#S">
-        <ruby>des<rt xml:lang="sa-Latn">tena</rt></ruby>
+        des
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">phyir</rdg>
@@ -2129,48 +2129,48 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="223,234">
     <rdgGrp type="lemma" select="#S">
       <lem>mtshungs pas</lem>
-      <rdg type="minor" wit="#S"><ruby>mtshungs pa<rt xml:lang="sa-Latn">iva</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">mtshungs pas</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>'dra <rt xml:lang="sa-Latn">iva</rt></ruby> bas</rdg>
+    <rdg wit="#Z">'dra  bas</rdg>
   </app>
   <app loc="234,257">
     <rdgGrp type="lemma" select="#S">
       <lem>bstan bcos ni rgya mtsho ste</lem>
-      <rdg type="minor" wit="#S"><ruby>bstan bcos<rt xml:lang="sa-Latn">śāstra</rt></ruby> ni <ruby>rgya mtsho<rt xml:lang="sa-Latn">sindhu</rt></ruby> ste</rdg>
+      <rdg type="minor" wit="#S">bstan bcos ni rgya mtsho ste</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>rgya mtsho <rt xml:lang="sa-Latn">sindhu</rt></ruby> ste <ruby>bstan bcos <rt xml:lang="sa-Latn">śāstra</rt></ruby> so</rdg>
+    <rdg wit="#Z">rgya mtsho  ste bstan bcos  so</rdg>
   </app>
   <app loc="284,286">
     <rdgGrp type="lemma" select="#S">
       <lem>no</lem>
-      <rdg type="minor" wit="#S">no/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">no/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">alaṅkāra</rt></ruby> te</rdg>
+    <rdg wit="#Z"> te</rdg>
   </app>
   <app loc="288,294">
     <rdgGrp type="lemma" select="#S">
       <lem>dper na</lem>
       <rdg type="minor" wit="#S">
-        <ruby>dper na/<rt xml:lang="sa-Latn">tad yathā</rt></ruby>
+        dper na/
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>ji ltar<rt xml:lang="sa-Latn">tad yathā</rt></ruby>
+      ji ltar
     </rdg>
   </app>
   <app loc="305,310">
     <lem wit="#S">mtsho</lem>
     <rdg wit="#Z">
-      <ruby>mtsho <rt xml:lang="sa-Latn">samudra</rt></ruby>
-      <ruby>dang mtshungs </ruby>
+      mtsho 
+      dang mtshungs 
     </rdg>
   </app>
   <app loc="316,323">
     <rdgGrp type="lemma" select="#S">
       <lem>lta bu'o</lem>
-      <rdg type="minor" wit="#S"><ruby>lta bu<rt xml:lang="sa-Latn">samudra iti iva</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">lta bu'o/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>bzhin <rt xml:lang="sa-Latn">itīva</rt></ruby> no</rdg>
+    <rdg wit="#Z">bzhin  no</rdg>
   </app>
   <app loc="346,350">
     <lem wit="#S">ltar</lem>
@@ -2179,56 +2179,56 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="373,378">
     <rdgGrp type="lemma" select="#S">
       <lem>pa des</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">guṇavat</rt></ruby> des</rdg>
+      <rdg type="minor" wit="#S">pa des</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><lb n="7"/>pa<rt xml:lang="sa-Latn">guṇavat</rt></ruby>s</rdg>
+    <rdg wit="#Z"><lb n="7"/>pas</rdg>
   </app>
   <app loc="411,433">
     <lem wit="#S">dang sdig pa dang phongs pa</lem>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">duḥkha</rt></ruby> gyis <ruby>gzir ba </ruby></rdg>
+    <rdg wit="#Z"> gyis gzir ba </rdg>
   </app>
   <app loc="440,445">
     <rdgGrp type="lemma" select="#S">
       <lem>a ghaṃ</lem>
       <rdg type="minor" wit="#S">
-        <ruby>a ghaṃ </ruby>
+        a ghaṃ 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>sdig pa </ruby>
+      sdig pa 
     </rdg>
   </app>
   <app loc="462,465">
     <rdgGrp type="lemma" select="#S">
       <lem>pas</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">abhidhāna</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">pas</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">abhidhāna</rt></ruby> de</rdg>
+    <rdg wit="#Z"> de</rdg>
   </app>
   <app loc="465,470">
     <rdgGrp type="lemma" select="#S">
       <lem>skyon</lem>
       <rdg type="minor" wit="#S">
-        <ruby>skyon </ruby>
+        skyon 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>sdig </ruby>
+      sdig 
     </rdg>
   </app>
   <app loc="473,477">
     <lem wit="#S">pa'i</lem>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">anagha</rt></ruby> ni</rdg>
+    <rdg wit="#Z"> ni</rdg>
   </app>
   <app loc="483,485">
     <lem wit="#S">ni</lem>
-    <rdg wit="#Z"><ruby>nyid <rt xml:lang="sa-Latn">guṇatva</rt></ruby> dang</rdg>
+    <rdg wit="#Z">nyid  dang</rdg>
   </app>
   <app loc="497,503">
     <rdgGrp type="lemma" select="#S">
       <lem>gzhung</lem>
       <rdg type="minor" wit="#S">
-        <ruby>gzhung<rt xml:lang="sa-Latn">grantha</rt></ruby>
+        gzhung
       </rdg>
     </rdgGrp>
     <rdg wit="#Z"/>
@@ -2245,46 +2245,46 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>nyan</lem>
       <rdg type="minor" wit="#S">
-        <ruby>nyan </ruby>
+        nyan 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>thos </ruby>
+      thos 
     </rdg>
   </app>
   <app loc="578,582">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">śravaṇacintāvyākhyānādi</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">pa'o/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">śravaṇacintāvyākhyādi</rt></ruby>s so</rdg>
+    <rdg wit="#Z">pas so</rdg>
   </app>
   <app loc="615,617">
     <lem wit="#S">de</lem>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">sampūrṇatva</rt></ruby> do/ /yang na</rdg>
+    <rdg wit="#Z"> do/ /yang na</rdg>
   </app>
   <app loc="636,655">
     <rdgGrp type="lemma" select="#S">
       <lem>kyis gnas skabs kyi'am</lem>
-      <rdg type="minor" wit="#S">kyis <ruby>gnas skabs<rt xml:lang="sa-Latn">prakrānta</rt></ruby> kyi'am</rdg>
+      <rdg type="minor" wit="#S">kyis gnas skabs kyi'am</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">sarvanāmaśabda</rt></ruby> kyi <ruby>go rims <rt xml:lang="sa-Latn">anukrama</rt></ruby> dang</rdg>
+    <rdg wit="#Z"> kyi go rims  dang</rdg>
   </app>
   <app loc="655,660">
     <rdgGrp type="lemma" select="#S">
       <lem>rab tu</lem>
       <rdg type="minor" wit="#S">
-        <ruby>rab tu </ruby>
+        rab tu 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>rtags </ruby>
+      rtags 
     </rdg>
   </app>
   <app loc="667,674">
     <rdgGrp type="lemma" select="#S">
       <lem>bya ba'i</lem>
-      <rdg type="minor" wit="#S"><ruby>bya ba<rt xml:lang="sa-Latn">prakāśana</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">bya ba'i</rdg>
     </rdgGrp>
     <rdg wit="#Z">brjod pa'i</rdg>
   </app>
@@ -2292,47 +2292,47 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>rtags kun du len par byed</lem>
       <rdg type="minor" wit="#S">
-        <ruby>rtags kun du<rt xml:lang="sa-Latn">sarvaliṅga</rt></ruby>
-        <ruby>len par byed<rt xml:lang="sa-Latn">ādīyate</rt></ruby>
+        rtags kun du
+        len par byed
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>go rims <rt xml:lang="sa-Latn">anukrama</rt></ruby> kyi tshad</rdg>
+    <rdg wit="#Z">go rims  kyi tshad</rdg>
   </app>
   <app loc="708,717">
     <rdgGrp type="lemma" select="#S">
       <lem>gang yin pa</lem>
-      <rdg type="minor" wit="#S"><ruby>gang<rt xml:lang="sa-Latn">yat</rt></ruby> yin pa</rdg>
+      <rdg type="minor" wit="#S">gang yin pa</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">karma</rt></ruby> dang <ruby>mngon par 'dod pa <rt xml:lang="sa-Latn">abhilāṣa</rt></ruby> dag la</rdg>
+    <rdg wit="#Z"> dang mngon par 'dod pa  dag la</rdg>
   </app>
   <app loc="739,764">
     <rdgGrp type="lemma" select="#S">
       <lem>par dgongs pa ste/ aṇ dag gal te</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">sampradāna</rt></ruby>r <ruby>dgongs pa<rt xml:lang="sa-Latn">abhipraiti</rt></ruby> ste/ <ruby>aṇ<rt xml:lang="sa-Latn">aṇ</rt></ruby> dag <ruby>gal te<rt xml:lang="sa-Latn">cet</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">par dgongs pa ste/ aṇ dag gal te</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">sampradāna</rt></ruby>'o/ /gang yang</rdg>
+    <rdg wit="#Z">pa'o/ /gang yang</rdg>
   </app>
   <app loc="767,778">
     <rdgGrp type="lemma" select="#S">
       <lem>yin pa gang de</lem>
-      <rdg type="minor" wit="#S">yin pa <ruby>gang de<rt xml:lang="sa-Latn">yat saḥ</rt></ruby></rdg>
+      <rdg type="minor" wit="#S">yin pa gang de</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">karma</rt></ruby> dang</rdg>
+    <rdg wit="#Z"> dang</rdg>
   </app>
   <app loc="784,788">
     <lem>po'o</lem>
-    <rdg wit="#Z"><ruby>po <rt xml:lang="sa-Latn">kartā</rt></ruby> dag las <ruby>aṇ<rt xml:lang="sa-Latn">aṇ</rt></ruby> dag go</rdg>
+    <rdg wit="#Z">po  dag las aṇ dag go</rdg>
     <rdg wit="#S">po</rdg>
   </app>
   <app loc="790,792">
     <lem>de</lem>
     <rdg wit="#Z">de la</rdg>
-    <rdg wit="#S"><ruby><rt xml:lang="sa-Latn">kartā</rt></ruby>'o/ <ruby>de </ruby></rdg>
+    <rdg wit="#S">'o/ de </rdg>
   </app>
   <app loc="813,822">
     <rdgGrp type="lemma" select="#S">
       <lem>phyir dang</lem>
-      <rdg type="minor" wit="#S"><ruby>phyir<rt xml:lang="sa-Latn">kāmācavarāt</rt></ruby> dang</rdg>
+      <rdg type="minor" wit="#S">phyir dang</rdg>
     </rdgGrp>
     <rdg wit="#Z"/>
   </app>
@@ -2340,13 +2340,13 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>phyir yang gnas skabs</lem>
       <rdg type="minor" wit="#S">
-        <ruby>phyir<rt xml:lang="sa-Latn">śrutāt</rt></ruby>
-        <ruby>yang<rt xml:lang="sa-Latn">punaḥ</rt></ruby>
+        phyir
+        yang
         <lb n="4"/>
-        <ruby>gnas skabs </ruby>
+        gnas skabs 
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>don <rt xml:lang="sa-Latn">artha</rt></ruby> gyi <ruby>go rims </ruby></rdg>
+    <rdg wit="#Z">don  gyi go rims </rdg>
   </app>
   <app loc="853,856">
     <lem wit="#S">kyi</lem>
@@ -2355,30 +2355,30 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="867,873">
     <rdgGrp type="lemma" select="#S">
       <lem>sgra'i</lem>
-      <rdg type="minor" wit="#S"><ruby>sgra<rt xml:lang="sa-Latn">sindhuśabda</rt></ruby>'i</rdg>
+      <rdg type="minor" wit="#S">sgra'i</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>sgra <rt xml:lang="sa-Latn">sindhuśabda</rt></ruby> ste de ni</rdg>
+    <rdg wit="#Z">sgra  ste de ni</rdg>
   </app>
   <app loc="878,884">
     <rdgGrp type="lemma" select="#S">
       <lem>kyis de</lem>
-      <rdg type="minor" wit="#S">kyis <ruby>de </ruby></rdg>
+      <rdg type="minor" wit="#S">kyis de </rdg>
     </rdgGrp>
     <rdg wit="#Z"/>
   </app>
   <app loc="900,905">
     <rdgGrp type="lemma" select="#S">
       <lem>pa ste</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">nirdeśa</rt></ruby> ste</rdg>
+      <rdg type="minor" wit="#S">pa ste</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">nirdeśa</rt></ruby> te</rdg>
+    <rdg wit="#Z"> te</rdg>
   </app>
   <app loc="937,946">
     <rdgGrp type="lemma" select="#S">
       <lem>ni ma yin no</lem>
-      <rdg type="minor" wit="#S">ni <ruby>ma yin<rt xml:lang="sa-Latn">nāsti</rt></ruby> no/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">ni ma yin no/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">śabda</rt></ruby>'i'o</rdg>
+    <rdg wit="#Z">'i'o</rdg>
   </app>
   <app loc="984,987">
     <lem wit="#S">ste</lem>
@@ -2388,17 +2388,17 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>ji skad du</lem>
       <rdg type="minor" wit="#S">
-        <ruby>ji skad du/<rt xml:lang="sa-Latn">yathoktam</rt></ruby>
+        ji skad du/
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby><rt xml:lang="sa-Latn">trivargasampatti</rt></ruby>'o/ de yang</rdg>
+    <rdg wit="#Z">'o/ de yang</rdg>
   </app>
   <app loc="1008,1011">
     <rdgGrp type="lemma" select="#S">
       <lem>ḍis</lem>
-      <rdg type="minor" wit="#S"><ruby>ḍi<rt xml:lang="sa-Latn">ācāryavyāḍi</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">ḍis</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>ḍa<rt xml:lang="sa-Latn">ācāryavyāḍi</rt></ruby>s</rdg>
+    <rdg wit="#Z">ḍas</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-9" source="alignments/KkT1.0.1-9.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -2423,11 +2423,11 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem> dpal mo</lem>
       <rdg type="minor" wit="#S">
-        <ruby>dpal mo </ruby>
+        dpal mo 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>pal dang </ruby>
+      pal dang 
     </rdg>
   </app>
   <app loc="13,16">
@@ -2450,17 +2450,17 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>ba</lem>
       <rdg type="minor" wit="#S">
-        <ruby>ba<rt xml:lang="sa-Latn">vibhuti</rt></ruby>
+        ba
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">sampattivibhuti</rt></ruby>s</rdg>
+    <rdg wit="#Z">pas</rdg>
   </app>
   <app loc="64,70">
     <rdgGrp type="lemma" select="#S">
       <lem>pa dang</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">śobhā</rt></ruby> dang/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">pa dang/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">śobhā</rt></ruby>r gyur rnams la</rdg>
+    <rdg wit="#Z">par gyur rnams la</rdg>
   </app>
   <app loc="72,83">
     <lem wit="#S">'tshogs chas</lem>
@@ -2469,36 +2469,36 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="83,88">
     <lem wit="#S">'jigs</lem>
     <rdg wit="#Z">
-      <ruby>'jigs pa </ruby>
+      'jigs pa 
     </rdg>
   </app>
   <app loc="91,112">
     <rdgGrp type="lemma" select="#S">
       <lem>tshal dang 'phags pa dang</lem>
       <rdg type="minor" wit="#S">
-        <ruby>tshal dang 'phags pa dang /<rt xml:lang="sa-Latn">upakaraṇābhīvanārya</rt></ruby>
+        tshal dang 'phags pa dang /
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>pa<rt xml:lang="sa-Latn">nirbhīta</rt></ruby>'i <ruby>yo byad <rt xml:lang="sa-Latn">prakaraṇa</rt></ruby> gang yin pa'i</rdg>
+    <rdg wit="#Z">pa'i yo byad  gang yin pa'i</rdg>
   </app>
   <app loc="114,129">
     <rdgGrp type="lemma" select="#S">
       <lem>bdud rtsi rnams la</lem>
       <rdg type="minor" wit="#S">
-        <ruby>bdud rtsi rnams la<rt xml:lang="sa-Latn">sudhāsu</rt></ruby>
+        bdud rtsi rnams la
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>yon tan <rt xml:lang="sa-Latn">guṇa</rt></ruby> de yang</rdg>
+    <rdg wit="#Z">yon tan  de yang</rdg>
   </app>
   <app loc="142,147">
     <rdgGrp type="lemma" select="#S">
       <lem>grags</lem>
       <rdg type="minor" wit="#S">
-        <ruby>grags<rt xml:lang="sa-Latn">prathita</rt></ruby>
+        grags
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>bshad<rt xml:lang="sa-Latn">prakāśita</rt></ruby>
+      bshad
     </rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-10" source="alignments/KkT1.0.1-10.xml"><interp type="normalization">
@@ -2537,30 +2537,30 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="0,6">
     <rdgGrp type="lemma" select="#S">
       <lem> zhes so</lem>
-      <rdg type="minor" wit="#S"><ruby>/zhes<rt xml:lang="sa-Latn">iti</rt></ruby> so/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#S">/zhes so/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Z">/<ruby>ces gsungs <rt xml:lang="sa-Latn">ity uktam</rt></ruby> so</rdg>
+    <rdg wit="#Z">/ces gsungs  so</rdg>
   </app>
   <app loc="15,27">
     <rdgGrp type="lemma" select="#S">
       <lem>gang zhig ngag</lem>
       <rdg type="minor" wit="#S">
-        <ruby>gang<rt xml:lang="sa-Latn">yā</rt></ruby>
-        <ruby>zhig ngag </ruby>
+        gang
+        zhig ngag 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">
-      <ruby>
-        <rt xml:lang="sa-Latn">athavā</rt>
-      </ruby>
-      <ruby>thams cad mkhyen pa'i gsung </ruby>
+      
+        
+      
+      thams cad mkhyen pa'i gsung 
     </rdg>
   </app>
   <app loc="38,54">
     <rdgGrp type="lemma" select="#S">
       <lem>thams cad shes pa'i</lem>
       <rdg type="minor" wit="#S">
-        <ruby>thams cad shes pa'i </ruby>
+        thams cad shes pa'i 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z">gyi</rdg>
@@ -2569,37 +2569,37 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdgGrp type="lemma" select="#S">
       <lem>nyid</lem>
       <rdg type="minor" wit="#S">
-        <ruby>nyid<rt xml:lang="sa-Latn">sarvajñalakṣaṇatva</rt></ruby>
+        nyid
       </rdg>
     </rdgGrp>
-    <rdg wit="#Z"><ruby>nyid <rt xml:lang="sa-Latn">vāṅmayasarvajñalakṣaṇa</rt></ruby> gang yin pa ni</rdg>
+    <rdg wit="#Z">nyid  gang yin pa ni</rdg>
   </app>
   <app loc="64,80">
     <rdgGrp type="lemma" select="#S">
       <lem>ni rang don phun sum</lem>
-      <rdg type="minor" wit="#S">ni <ruby>rang don phun sum </ruby></rdg>
+      <rdg type="minor" wit="#S">ni rang don phun sum </rdg>
     </rdgGrp>
     <rdg wit="#Y">
-      <ruby>/bsod nams dang ye shes kyi </ruby>
+      /bsod nams dang ye shes kyi 
     </rdg>
     <rdg wit="#Z">
-      <ruby>rang gi don phun sum </ruby>
+      rang gi don phun sum 
     </rdg>
   </app>
   <app loc="86,92">
     <rdgGrp type="lemma" select="#S">
       <lem>pa dang</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">svārthasampat</rt></ruby> dang</rdg>
+      <rdg type="minor" wit="#S">pa dang</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>bsags pa<rt xml:lang="sa-Latn">puṇyajñānasambhāra</rt></ruby> las <ruby>thar pa<rt xml:lang="sa-Latn">mokṣa</rt></ruby> dang</rdg>
-    <rdg wit="#Z"><ruby>pa <rt xml:lang="sa-Latn">svārthasampad</rt></ruby> yin zhing</rdg>
+    <rdg wit="#Y">bsags pa las thar pa dang</rdg>
+    <rdg wit="#Z">pa  yin zhing</rdg>
   </app>
   <app loc="93,101">
     <rdgGrp type="lemma" select="#S">
       <lem>gang zhig</lem>
       <rdg type="minor" wit="#S">
-        <ruby>gang<rt xml:lang="sa-Latn">yā</rt></ruby>
-        <ruby>zhig </ruby>
+        gang
+        zhig 
       </rdg>
     </rdgGrp>
     <rdg wit="#Z"/>
@@ -2607,36 +2607,36 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="141,157">
     <lem wit="#Z #S">don phun sum tshogs</lem>
     <rdg wit="#Y">
-      <ruby>mya ngan las 'das </ruby>
+      mya ngan las 'das 
     </rdg>
   </app>
   <app loc="162,177">
     <lem>de gnyis ni dpal lo</lem>
     <rdg wit="#Y"/>
-    <rdg wit="#Z"><ruby>de gnyis ka <rt xml:lang="sa-Latn">tad ubhaya</rt></ruby> ni <ruby>dpal <rt xml:lang="sa-Latn">śrī</rt></ruby> lo</rdg>
-    <rdg wit="#S"><ruby>de gnyis<rt xml:lang="sa-Latn">tad ubhaya</rt></ruby> ni <ruby>dpal<rt xml:lang="sa-Latn">śrī</rt></ruby> la'o/ <ruby>/</ruby></rdg>
+    <rdg wit="#Z">de gnyis ka  ni dpal  lo</rdg>
+    <rdg wit="#S">de gnyis ni dpal la'o/ /</rdg>
   </app>
   <app loc="244,250">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>la 'bad</lem>
-      <rdg type="minor" wit="#Z"><ruby><rt xml:lang="sa-Latn">puṇyajñānasambhāra</rt></ruby> la <ruby>'bad </ruby></rdg>
-      <rdg type="minor" wit="#S">la <ruby>'bad </ruby></rdg>
+      <rdg type="minor" wit="#Z"> la 'bad </rdg>
+      <rdg type="minor" wit="#S">la 'bad </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
   <app loc="250,253">
     <rdgGrp type="lemma" select="#S">
       <lem>pas</lem>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">yatna</rt></ruby>s</rdg>
+      <rdg type="minor" wit="#S">pas</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
-    <rdg wit="#Z"><ruby>pa <rt xml:lang="sa-Latn">yatna </rt></ruby> las</rdg>
+    <rdg wit="#Z">pa  las</rdg>
   </app>
   <app loc="253,263">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>thar pa thob</lem>
       <rdg type="minor" wit="#Z #S">
-        <ruby>thar pa thob </ruby>
+        thar pa thob 
       </rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
@@ -2644,16 +2644,16 @@ KkT1.0.1-1: Z doesn't match alignment.
   <app loc="263,277">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>pa ni bdud rtsi'o</lem>
-      <rdg type="minor" wit="#Z"><ruby>pa <rt xml:lang="sa-Latn">mokṣa prāpta </rt></ruby> ni <ruby>bdud rtsi<rt xml:lang="sa-Latn">amṛta</rt></ruby>'o</rdg>
-      <rdg type="minor" wit="#S"><ruby>pa<rt xml:lang="sa-Latn">mokṣa prāpta</rt></ruby> ni <ruby>bdud rtsi<rt xml:lang="sa-Latn">amṛta</rt></ruby>'o/ <ruby>/</ruby></rdg>
+      <rdg type="minor" wit="#Z">pa  ni bdud rtsi'o</rdg>
+      <rdg type="minor" wit="#S">pa ni bdud rtsi'o/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y"><ruby>pa<rt xml:lang="sa-Latn">svaparārthasampat</rt></ruby>'o</rdg>
+    <rdg wit="#Y">pa'o</rdg>
   </app>
   <app loc="277,283">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>zhes so</lem>
-      <rdg type="minor" wit="#Z"><ruby>zhes <rt xml:lang="sa-Latn">iti</rt></ruby> so</rdg>
-      <rdg type="minor" wit="#S"><ruby>zhes<rt xml:lang="sa-Latn">iti</rt></ruby> so</rdg>
+      <rdg type="minor" wit="#Z">zhes  so</rdg>
+      <rdg type="minor" wit="#S">zhes so</rdg>
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
