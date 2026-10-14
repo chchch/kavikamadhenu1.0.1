@@ -83,7 +83,7 @@
   <text xml:lang="bo-Latn-t-bo-Tibt" type="edition">
     <body>
 <p xml:id="KkT1.0.1-1">
-de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum tshogs pa bsgrub pa'i phyir/ kun du bzang po bcom ldan 'das la mchod par brjod pa ni/ gang gi zhes pa la sogs pa ste/ yul gyi dngos po mtha' dag yongs su mkhyen pa ni mkhyen pa'o// sdug bsngal las yang dag par 'don par bzhed pa ni brtse ba'o/ de dag gis rgya mtsho dang 'dra bas rgya mtsho ste/ mkhyen pa dang brtse ba'i rgya mtsho de ni sangs rgyas bcom ldan 'das so// 'dir rgya mtsho'i sgra 'di ni gting med pa la sogs pa'i yon tan mtshungs pa'i phyir btags pa'o// de'i gting med pa nyid la sogs pa'ang mkhyen pa dang brtse bas byas pa'o zhes par byed pa can la mang por ro zhes pa'i bsdu ba'o// bya ba ni ma 'ongs pa'i don nyid kyi phyir dgos pa med do// mkhyen pa dang brtse ba dag gis rgya mtsho zhes brjod pas na des byas so zhes shes par bya ste de la ltos pa'i tshig dang 'brel pas yang na drug pa'i bsdu ba'o// mkhyen pa dang brtse ba dag gis rgya mtsho lta bu ste 'og gzhi'i rgya mtsho chen po'o// gting med pa ni gzhan gyis mi rtogs pa ste mkhyen brtse pha mtha' yas pa'i phyir zab cing yongs su gcad du med pa'o// bcom ldan 'das kyi mkhyen pas shes bya'i dkyil 'khor thams cad la khyab cing brtse bas kyang sdug bsngal gyi rgya mtshor bying ba'i 'gro ba skyabs med pa mtha' yas pa la mngon par khyab cing rgyas pa'i phyir su zhig gis de'i mthar thug par bgrod par nus zhes dgongs pa'o// te ltar gyur pa gang sdig med de 'dod chags la sogs pa'i nyes pa spangs pa'o// yon tan ni byams pa dang bzod pa dang nye bar zhi ba la sogs pa ste/ gu ṇa bod pa la'o// zhes pa ata mtha' can gyi byings tsur sogs kyi lhag ma ste/ de ni tshogs yongs su ma rdzogs pa la brita byed pa'i phyir ro// legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir i las atsa'o// kyai blo ldan khyed cag rnams kyis de bsten par byos shig ces rtogs par bya'o//
+de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum tshogs pa bsgrub pa'i phyir/ kun du bzang po bcom ldan 'das la mchod par brjod pa ni/ gang gi zhes pa la sogs pa ste/ yul gyi dngos po mtha' dag yongs su mkhyen pa ni mkhyen pa'o// sdug bsngal las yang dag par 'don par bzhed pa ni brtse ba'o/ de dag gis rgya mtsho dang 'dra bas rgya mtsho ste/ mkhyen pa dang brtse ba'i rgya mtsho de ni sangs rgyas bcom ldan 'das so// 'dir rgya mtsho'i sgra 'di ni gting med pa la sogs pa'i yon tan mtshungs pa'i phyir btags pa'o// de'i gting med pa nyid la sogs pa'ang mkhyen pa dang brtse bas byas pa'o zhes par byed pa can la mang por ro zhes pa'i bsdu ba'o// bya ba ni ma 'ongs pa'i don nyid kyi phyir dgos pa med do// mkhyen pa dang brtse ba dag gis rgya mtsho zhes brjod pas na des byas so zhes shes par bya ste de la ltos pa'i tshig dang 'brel pas yang na drug pa'i bsdu ba'o// mkhyen pa dang brtse ba dag gis rgya mtsho lta bu ste 'og gzhi'i rgya mtsho chen po'o// gting med pa ni gzhan gyis mi rtogs pa ste mkhyen brtse pha mtha' yas pa'i phyir zab cing yongs su gcad du med pa'o// bcom ldan 'das kyi mkhyen pas shes bya'i dkyil 'khor thams cad la khyab cing brtse bas kyang sdug bsngal gyi rgya mtshor bying ba'i 'gro ba skyabs med pa mtha' yas pa la mngon par khyab cing rgyas pa'i phyir su zhig gis de'i mthar thug par bgrod par nus zhes dgongs pa'o// de ltar gyur pa gang sdig med de 'dod chags la sogs pa'i nyes pa spangs pa'o// yon tan ni byams pa dang bzod pa dang nye bar zhi ba la sogs pa ste/ gu ṇa bod pa la'o// zhes pa ata mtha' can gyi byings tsur sogs kyi lhag ma ste/ de ni tshogs yongs su ma rdzogs pa la brita byed pa'i phyir ro// legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir i las atsa'o// kyai blo ldan khyed cag rnams kyis de bsten par byos shig ces rtogs par bya'o//
       </p>
       <lg xml:id="KkT1.0.1-2">
         <l>mi phan par yang phan gyur gang de mkhas pa ste//</l>
@@ -605,10 +605,9 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Z">de'i</rdg>
   </app>
   <app loc="885,903">
-    <lem>mkhyen pas shes bya'i</lem>
+    <lem wit="#S">mkhyen pas shes bya'i</lem>
     <rdg wit="#Y">thugs rje'i</rdg>
     <rdg wit="#Z">mkhyen pa dang brtse ba  shes bya'i</rdg>
-    <rdg wit="#S">mkhen pas shes bya'i</rdg>
   </app>
   <app loc="913,921">
     <rdgGrp type="lemma" select="#S">
@@ -720,17 +719,13 @@ KkT1.0.1-1: Z doesn't match alignment.
     </rdgGrp>
   </app>
   <app loc="1089,1095">
-    <lem>te ltar</lem>
+    <lem wit="#S">de ltar</lem>
     <rdg wit="#Y">
       de bzhin du 
     </rdg>
     <rdg wit="#Z">
-      
-        
-      
       de lta bur 
     </rdg>
-    <rdg wit="#S">de ltar</rdg>
   </app>
   <app loc="1101,1105">
     <rdgGrp type="lemma" select="#Z #S">
@@ -1045,12 +1040,9 @@ KkT1.0.1-1: Z doesn't match alignment.
     </app>
   </listApp>
   <app loc="30,51">
-    <lem>rgya che ba nyid gyi phyir</lem>
+    <lem wit="#S">rgya che ba nyid kyi phyir</lem>
     <rdg wit="#Y">phun sum tshogs pa de lta bu ni</rdg>
     <rdg wit="#Z">chen po  de lta bu ni</rdg>
-    <rdg wit="#S">
-      rgya che <lb n="6"/>ba nyid kyi phyir
-    </rdg>
   </app>
   <app loc="56,59">
     <lem wit="#S">gyi</lem>
@@ -1151,33 +1143,33 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-4" source="alignments/KkT1.0.1-4.xml"><interp type="normalization">
   <desc type="tagfilters">
-    <tag subtype="ignore">pc</tag>
-    <tag subtype="ignore">abbr</tag>
-    <tag subtype="ignore">corr</tag>
-    <tag subtype="ignore">ex</tag>
-    <tag subtype="ignore">head</tag>
-    <tag subtype="ignore">label</tag>
-    <tag subtype="ignore">note</tag>
-    <tag subtype="ignore">num</tag>
-    <tag subtype="ignore">rt</tag>
-    <tag subtype="ignore">locus</tag>
-    <tag subtype="ignore">metamark</tag>
-    <tag subtype="ignore">supplied</tag>
-    <tag subtype="ignore">surplus</tag>
-    <tag subtype="ignore">trailer</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">trailer</tag>
   </desc>
 </interp>
 <listApp>
   <listApp type="omissions">
-    <app loc="0,199">
+    <app loc="0,201">
       <lem>rgya… ni</lem>
       <rdg wit="#Y"/>
     </app>
-    <app loc="340,402">
+    <app loc="342,404">
       <lem>rgya… de'i</lem>
       <rdg wit="#Y #Z"/>
     </app>
-    <app loc="414,603">
+    <app loc="416,605">
       <lem>dang… med</lem>
       <rdg wit="#Y"/>
     </app>
@@ -1188,10 +1180,6 @@ KkT1.0.1-1: Z doesn't match alignment.
       <rdg type="minor" wit="#S">/rgya mtsho'i gting med pa ni</rdg>
     </rdgGrp>
     <rdg wit="#Z">/gting med pa  ni rgya mtsho'i</rdg>
-  </app>
-  <app loc="32,35">
-    <lem>rig</lem>
-    <rdg wit="#Z #S">reg</rdg>
   </app>
   <app loc="41,45">
     <lem wit="#S">dang</lem>
@@ -1219,61 +1207,59 @@ KkT1.0.1-1: Z doesn't match alignment.
     <lem wit="#S">ni</lem>
     <rdg wit="#Z">nyid</rdg>
   </app>
-  <app loc="76,81">
-    <lem wit="#S">byung</lem>
-    <rdg wit="#Z">'byung</rdg>
-  </app>
-  <app loc="85,91">
+  <app loc="86,92">
     <rdgGrp type="lemma" select="#S">
       <lem>la sogs</lem>
       <rdg type="minor" wit="#S">la sogs </rdg>
     </rdgGrp>
     <rdg wit="#Z"> su gyur</rdg>
   </app>
-  <app loc="91,97">
+  <app loc="92,98">
     <rdgGrp type="lemma" select="#S">
       <lem>pa dang</lem>
       <rdg type="minor" wit="#S">pa dang</rdg>
     </rdgGrp>
     <rdg wit="#Z">pas na</rdg>
   </app>
-  <app loc="105,107">
+  <app loc="106,108">
     <lem wit="#S">ni</lem>
     <rdg wit="#Z"> ste</rdg>
   </app>
-  <app loc="132,136">
+  <app loc="133,137">
     <lem wit="#S">bo'i</lem>
     <rdg wit="#Z">bo</rdg>
   </app>
-  <app loc="136,140">
+  <app loc="137,141">
     <lem wit="#S">gtam</lem>
     <rdg wit="#Z"/>
   </app>
-  <app loc="148,150">
+  <app loc="149,151">
     <lem wit="#S">ni</lem>
     <rdg wit="#Z"/>
   </app>
-  <app loc="164,166">
+  <app loc="165,167">
     <lem wit="#S">ba</lem>
     <rdg wit="#Z">bar</rdg>
   </app>
-  <app loc="166,179">
+  <app loc="167,180">
     <rdgGrp type="lemma" select="#S">
       <lem>yin pas gtam gyi</lem>
       <rdg type="minor" wit="#S">yin pas gtam gyi</rdg>
     </rdgGrp>
     <rdg wit="#Z">rab tu 'dzud pas na rab tu 'jug pa'i</rdg>
   </app>
-  <app loc="186,199">
-    <lem>nye bar son pa ni</lem>
+  <app loc="187,201">
+    <rdgGrp type="lemma" select="#S">
+      <lem>nye bar ston pa ni</lem>
+      <rdg type="minor" wit="#S">nye bar ston pa ni</rdg>
+    </rdgGrp>
     <rdg wit="#Z">ston to</rdg>
-    <rdg wit="#S">nye bar ston pa ni</rdg>
   </app>
-  <app loc="211,217">
+  <app loc="213,219">
     <lem wit="#Z #S">rtsi'i</lem>
     <rdg wit="#Y">rtsi</rdg>
   </app>
-  <app loc="217,227">
+  <app loc="219,229">
     <rdgGrp type="lemma" select="#S">
       <lem>ched du'ang</lem>
       <rdg type="minor" wit="#S">ched du'ang</rdg>
@@ -1281,7 +1267,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Y">dang bcas phyir</rdg>
     <rdg wit="#Z">phyir  du yang</rdg>
   </app>
-  <app loc="227,236">
+  <app loc="229,238">
     <rdgGrp type="lemma" select="#S">
       <lem>zhes pa ste</lem>
       <rdg type="minor" wit="#S">zhes pa ste</rdg>
@@ -1289,7 +1275,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Y">zhes te</rdg>
     <rdg wit="#Z">zhes pa  ni</rdg>
   </app>
-  <app loc="236,246">
+  <app loc="238,248">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>'tshed pa'i</lem>
       <rdg type="minor" wit="#Z #S">
@@ -1298,19 +1284,15 @@ KkT1.0.1-1: Z doesn't match alignment.
     </rdgGrp>
     <rdg wit="#Y">tshad med pa'i</rdg>
   </app>
-  <app loc="246,257">
-    <lem wit="#Z #S">phyir du 'gro</lem>
-    <rdg wit="#Y"/>
-  </app>
-  <app loc="257,259">
-    <lem wit="#S">ba</lem>
+  <app loc="248,261">
+    <lem wit="#S">phyir du 'gro ba</lem>
     <rdg wit="#Y">
       ched du
       'jug pa
     </rdg>
-    <rdg wit="#Z">bar byed pa</rdg>
+    <rdg wit="#Z">phyir du 'gro bar byed pa</rdg>
   </app>
-  <app loc="259,264">
+  <app loc="261,266">
     <lem wit="#S">lta bu</lem>
     <rdgGrp select="#Y #Z">
       <rdg type="main">bzhin du</rdg>
@@ -1319,7 +1301,7 @@ KkT1.0.1-1: Z doesn't match alignment.
       </rdg>
     </rdgGrp>
   </app>
-  <app loc="264,277">
+  <app loc="266,279">
     <rdgGrp type="lemma" select="#Z #S">
       <lem>de'i don nyid la</lem>
       <rdg type="minor" wit="#Z"> de'i don nyid  la</rdg>
@@ -1327,7 +1309,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     </rdgGrp>
     <rdg wit="#Y"/>
   </app>
-  <app loc="281,285">
+  <app loc="283,287">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o</lem>
       <rdg type="minor" wit="#S">pa'o/ /</rdg>
@@ -1335,7 +1317,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Y">pa'i don te/ /</rdg>
     <rdg wit="#Z">pa'i rnam dbye'o</rdg>
   </app>
-  <app loc="287,299">
+  <app loc="289,301">
     <rdgGrp type="lemma" select="#S">
       <lem>dang dang yang</lem>
       <rdg type="minor" wit="#S">dang dang yang</rdg>
@@ -1347,7 +1329,7 @@ KkT1.0.1-1: Z doesn't match alignment.
       gang 
     </rdg>
   </app>
-  <app loc="301,316">
+  <app loc="303,318">
     <rdgGrp type="lemma" select="#S">
       <lem>don can tsa yig dag</lem>
       <rdg type="minor" wit="#S">don can tsa yig dag</rdg>
@@ -1365,16 +1347,16 @@ KkT1.0.1-1: Z doesn't match alignment.
       </rdg>
     </rdgGrp>
   </app>
-  <app loc="327,330">
+  <app loc="329,332">
     <lem wit="#S">kun</lem>
     <rdg wit="#Y">du b</rdg>
     <rdg wit="#Z"/>
   </app>
-  <app loc="330,334">
+  <app loc="332,336">
     <lem wit="#Z #S">sdud</lem>
     <rdg wit="#Y">sdu</rdg>
   </app>
-  <app loc="334,338">
+  <app loc="336,340">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'o</lem>
       <rdg type="minor" wit="#S">pa'o/ /</rdg>
@@ -1382,7 +1364,7 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Y">ba'i tshig go</rdg>
     <rdg wit="#Z">pa'i tshig  go</rdg>
   </app>
-  <app loc="402,427">
+  <app loc="404,429">
     <rdgGrp type="lemma" select="#S">
       <lem>dpal ni dpal mo dang 'chi med ni</lem>
       <rdg type="minor" wit="#S">dpal ni dpal mo dang 'chi med ni</rdg>
@@ -1393,14 +1375,14 @@ KkT1.0.1-1: Z doesn't match alignment.
       <rdg type="minor" wit="#Z">dpal  ni phun sum tshogs pa'o</rdg>
     </rdgGrp>
   </app>
-  <app loc="431,442">
+  <app loc="433,444">
     <rdgGrp type="lemma" select="#S">
       <lem>rtsi ste de'i</lem>
       <rdg type="minor" wit="#S">rtsi ste de'i </rdg>
     </rdgGrp>
     <rdg wit="#Z"><lb n="1"/>rtsi'i</rdg>
   </app>
-  <app loc="448,453">
+  <app loc="450,455">
     <lem wit="#S">bsten</lem>
     <rdg wit="#Z">
       
@@ -1411,26 +1393,18 @@ KkT1.0.1-1: Z doesn't match alignment.
       bsten 
     </rdg>
   </app>
-  <app loc="495,499">
+  <app loc="497,501">
     <rdgGrp type="lemma" select="#S">
       <lem>pa'i</lem>
       <rdg type="minor" wit="#S">pa'i</rdg>
     </rdgGrp>
     <rdg wit="#Z">par</rdg>
   </app>
-  <app loc="524,528">
-    <lem>gyis</lem>
-    <rdg wit="#Z #S">kyis</rdg>
-  </app>
-  <app loc="532,534">
+  <app loc="534,536">
     <lem wit="#S">te</lem>
     <rdg wit="#Z">gyi phyir  te</rdg>
   </app>
-  <app loc="592,596">
-    <lem wit="#S">gyis</lem>
-    <rdg wit="#Z">kyis</rdg>
-  </app>
-  <app loc="596,603">
+  <app loc="598,605">
     <rdgGrp type="lemma" select="#S">
       <lem>'chi med</lem>
       <rdg type="minor" wit="#S">
@@ -1444,16 +1418,16 @@ KkT1.0.1-1: Z doesn't match alignment.
       bdud rtsi'i phyir 
     </rdg>
   </app>
-  <app loc="603,605">
+  <app loc="605,607">
     <lem wit="#S">de</lem>
     <rdg wit="#Y"/>
     <rdg wit="#Z"> te</rdg>
   </app>
-  <app loc="609,613">
+  <app loc="611,615">
     <lem wit="#Z #S">pa'i</lem>
     <rdg wit="#Y">pa dang</rdg>
   </app>
-  <app loc="613,642">
+  <app loc="615,644">
     <rdgGrp type="lemma" select="#S">
       <lem>ched du bsten par gyis shig ces pa'o</lem>
       <rdg type="minor" wit="#S">ched du bsten par gyis shig ces pa'o</rdg>
@@ -1463,20 +1437,20 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-5" source="alignments/KkT1.0.1-5.xml"><interp type="normalization">
   <desc type="tagfilters">
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">trailer</tag>
+    <tag subtype="ignore">pc</tag>
+    <tag subtype="ignore">abbr</tag>
+    <tag subtype="ignore">corr</tag>
+    <tag subtype="ignore">ex</tag>
+    <tag subtype="ignore">head</tag>
+    <tag subtype="ignore">label</tag>
+    <tag subtype="ignore">note</tag>
+    <tag subtype="ignore">num</tag>
+    <tag subtype="ignore">rt</tag>
+    <tag subtype="ignore">locus</tag>
+    <tag subtype="ignore">metamark</tag>
+    <tag subtype="ignore">supplied</tag>
+    <tag subtype="ignore">surplus</tag>
+    <tag subtype="ignore">trailer</tag>
   </desc>
 </interp>
 <listApp>
@@ -2003,20 +1977,20 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-8" source="alignments/KkT1.0.1-8.xml"><interp type="normalization">
   <desc type="tagfilters">
-    <tag subtype="ignore">pc</tag>
-    <tag subtype="ignore">abbr</tag>
-    <tag subtype="ignore">corr</tag>
-    <tag subtype="ignore">ex</tag>
-    <tag subtype="ignore">head</tag>
-    <tag subtype="ignore">label</tag>
-    <tag subtype="ignore">note</tag>
-    <tag subtype="ignore">num</tag>
-    <tag subtype="ignore">rt</tag>
-    <tag subtype="ignore">locus</tag>
-    <tag subtype="ignore">metamark</tag>
-    <tag subtype="ignore">supplied</tag>
-    <tag subtype="ignore">surplus</tag>
-    <tag subtype="ignore">trailer</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">trailer</tag>
   </desc>
 </interp>
 <listApp>
@@ -2326,14 +2300,20 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Z"> dang</rdg>
   </app>
   <app loc="784,788">
-    <lem>po'o</lem>
+    <rdgGrp type="lemma" select="#S">
+      <lem>po'o</lem>
+      <rdg type="minor" wit="#S">po'o</rdg>
+    </rdgGrp>
     <rdg wit="#Z">po  dag las aṇ dag go</rdg>
-    <rdg wit="#S">po</rdg>
   </app>
   <app loc="790,792">
-    <lem>de</lem>
+    <rdgGrp type="lemma" select="#S">
+      <lem>de</lem>
+      <rdg type="minor" wit="#S">
+        de 
+      </rdg>
+    </rdgGrp>
     <rdg wit="#Z">de la</rdg>
-    <rdg wit="#S">'o/ de </rdg>
   </app>
   <app loc="813,822">
     <rdgGrp type="lemma" select="#S">
@@ -2617,10 +2597,9 @@ KkT1.0.1-1: Z doesn't match alignment.
     </rdg>
   </app>
   <app loc="162,177">
-    <lem>de gnyis ni dpal lo</lem>
+    <lem wit="#S">de gnyis ni dpal lo</lem>
     <rdg wit="#Y"/>
     <rdg wit="#Z">de gnyis ka  ni dpal  lo</rdg>
-    <rdg wit="#S">de gnyis ni dpal la'o/ /</rdg>
   </app>
   <app loc="244,250">
     <rdgGrp type="lemma" select="#Z #S">
