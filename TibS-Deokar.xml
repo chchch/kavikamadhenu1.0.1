@@ -1457,20 +1457,20 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-5" source="alignments/KkT1.0.1-5.xml"><interp type="normalization">
   <desc type="tagfilters">
-    <tag subtype="ignore">pc</tag>
-    <tag subtype="ignore">abbr</tag>
-    <tag subtype="ignore">corr</tag>
-    <tag subtype="ignore">ex</tag>
-    <tag subtype="ignore">head</tag>
-    <tag subtype="ignore">label</tag>
-    <tag subtype="ignore">note</tag>
-    <tag subtype="ignore">num</tag>
-    <tag subtype="ignore">rt</tag>
-    <tag subtype="ignore">locus</tag>
-    <tag subtype="ignore">metamark</tag>
-    <tag subtype="ignore">supplied</tag>
-    <tag subtype="ignore">surplus</tag>
-    <tag subtype="ignore">trailer</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">trailer</tag>
   </desc>
 </interp>
 <listApp>
@@ -1589,18 +1589,20 @@ KkT1.0.1-1: Z doesn't match alignment.
       rab tu 
     </rdg>
   </app>
-  <app loc="193,197">
-    <lem wit="#S" subtype="prefix">dnga</lem>
+  <app loc="193,198">
+    <lem wit="#S">dngas</lem>
     <rdg wit="#Y">
       gsal ba
     </rdg>
     <rdg wit="#Z">dngas <lb n="3"/>pa</rdg>
   </app>
-  <app loc="197,202">
-    <lem wit="#S" subtype="suffix">s zhes</lem>
-    <rdg wit="#Y">
-      zhes 
-    </rdg>
+  <app loc="198,202">
+    <rdgGrp type="lemma" select="#Y #S">
+      <lem>zhes</lem>
+      <rdg type="minor" wit="#Y">
+        zhes 
+      </rdg>
+    </rdgGrp>
     <rdg wit="#Z">zhes bya</rdg>
   </app>
   <app loc="202,204">
@@ -1775,7 +1777,7 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
   <app loc="44,47">
     <rdgGrp type="lemma" select="#S">
-      <lem subtype="prefix">gyi</lem>
+      <lem>gyi</lem>
       <rdg type="minor" wit="#S">gyi/ /</rdg>
     </rdgGrp>
     <rdg wit="#Y">
@@ -2022,14 +2024,12 @@ KkT1.0.1-1: Z doesn't match alignment.
     <lem wit="#S">la'ang</lem>
     <rdg wit="#Z">la yang</rdg>
   </app>
-  <app loc="37,38">
-    <lem wit="#S" subtype="prefix">t</lem>
-    <rdg wit="#Z"> te</rdg>
-  </app>
-  <app loc="38,43">
+  <app loc="39,43">
     <rdgGrp type="lemma" select="#S">
-      <lem subtype="suffix">e de la</lem>
-      <rdg type="minor" wit="#S">e de la</rdg>
+      <lem>de la</lem>
+      <rdg type="minor" wit="#S">
+        de la
+      </rdg>
     </rdgGrp>
     <rdg wit="#Z">
       'dir 
@@ -2503,20 +2503,20 @@ KkT1.0.1-1: Z doesn't match alignment.
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#KkT1.0.1-10" source="alignments/KkT1.0.1-10.xml"><interp type="normalization">
   <desc type="tagfilters">
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
-    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">trailer</tag>
+    <tag subtype="ignore">pc</tag>
+    <tag subtype="ignore">abbr</tag>
+    <tag subtype="ignore">corr</tag>
+    <tag subtype="ignore">ex</tag>
+    <tag subtype="ignore">head</tag>
+    <tag subtype="ignore">label</tag>
+    <tag subtype="ignore">note</tag>
+    <tag subtype="ignore">num</tag>
+    <tag subtype="ignore">rt</tag>
+    <tag subtype="ignore">locus</tag>
+    <tag subtype="ignore">metamark</tag>
+    <tag subtype="ignore">supplied</tag>
+    <tag subtype="ignore">surplus</tag>
+    <tag subtype="ignore">trailer</tag>
   </desc>
 </interp>
 <listApp>
