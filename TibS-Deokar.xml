@@ -9,17 +9,23 @@
          <sourceDesc>
             <msDesc>
                <msContents>
-            <summary><p>The edition in Deokar 2013 has been here collated against a print of the text in the Mongolian National Library as well as Zhwa lu lo tsā wa's translation from the Derge Tanjur.</p></summary>
+            <summary><p>The edition in Deokar 2013 has been here collated against:</p>
+              <list>
+                <item>a print of the text in the Mongolian National Library,</item>
+                <item>the translation of Kīrticandra &amp; Yar klung lo tsā ba from the Narthang Tangyur,</item>
+                <item>&amp; the translation of Zhwa lu lo tsā ba from the Derge Tanjur.</item>
+              </list>
+             </summary>
                </msContents>
             </msDesc>
          <listWit>
 <witness xml:id="Y" source="TibY.xml">
 <abbr>Y</abbr>
-<expan><title xml:lang="bo">'chi ba med pa'i mdzod kyi rgya cher 'grel pa 'dod 'jo'i ba mo</title></expan>
+            <expan><title xml:lang="bo">Translation of <persName xml:lang="sa">Kīrticandra</persName> &amp; <persName xml:lang="bo">zhwa lu lo tsā ba</persName> in the Narthang Tangyur</title></expan>
 </witness>
 <witness xml:id="Z" source="TibZ.xml">
 <abbr>Z</abbr>
-            <expan>Translation of <persName xml:lang="bo">zhwa lu lo tsā ba chos skyong bzang po</persName> in the Derge edition</expan>
+            <expan>Translation of <persName xml:lang="bo">zhwa lu lo tsā ba chos skyong bzang po</persName> in the Derge Tangyur</expan>
           </witness>
 <witness xml:id="S" source="TibS.xml">
 <abbr>S</abbr>
@@ -74,7 +80,7 @@
       <encodingDesc><p>Extended Wylie transliteration, using IAST where unambiguous.</p></encodingDesc>
     <revisionDesc/>
   </teiHeader>
-  <text xml:lang="bo-Latn-t-bo-Tibt">
+  <text xml:lang="bo-Latn-t-bo-Tibt" type="edition">
     <body>
 <p xml:id="KkT1.0.1-1">
 de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum tshogs pa bsgrub pa'i phyir/ kun du bzang po bcom ldan 'das la mchod par brjod pa ni/ gang gi zhes pa la sogs pa ste/ yul gyi dngos po mtha' dag yongs su mkhyen pa ni mkhyen pa'o// sdug bsngal las yang dag par 'don par bzhed pa ni brtse ba'o/ de dag gis rgya mtsho dang 'dra bas rgya mtsho ste/ mkhyen pa dang brtse ba'i rgya mtsho de ni sangs rgyas bcom ldan 'das so// 'dir rgya mtsho'i sgra 'di ni gting med pa la sogs pa'i yon tan mtshungs pa'i phyir btags pa'o// de'i gting med pa nyid la sogs pa'ang mkhyen pa dang brtse bas byas pa'o zhes par byed pa can la mang por ro zhes pa'i bsdu ba'o// bya ba ni ma 'ongs pa'i don nyid kyi phyir dgos pa med do// mkhyen pa dang brtse ba dag gis rgya mtsho zhes brjod pas na des byas so zhes shes par bya ste de la ltos pa'i tshig dang 'brel pas yang na drug pa'i bsdu ba'o// mkhyen pa dang brtse ba dag gis rgya mtsho lta bu ste 'og gzhi'i rgya mtsho chen po'o// gting med pa ni gzhan gyis mi rtogs pa ste mkhyen brtse pha mtha' yas pa'i phyir zab cing yongs su gcad du med pa'o// bcom ldan 'das kyi mkhyen pas shes bya'i dkyil 'khor thams cad la khyab cing brtse bas kyang sdug bsngal gyi rgya mtshor bying ba'i 'gro ba skyabs med pa mtha' yas pa la mngon par khyab cing rgyas pa'i phyir su zhig gis de'i mthar thug par bgrod par nus zhes dgongs pa'o// te ltar gyur pa gang sdig med de 'dod chags la sogs pa'i nyes pa spangs pa'o// yon tan ni byams pa dang bzod pa dang nye bar zhi ba la sogs pa ste/ gu ṇa bod pa la'o// zhes pa ata mtha' can gyi byings tsur sogs kyi lhag ma ste/ de ni tshogs yongs su ma rdzogs pa la brita byed pa'i phyir ro// legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir i las atsa'o// kyai blo ldan khyed cag rnams kyis de bsten par byos shig ces rtogs par bya'o//
