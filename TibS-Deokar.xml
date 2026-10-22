@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="SD">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="SD">
    <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
@@ -83,7 +85,7 @@
   <text xml:lang="bo-Latn-t-bo-Tibt" type="edition">
     <body>
 <p xml:id="KkT1.0.1-1">
-de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum tshogs pa bsgrub pa'i phyir/ kun du bzang po bcom ldan 'das la mchod par brjod pa ni/ gang gi zhes pa la sogs pa ste/ yul gyi dngos po mtha' dag yongs su mkhyen pa ni mkhyen pa'o// sdug bsngal las yang dag par 'don par bzhed pa ni brtse ba'o/ de dag gis rgya mtsho dang 'dra bas rgya mtsho ste/ mkhyen pa dang brtse ba'i rgya mtsho de ni sangs rgyas bcom ldan 'das so// 'dir rgya mtsho'i sgra 'di ni gting med pa la sogs pa'i yon tan mtshungs pa'i phyir btags pa'o// de'i gting med pa nyid la sogs pa'ang mkhyen pa dang brtse bas byas pa'o zhes par byed pa can la mang por ro zhes pa'i bsdu ba'o// bya ba ni ma 'ongs pa'i don nyid kyi phyir dgos pa med do// mkhyen pa dang brtse ba dag gis rgya mtsho zhes brjod pas na des byas so zhes shes par bya ste de la ltos pa'i tshig dang 'brel pas yang na drug pa'i bsdu ba'o// mkhyen pa dang brtse ba dag gis rgya mtsho lta bu ste 'og gzhi'i rgya mtsho chen po'o// gting med pa ni gzhan gyis mi rtogs pa ste mkhyen brtse pha mtha' yas pa'i phyir zab cing yongs su gcad du med pa'o// bcom ldan 'das kyi mkhyen pas shes bya'i dkyil 'khor thams cad la khyab cing brtse bas kyang sdug bsngal gyi rgya mtshor bying ba'i 'gro ba skyabs med pa mtha' yas pa la mngon par khyab cing rgyas pa'i phyir su zhig gis de'i mthar thug par bgrod par nus zhes dgongs pa'o// de ltar gyur pa gang sdig med de 'dod chags la sogs pa'i nyes pa spangs pa'o// yon tan ni byams pa dang bzod pa dang nye bar zhi ba la sogs pa ste/ gu ṇa bod pa la'o// zhes pa ata mtha' can gyi byings tsur sogs kyi lhag ma ste/ de ni tshogs yongs su ma rdzogs pa la brita byed pa'i phyir ro// legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir i las atsa'o// kyai blo ldan khyed cag rnams kyis de bsten par byos shig ces rtogs par bya'o//
+        de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum tshogs pa bsgrub pa'i phyir/ kun du bzang po bcom ldan 'das la mchod par brjod pa ni/ gang gi zhes pa la sogs pa ste/ yul gyi dngos po mtha' dag yongs su mkhyen pa ni mkhyen pa'o// sdug bsngal las yang dag par 'don par bzhed pa ni brtse ba'o/ de dag gis rgya mtsho dang 'dra bas rgya mtsho ste/ mkhyen pa dang brtse ba'i rgya mtsho de ni sangs rgyas bcom ldan 'das so// 'dir rgya mtsho'i sgra 'di ni gting med pa la sogs pa'i yon tan mtshungs pa'i phyir btags pa'o// de'i gting med pa nyid la sogs pa'ang mkhyen pa dang brtse bas byas pa'o zhes par byed pa can la mang por ro zhes pa'i bsdu ba'o// bya ba ni ma 'ongs pa'i don nyid kyi phyir dgos pa med do// mkhyen pa dang brtse ba dag gis rgya mtsho zhes brjod pas na des byas so zhes shes par bya ste de la ltos pa'i tshig dang 'brel pas yang na drug pa'i bsdu ba'o// mkhyen pa dang brtse ba dag gis rgya mtsho lta bu ste 'og gzhi'i rgya mtsho chen po'o// gting med pa ni gzhan gyis mi rtogs pa ste mkhyen brtse pha mtha' yas pa'i phyir zab cing yongs su gcad du med pa'o// bcom ldan 'das kyi mkhyen pas shes bya'i dkyil 'khor thams cad la khyab cing brtse bas kyang sdug bsngal gyi rgya mtshor bying ba'i 'gro ba skyabs med pa mtha' yas pa la mngon par khyab cing rgyas pa'i phyir su zhig gis de'i mthar thug par bgrod par nus zhes dgongs pa'o// de ltar gyur pa gang sdig med de 'dod chags la sogs pa'i nyes pa spangs pa'o// yon tan ni byams pa dang bzod pa dang nye bar zhi ba la sogs pa ste/ gu ṇa bod pa la'o// zhes pa ata mtha' can gyi byings tsur sogs kyi lhag ma ste/ de ni tshogs yongs su ma rdzogs pa la <sic>brita</sic> byed pa'i phyir ro// legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir i las atsa'o// kyai blo ldan khyed cag rnams kyis de bsten par byos shig ces rtogs par bya'o//
       </p>
       <lg xml:id="KkT1.0.1-2">
         <l>mi phan par yang phan gyur gang de mkhas pa ste//</l>
@@ -103,7 +105,7 @@ de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum 
       <lg xml:id="KkT1.0.1-6">
         <l>'di shar gyur pas pa d+ma can dang shar ri'i nags tshal gyi//</l>
         <l>/ma n+dā ra yi me tog gzhon nu'i phreng ba rgya grol zhing//</l>
-        <l>'gal ba rnams bral ngur pa gnyis gnyis gnyer gyur khros pa yi//</l>
+        <l>'gal ba rnams bral ngur pa gnyis gnyis <sic>gnyer</sic> gyur khros pa yi//</l>
         <l>spre'u 'i 'gram pa khros pas dmar ba smag las rnam par 'byed//</l>
       </lg>
       <p xml:id="KkT1.0.1-7">
@@ -154,8 +156,8 @@ KkT1.0.1-1: Z doesn't match alignment.
       <lem>zhes… bya'o</lem>
       <rdg wit="#Y"/>
     </app>
-    <app loc="1316,1343">
-      <lem>legs… kyis</lem>
+    <app loc="1316,1344">
+      <lem>legs… '</lem>
       <rdg wit="#Z"/>
     </app>
   </listApp>
@@ -783,6 +785,10 @@ KkT1.0.1-1: Z doesn't match alignment.
     </rdgGrp>
     <rdg wit="#Z">tshogs dang bcas pa </rdg>
   </app>
+  <app loc="1290,1292">
+    <lem wit="#S">pa</lem>
+    <rdg wit="#Z">par</rdg>
+  </app>
   <app loc="1292,1294">
     <rdgGrp type="lemma" select="#S">
       <lem>la</lem>
@@ -793,13 +799,10 @@ KkT1.0.1-1: Z doesn't match alignment.
     <rdg wit="#Z"/>
   </app>
   <app loc="1294,1299">
-    <rdgGrp type="lemma" select="#S">
-      <lem>brita</lem>
-      <rdg type="minor" wit="#S">
-        brita 
-      </rdg>
-    </rdgGrp>
-    <rdg wit="#Z">r bṛta </rdg>
+    <lem>brita</lem>
+    <rdg wit="#Z #S">
+      bṛta 
+    </rdg>
   </app>
   <app loc="1299,1314">
     <rdgGrp type="lemma" select="#S">
@@ -807,13 +810,6 @@ KkT1.0.1-1: Z doesn't match alignment.
       <rdg type="minor" wit="#S">byed pa'i phyir ro/ /</rdg>
     </rdgGrp>
     <rdg wit="#Z">byas pas so</rdg>
-  </app>
-  <app loc="1343,1352">
-    <rdgGrp type="lemma" select="#S">
-      <lem>'bod pa ste</lem>
-      <rdg type="minor" wit="#S">'bod pa ste</rdg>
-    </rdgGrp>
-    <rdg wit="#Z">bod pa dang</rdg>
   </app>
   <app loc="1352,1359">
     <rdgGrp type="lemma" select="#S">
