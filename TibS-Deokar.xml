@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="SD">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="SD">
    <script xmlns="http://www.w3.org/1999/xhtml" src="./lib/js/xslt-polyfill.min.js"></script>
    <teiHeader>
       <fileDesc>
@@ -148,16 +146,12 @@ KkT1.0.1-1: Z doesn't match alignment.
 -->
 <listApp>
   <listApp type="omissions">
-    <app loc="323,349">
-      <lem>de… 'das</lem>
-      <rdg wit="#Y #Z"/>
-    </app>
     <app loc="1218,1448">
       <lem>zhes… bya'o</lem>
       <rdg wit="#Y"/>
     </app>
-    <app loc="1316,1344">
-      <lem>legs… '</lem>
+    <app loc="1316,1">
+      <lem>legs… kyis</lem>
       <rdg wit="#Z"/>
     </app>
   </listApp>
@@ -810,6 +804,13 @@ KkT1.0.1-1: Z doesn't match alignment.
       <rdg type="minor" wit="#S">byed pa'i phyir ro/ /</rdg>
     </rdgGrp>
     <rdg wit="#Z">byas pas so</rdg>
+  </app>
+  <app loc="1343,1352">
+    <rdgGrp type="lemma" select="#S">
+      <lem>'bod pa ste</lem>
+      <rdg type="minor" wit="#S">'bod pa ste</rdg>
+    </rdgGrp>
+    <rdg wit="#Z">bod pa dang</rdg>
   </app>
   <app loc="1352,1359">
     <rdgGrp type="lemma" select="#S">
