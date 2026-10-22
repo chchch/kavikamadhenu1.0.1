@@ -939,18 +939,19 @@ KkT1.0.1-1: Z doesn't match alignment.
       <lem>gyi mchog ni</lem>
       <rdg type="minor" wit="#S">gyi mchog ni</rdg>
     </rdgGrp>
-    <rdg wit="#Y">
-      dam pa
-      s
-    </rdg>
-    <rdg wit="#Z">dam pa</rdg>
+    <rdgGrp select="#Y #Z">
+      <rdg type="main">dam pa</rdg>
+      <rdg type="minor" wit="#Y">
+        dam pa
+      </rdg>
+    </rdgGrp>
   </app>
   <app loc="104,119">
     <rdgGrp type="lemma" select="#S">
       <lem>bsgrub pa'i phyir</lem>
       <rdg type="minor" wit="#S">bsgrub pa'i phyir/ /</rdg>
     </rdgGrp>
-    <rdg wit="#Y">grub pa ni</rdg>
+    <rdg wit="#Y">sgrub pa ni</rdg>
     <rdg wit="#Z"> grub pa'i phyir du</rdg>
   </app>
   <app loc="121,126">
